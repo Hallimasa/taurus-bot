@@ -1,0 +1,78 @@
+[
+    {
+        "title": "VOLT - VOLT PRIME",
+        "url": "https://warframe.fandom.com/wiki/Volt",
+        "description": "*lançado em 25/10/2012 Vanilla*\n\n**DESCRIÇÃO**\nA eletricidade flui através do Volt. Seus ataques causam alto dano. Os inimigos ficarão chocados.⚡ \n\n**AQUISIÇÃO**\n- Volt é um dos três Warframes iniciais, ao lado de Excalibur e Mag, durante a jornada `O Despertar`.\n- As plantas de Volt podem ser pesquisadas no Loboratório Tenno no dojo.\n- Volt também pode ser comprado completo de Teshin por  60.000 pontos de reputação, uma vez que os jogadores tenham alcançado o nível maximo no Conclave.\n\n**HABILIDADES**",
+        "fields": [
+          {
+            "name": "PASSIVA",
+            "value": "> O movimento aterrado gera uma carga elétrica acumulando 1.000 de dano por metro que é desencadeada com o próximo ataque.",
+            "inline": true
+          },
+          {
+            "name": "1 - SHOCK",
+            "value": "> Lança um projétil chocante. Ele atordoa e causa alto dano a um único alvo e causa dano em cadeia a inimigos próximos.",
+            "inline": true
+          },
+          {
+            "name": "2 - SPEED",
+            "value": "> Volt energiza seu corpo e Warframes próximos, dando-lhes maior velocidade de corrida e velocidade de reload por um curto período de tempo.",
+            "inline": true
+          },
+          {
+            "name": "3 - ELETRIC SHIELD",
+            "value": "> Volt implanta um obstáculo de energia, fornecendo cobertura em qualquer situação, Volt poderá equipar o escudo se apertar \"x\".",
+            "inline": true
+          },
+          {
+            "name": "4 - DISCHARGE",
+            "value": "> Paralisa inimigos próximos com uma carga elétrica prejudicial, isso também dá choques nos inimigos que se aproximam.",
+            "inline": true
+          }
+        ],
+        "thumbnail": {
+          "url": "https://i.imgur.com/moyZhBM.png"
+        },
+        "color": "18175"
+      },
+      {
+        "title": "BUILD  1  - Buff-Armas e Tank ( 3 formas )",
+        "url": "https://overframe.gg/build/495135/volt/volt-build-damage-tank-kenzouframe/",
+        "description": "Build voltada em buffar o dano da sua arma utilizando o mod Shock Trooper, e possui alguns mods de economia de energia e tank\n\n**Tanque**\n- Arcano Guardião +900 de armadura\n- Mod Vitality +440% de vida\n- Mod Adaptation rank 8 +8% de resistencia à dano - acumula até 90%\n- Mod Handspring - se derrubado, se recupera 160% mais rápido, pode ser trocado por Prime Sure Footed.\n\n**Dano**\n- Vingança Arcana dá +45% de chance crítica base pra sua arma\n- Build com +278% de força\n\n**Economia de Energia**\n- Mod Fleeting Expertise - reduz o consumo de energia em 60%\n- Mod de Aura Energy Siphon - 0,6 de energia por segundo",
+        "image": {
+          "url": "https://i.imgur.com/g0iXRgn.png"
+        },
+        "thumbnail": {
+          "url": "https://i.imgur.com/BHRqmdw.png"
+        },
+        "color": "15844367"
+      },
+      {
+        "title": "BUILD 2 - Eidolon - (5 formas 1 forma umbra)",
+        "url": "https://overframe.gg/build/495181/",
+        "description": "Build voltada em buffar o dano da sua arma utilizando o mod Shock Trooper, e possui alguns mods de economia de energia e tank. Boa duração de habilidade pra que voce não fique sem ter que castar seus buffs toda hora.\n\n**Tank **\n- Mod Umbral Vitality - +550% de vida;\n- Mod Dead Eye - +52,5% de dano para rifles de precisão ( snipers ) troque se não for utilizar sniper pra caçar;\n- Arcano Guardião  - +900 de armadura;\n- Mod Rolling Guard - fique imune por 7s ( utilize durante o grito do Eidolon );\n- Mod Handspring - se derrubado, se recupera 160% mais rápido, pode ser trocado por Prime Sure Footed;\n\n**Dano**\n- Força da build - 210%;\n- Impulso Arcano  - 150% de velocidade de regarga em rifles de precisão ( Snipers ) troque se não for utilizar sniper pra caçar;\n- Eclipse na 4º Habilidade ( Habilidade do warframe Mirage ) - Helmint Subsume;\n\n**Economia de energia**\n- Mod Fleeting Expertise - reduz o consumo de energia em 60%;",
+        "image": {
+          "url": "https://i.imgur.com/6B0U6wd.png"
+        },
+        "thumbnail": {
+          "url": "https://i.imgur.com/VsiYSlR.png"
+        },
+        "color": "2031390"
+      },
+      {
+        "title": "BUILD 3 - Nuke",
+        "url": "https://overframe.gg/build/405075/volt/volt-nuke/",
+        "description": "Build voltada em nukar o mapa, funciona bem em mapas pequenos, onde os inimigos spawnam perto, fique no centro do mapa usando a Habilidade 4 sempre que possível. Boa duração de habilidade, acima de 100% é recomendada para que o 4 do volt cause mais dano. \n\n**Tank**\n- Mod Capacitance - converte 3% do dano causado com a habilidade 4 em escudos\n\n**Dano**\n- 235% Alcance de Habilidade\n- Força da build - 169%;\n- Arcano Ampliação Exúvia - =60% de força com (x250 stacks)\n\n**Economia de energia**\n- Mod Steamline - reduz o consumo de energia em 30%;\n- Arcano Energize - 60% de chance de restaurar 150 de energia ao coletar orb de energia\n- Mod Primed Flow - +275% de energia máxima",
+        "image": {
+          "url": "https://i.imgur.com/4AIOCNu.png"
+        },
+        "thumbnail": {
+          "url": "https://i.imgur.com/BHRqmdw.png"
+        },
+        "color": "15548997"
+      },
+    {
+        "title":"",
+        "description":""
+    }
+]
