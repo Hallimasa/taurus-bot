@@ -26,6 +26,14 @@ const commands = [
           {
             name: 'ash prime',
             value: 'ash',
+          },
+          {
+            name: 'atlas',
+            value: 'atlas',
+          },
+          {
+            name: 'atlas prime',
+            value: 'atlas',
           }
         ],
         required: true,

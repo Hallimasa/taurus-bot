@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Atlas - Atlas Prime",
+    "url": "https://warframe.fandom.com/wiki/Atlas",
+    "description": "*lançado em 01/10/2015 Update 17.5*\n\n**DESCRIÇÃO**\nOs inimigos tremem diante do lutador com punhos duros como pedra. Atlas causa dano alto. Comande elementos terrestres que formam a base de qualquer campo de batalha.🌌 \n\n**AQUISIÇÃO**\n- O Diagrama de Atlas é concedido após a conclusão da `JORNADA O PRECEITO DE JORDAS`, que desbloqueia a missão Jordas Golem Archwing Assassination em Eris, esse boss novo dropa as partes restantes do Atlas.\n\n**HABILIDADES**",
+    "fields": [
+      {
+        "name": "PASSIVA",
+        "value": "> Torna-se imune a efeitos knockdown enquanto estiver no chão.",
+        "inline": true
+      },
+      {
+        "name": "1 - LANDSLIDE ",
+        "value": "> Acerte os inimigos com um soco deslizante explosivo e repita para uma combinação devastadora. Inimigos petrificados recebem dano extra e derrubam Rubble quando destruídos. Rubble pode curar Atlas e reforçar sua armadura.",
+        "inline": true
+      },
+      {
+        "name": "2 - TECTONICS",
+        "value": "> Convoque uma parede de rocha, ative novamente para enviar as rochas contra o inimigo.",
+        "inline": true
+      },
+      {
+        "name": "3 - PETRIFY",
+        "value": "> O olhar endurecido de Atlas fossilizará inimigos, curará Rumblers e criará baluartes petrificados. Quando quebrados, inimigos petrificados soltam Rubble curativo para Atlas.",
+        "inline": true
+      },
+      {
+        "name": "4 - RUMBLERS",
+        "value": "> Convoque dois lutadores de pedra elemental para o corpo a corpo. A invocação petrifica os inimigos próximos a Atlas. Quando terminar, os Rumblers colapsam em uma pilha de Rubble curativo.",
+        "inline": true
+      }
+    ],
+    "thumbnail": {
+      "url": "https://i.imgur.com/rkXP887.png"
+    },
+    "color": "18175"
+  },
+  {
+    "title": "BUILD 1 - FARM/TANK ( 4 formas )",
+    "url": "https://overframe.gg/build/495962/",
+    "description": "Build voltada pro farm de recursos, utilizando sua terceira habilidade PETRIFY junto com seu Mod Augument `Ore Gaze` , Quanto maior a força da build, maior o buff de drop de itens :D\n\n**DANO**\n- Arcano Ampliação Exúvia +60% de força de habilidade com (x250 stacks);\n- 183% de Força de Habilidade;\n- Vingança Arcana - ao receber dano, ganhe 45% de chance crítica base em suas armas;\n\n**TANK**\n- Mod Rolling Guard - fique imune por 7s ao se esquivar;\n- Mod Aura Brief Respite - Converta 150% da energia gasta em habilidades em escudos,  aproveitando da mecânica do SHIELD GATE, fique invunerável ao esgotar os escudos ( Equipe a Chave DRAGÃO DECOMPONDO para reduzir seu escudo máximo);\n\n**ECONOMIA DE ENERGIA**\n- Mod Equilibrium - Converte orbs de energia em orbs de vida e vice versa;\n- Mod Primed Flow - +275% de reserva de energia;\n- Mod Augument Rubble Heap - ao acumular 1400 ou mais de Rubble, sua primeira habilidade não consumirá energia;\n\n**UTILIDADE**\n- Troca a segunda habilidade por  Ensare (Khora) - Facilitando o agrupamento de inimigos para utilização do PETRIFY de forma eficiente;\n- Mod Speed Drift - Aumenta a velocidade de corrida e conjuração do warframe - pode trocar se preferir outra coisa;\n\n**ARMAS PRA SE UTILIZAR JUNTO**\n- Qualquer arma meele que você tenha um riven forte de Chance Crítica e Dano Crítico, pois o dano da sua primeira Habilidade é calculado junto com os mods da sua arma Meele;",
+    "image": {
+      "url": "https://i.imgur.com/frWJRHx.png"
+    },
+    "thumbnail": {
+      "url": "https://i.imgur.com/CxvsZar.png"
+    },
+    "color": "15844367"
+  },
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": ""
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": "2031390"
+  },
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": ""
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": ""
+  },
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": ""
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": ""
+  }
+]

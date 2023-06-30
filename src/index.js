@@ -17,7 +17,7 @@ client.on('ready', (c) =>{
 client.on('interactionCreate', (interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
-    if ((interaction.commandName === 'build') && ((interaction.channelId === process.env.CHAT_BUILD_ID || interaction.channelId === process.env.CHAT_BUILD_ID))){
+    if ((interaction.commandName === 'build') && (interaction.channelId === process.env.CHAT_BUILD_ID || interaction.channelId === process.env.CHAT_TESTBUILD_ID)){
 
         const buildchoice = interaction.options.get('warframe-armas').value;
         const fs = require('fs');
