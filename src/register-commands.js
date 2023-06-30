@@ -18,6 +18,14 @@ const commands = [
           {
             name: 'volt prime',
             value: 'volt',
+          },
+          {
+            name: 'ash',
+            value: 'ash',
+          },
+          {
+            name: 'ash prime',
+            value: 'ash',
           }
         ],
         required: true,

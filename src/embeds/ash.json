@@ -1,0 +1,78 @@
+[
+    {
+        "title": "ASH - ASH PRIME",
+        "url": "https://warframe.fandom.com/wiki/Volt",
+        "description": "*lançado em 07/07/2015 Update 16.11*\n\n**DESCRIÇÃO**\nVeja o santo padroeiro da escola de assassinato político Orokin. Ash é especialista em furtividade. O fio de sua lâmina é mais sentido do que visto.💀 \n\n**AQUISIÇÃO**\n- O Diagrama principal de Ash pode ser comprado no `Mercado`.\n- Os Diagramas de componentes de Ash são obtidos das missões Venus Proxima (Sistemas), Neptune Proxima (Neurovisor) e Plutão Proxima (Chassi) em missões de sobrevivência, defesa, extermínio e volátil.\n\n**HABILIDADES**",
+        "fields": [
+          {
+            "name": "PASSIVA",
+            "value": "> Os efeitos de sangramento infligidos aos inimigos causam 25% a mais de dano e duram 50% a mais.",
+            "inline": true
+          },
+          {
+            "name": "1 - SHURIKEN",
+            "value": "> Lança uma lâmina giratória de dor, causando alto dano e empalando os inimigos nas paredes.",
+            "inline": true
+          },
+          {
+            "name": "2 - SMOKE BOMB",
+            "value": "> Lança uma bomba de fumaça que atordoa os inimigos e obscurece sua visão, tornando Ash invisível por um curto período de tempo.",
+            "inline": true
+          },
+          {
+            "name": "3 - TELEPORT",
+            "value": "> Ash se teletransporta em direção ao alvo, trazendo-o para o alcance corpo a corpo e tornando os inimigos vulneráveis aos finalizadores. \"x\".",
+            "inline": true
+          },
+          {
+            "name": "4 - BLADE STORM",
+            "value": "> Projete clones de sombra ferozes de Ash sobre grupos de inimigos distantes. Junte-se à briga usando Teleport.",
+            "inline": true
+          }
+        ],
+        "thumbnail": {
+          "url": "https://i.imgur.com/zBLSqQa.png"
+        },
+        "color": "18175"
+      },
+      {
+        "title": "BUILD 1 - BladeStorm Build ( 4 formas )",
+        "url": "https://overframe.gg/build/495575/ash/ash-blade-storm-kenzouframe/",
+        "description": "Build voltada pro uso da quarta habilidade, Blade Storm, Duração alta favorecendo sua invisibilidade e a habilidade da [Banshee] ( Silence ) que estaremos utilizando no lugar da habilidade 1, junto com o mod augment [Savage Silence], que aumenta o dano do seu 4 em 300%. Pois o dano do 4 do ash é dano de finalização. Alcance estpa baixo, porém é útil pra usar o 4 em inimigos que estão meio longe.\n\n**Tanque**\n- Mod Rolling Guard - fique 7 segundos invunerável ao esquivar - bom quando acaba a invisibilidade\n- Arcano Trapaça - fornece 90% de chance de ficar invisível por 30 segundos quando matar algum inimigo com finalização\n- Ultimato Arcano - fornece 1200 de armadura por 45 segundos quando matar inimigos por finalização\n- Mod Handspring - se derrubado, se recupera 160% mais rápido, pode ser trocado por Prime Sure Footed.\n\n**Dano**\n- Mod Savage Silence ( Habilidade do warframe Banshee ) - aumenta em 300% o dano de finalização para inimigos afetados pela habilidade\n\n**Economia de Energia**\n- Mod Equilibrium - Converte orbs de energia em orbs de vida e vice versa\n- Primed Flow - +275% de reserva de energia\n- Streamline - +30 de eficiência de energia;\n\n**Armas Meeles recomendadas para que se utilize com essa build**\n- `Innoden` - Essa arma possui uma passiva desbloqueada na evolução incarnon 5 que ao matar inimigos com dano de finalização, STUNA inimigos num raio de 10 metros\n- `Venka` | `Venka prime` - possui um multiplicador combo acima da média, 13x ao invés de 12x , aumentando sigficativamente seu dano",
+        "image": {
+          "url": "https://i.imgur.com/9pRVQIR.png"
+        },
+        "thumbnail": {
+          "url": "https://i.imgur.com/CxvsZar.png"
+        },
+        "color": "15844367"
+      },
+      {
+        "title": "BUILD 2 - ASH -DISRUPTION XATA - (4 formas)",
+        "url": "https://overframe.gg/build/495584/ash/ash-disruption-xata-kenzouframe/",
+        "description": "Build voltada pro uso da terceirahabilidade, Teleport, Duração alta favorecendo sua invisibilidade e a habilidade do [Xaku] ([Xata]'s Whisper ) que estaremos utilizando no lugar da habilidade 4, que aumenta o dano do seu 3 em 2x. Pois o dano do 3 do [Ash] é dano de finalização. Alcance estpa baixo, porém é útil pra usar o 3 em inimigos que estão meio longe.\n\n**TANK**\n- Mod Handspring - +160% de recuperação mais rápida de derrubadas - Pode ser trocado por Primed Sure Footed se você tiver um\n- Mod Rolling Guard - fique 7 segundos invunerável ao esquivar - bom quando acaba a invisibilidade\n- Arcano Trapaça - fornece 90% de chance de ficar invisível por 30 segundos quando matar algum inimigo com finalização\n\n**ECONOMIA DE ENERGIA**\n- Mod Primed Flow - +275% de reserva de energia\n- Mod Streamline - +30 de eficiência de energia\n- Arcano Energize - Ao coletar orbs de energia, 60% de chance de recuperar 150 de energia\n\n**DANO**\n- Força Alta - 199% Ideal para remover 100% da armadura dos inimigos com a primeira Habilidade junto com o Mod Seeking Shuriken\n\n**Armas Meeles recomendadas para que se utilize com essa build**\n- qualquer marreta ( pois possuem dano base alto )\n- Arca Titron - alto dano base favorecendo sua terceira habilidade\n\n**UTILIDADE**\n- Mod Enemy Radar - veja os inimigos bem longe usando o minimapa, isso ajuda a encontrar o alvo da DISRUPTION mais rápido, pode trocar a aura se quiser.",
+        "image": {
+          "url": "https://i.imgur.com/zCbN03G.png"
+        },
+        "thumbnail": {
+          "url": "https://i.imgur.com/CxvsZar.png"
+        },
+        "color": "2031390"
+      },
+      {
+        "title": "",
+        "url": "",
+        "description": "",
+        "image": {
+          "url": ""
+        },
+        "thumbnail": {
+          "url": ""
+        },
+        "color": ""
+      },
+    {
+        "title":"",
+        "description":""
+    }
+]
