@@ -33,27 +33,27 @@ client.on('interactionCreate', (interaction) => {
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') &&
                 ((embed[4]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]] });
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]] }).then(msg => setTimeout(() => msg.delete(), 300000));
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]] });
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]] }).then(msg => setTimeout(() => msg.delete(), 300000));
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]] });
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]] }).then(msg => setTimeout(() => msg.delete(), 300000));
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1]] });
+                    interaction.reply({ embeds: [embed[0],embed[1]] }).then(msg => setTimeout(() => msg.delete(), 300000));
                     return
             } else if (((embed[0]).title != '') ){
-                    interaction.reply({ embeds: [embed[0]] });
+                    interaction.reply({ embeds: [embed[0]] }).then(msg => setTimeout(() => msg.delete(), 300000));
                     return
-            };         
+            };
         };
     } else {
         interaction.reply("Esse comando não pode ser utilizado neses chat");
