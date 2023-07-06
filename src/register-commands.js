@@ -7,8 +7,8 @@ const commands = [
     description: 'give me a build for...',
     options: [
       {
-        name: 'warframe-armas',
-        description: 'Pick one:',
+        name: 'warframe',
+        description: 'selecione um',
         type: ApplicationCommandOptionType.String,
         choices: [
           {
@@ -34,11 +34,23 @@ const commands = [
           {
             name: 'atlas prime',
             value: 'atlas',
+          },
+          {
+            name: 'banshee',
+            value: 'banshee',
+          },
+          {
+            name: 'banshee prime',
+            value: 'banshee',
           }
         ],
         required: true,
       }
     ],
+  },
+  {
+    name: 'eidolon',
+    description: 'tempo de cetus e horário de proximas noites',
   },
 ];
 

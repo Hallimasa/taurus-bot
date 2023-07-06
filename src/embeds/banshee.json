@@ -1,0 +1,86 @@
+[
+  {
+    "title": "BANSHEE - BANSHEE PRIME",
+    "url": "https://warframe.fandom.com/wiki/Banshee",
+    "description": "*lançado em 18/03/2013 Update 7.0*\n\n**DESCRIÇÃO**\nO chamado de Banshee anuncia a morte. Ela mantém o controle da multidão e identifica os pontos fracos do inimigo com ataques sônicos. Poucos conseguem manter sua posição quando atingidos por sua força.💀🎵 \n\n**AQUISIÇÃO**\n- Os Diagramas da Banshee podem ser pesquisados no Laboratório Tenno do Dojo do seu clã.\n\n**HABILIDADES**",
+    "fields": [
+      {
+        "name": "PASSIVA",
+        "value": "> Os ruídos das armas são abafados para que os inimigos não possam ouvi-los.",
+        "inline": true
+      },
+      {
+        "name": "1 - SONIC BOOM",
+        "value": "> Banshee emite uma onda de choque sônica que empurra os alvos ao alcance com força suficiente para incapacitar ou matar os afetados.",
+        "inline": true
+      },
+      {
+        "name": "2 - SONAR",
+        "value": "> Usando a localização acústica, o poder Sonar do Banshee encontra e rastreia os inimigos e expõe pontos fracos críticos para todos em seu esquadrão.",
+        "inline": true
+      },
+      {
+        "name": "3 - SILENCE",
+        "value": "> O uso do Silêncio envolve Banshee em uma aura que atordoa os inimigos e limita suas percepções e resposta tática a tiros e ataques de Warframe.",
+        "inline": true
+      },
+      {
+        "name": "4 - SOUND QUAKE",
+        "value": "> Canalizando toda a sua energia acústica para o ambiente, Banshee usa reverberações ultrassônicas para sacudir violentamente o chão.",
+        "inline": true
+      }
+    ],
+    "thumbnail": {
+      "url": "https://i.imgur.com/UBYJy75.png"
+    },
+    "color": "18175"
+  },
+  {
+    "title": "BUILD 1 - STEELPATH GLOOM SUPORT BUILD ( 6 formas )",
+    "url": "https://overframe.gg/build/498055/banshee/banshee-steelpath-gloom-suport-build-kenzouframe/",
+    "description": "Essa build é voltada para vc dar suporte para um time em qualquer missão de STEEL PATH, com a habilidade GLOOM do warframe `Sevagoth` lhe dará uma imensa sobrevivência, junto com os Mod Auguments das habilidades da Banshee `Resonance` e `Sonic Fracture` você terá uma forma de remover a armadura dos inimigos com o 1 ( Matando Acolytes Facilmente ) e Seu dano será aumentado muito com a Segunda Habilidade.\n\n**DANO**\n\n- 145% de Alcance de Habilidade;\n- 144% de Força de Habilidade;\n- 155% de Duração de Habilidade;\n- Arcano Ampliação Exúvia +60% de força de habilidade com (x250 stacks);\n- Mod Augment Sonic Fracture - remove a armadura dos inimigos ( facilitando o abate de inimigos muito fortes )\n\n**TANK**\n\n- HABILIDADE HELMINT NO LUGAR DA QUARTA HABILIDADE - Gloom ( Sevagoth ) - Ganha lifesteal nas armas e dá slow de 50% nos inimigos.\n- Mod Handspring - se derrubado, se recupera 160% mais rápido, pode ser trocado por Prime Sure Footed;\n- Mod Rolling Guard - fique 7 segundos invunerável ao esquivar;\n- Mod Aura Brief Respite - Converta 150% da energia gasta em habilidades em escudos, aproveitando da mecânica do SHIELD GATE, fique invunerável ao esgotar os escudos ( Equipe a Chave DRAGÃO DECOMPONDO para reduzir seu escudo máximo);\n\n**ECONOMIA DE ENERGIA**\n\n- Mod Primed Flow - +275% de energia máxima;\n- Mod Equilibrium - Converte orbs de energia em orbs de vida e vice versa;\n- Arcano Energize - Ao coletar orbs de energia, 60% de chance de recuperar 150 de energia;",
+    "image": {
+      "url": "https://i.imgur.com/Jdfcpk1.png"
+    },
+    "thumbnail": {
+      "url": "https://i.imgur.com/Dpgrzr7.png"
+    },
+    "color": "2031390"
+  },
+  {
+    "title": "BUILD 2 - SONAR INDEX",
+    "url": "https://overframe.gg/build/498062/banshee/banshee-index-sonar-build-kenzouframe/",
+    "description": "Com essa build vc vai poder usar sua segunda Habilidade, SONAR, deixando com que todos os inimigos fiquem marcados no minimapa do index, fazendo com que seu time mate mais por segundo, deixando a missão muito mais agradável de se fazer. A alta força dessa build, 155% resulta em um maior multiplicador crítico para suas armas, fazendo com que seus aliados e vc dêem um dano crítico ENORME\n\n**DANO**\n\n- 175% de Alcance de Habilidade;\n- 155% de Força de Habilidade;\n- 87,5% de Duração de Habilidade;\n- Mod Aura Corrosive Projection - Remove a armadura dos inimigos em -18% ( cumulativo com outros membros do squad - 72% com 4 pessoas utilizando o mod - IDEAL );\n\n**TANK**\n\n- Arcano Guardião +900 de armadura;\n- Mod Handspring - se derrubado, se recupera 160% mais rápido, pode ser trocado por Prime Sure Footed;\n- Mod Rolling Guard - fique imune por 7s ao se esquivar;\n\n**ECONOMIA DE ENERGIA**\n\n- Mod Fleeting Expertise - reduz o consumo de energia em 60%; ( Upado no rank 3 pois não stacka eficiência de Habilidade acima de 175% )\n- Mod Steamline - reduz o consumo de energia em 30%;\n- Arcano Energize - Ao coletar orbs de energia, 60% de chance de recuperar 150 de energia;\n\n**DICAS DE USO DESSA BUILD**\n\n- Utilize sempre quando possível sua segunda Habilidade, de preferência no meio do mapa do index, aumentando assim a sua chance de marcar todos os inimigos do mapa com seu SONAR\n- Se perder os escudos, role, ficando invunerável por 3s, podendo assim aproveitar da mecânica do SHIELD GATE, fique invunerável ao esgotar os escudos ( Equipe a Chave DRAGÃO DECOMPONDO para reduzir seu escudo máximo);",
+    "image": {
+      "url": "https://i.imgur.com/qzJIgco.png"
+    },
+    "thumbnail": {
+      "url": "https://i.imgur.com/BHRqmdw.png"
+    },
+    "color": "15844367"
+  },
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": ""
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": ""
+  },
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": ""
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": ""
+  }
+]
