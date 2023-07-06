@@ -1,0 +1,89 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": "BARUUK - BARRUK PRIME",
+    "url": "https://warframe.fandom.com/wiki/Baruuk#undefined",
+    "description": "*lançado em 18/12/2018 Update 24.2*\n\n**DESCRIÇÃO**\nCuidado com a fúria do verdadeiramente paciente. Baruuk possui capacidade de sobrevivência e controle de multidão. Empurrado além de sua restrição, ele desencadeia a tempestade interior. 💪 \n\n**AQUISIÇÃO**\n- Os Diagramas de Baruuk podem ser compradas com a  Patinha(Fortuna), usando sua reputação com o sindicato Vox Solaris. O Diagrama principal exige que os jogadores estejam no nível de Agente, enquanto os Diagramas de componentes exigem um nível menor. Cada diagrama custa 5.000 de reputação, totalizando 20.000.\n\n**HABILIDADES**",
+    "fields": [
+      {
+        "name": "PASSIVA",
+        "value": "> Cada projétil desviado, cada inimigo acalmado ou desarmado, corrói a restrição de Baruuk e alimenta a tempestade interior. À medida que a restrição de Baruuk diminui, ele se torna até 50% mais resistente a danos.",
+        "inline": true
+      },
+      {
+        "name": "1 - ELUDE",
+        "value": "> Desvie de todos os projéteis recebidos, mas apenas enquanto não estiver atacando. Use novamente para desativar essa habilidade.",
+        "inline": true
+      },
+      {
+        "name": "2 - LULL",
+        "value": "> Uma onda calmante retarda os inimigos até que caiam no sono. Inimigos acordados por danos ficarão confusos e desorientados. A amnésia de curto prazo significa que todos os inimigos acordados esquecem tudo o que aconteceu antes da calmaria.",
+        "inline": true
+      },
+      {
+        "name": "3 - DESOLATE HANDS",
+        "value": "> Convoque um bando de adagas em órbita para procurar as armas inimigas, destruindo-as com uma pequena explosão. Combine com Elude para dobrar o alcance.",
+        "inline": true
+      },
+      {
+        "name": "4 - SERENE STORM",
+        "value": "> Com sua restrição corroída, Baruuk comanda o Vento do Deserto para desferir poderosos golpes radiais com seus punhos e pés. Cada momento comandando a tempestade restaura sua contenção.",
+        "inline": true
+      }
+    ],
+    "thumbnail": {
+      "url": "https://i.imgur.com/cOey6xk.png"
+    },
+    "color": "18175"
+  },
+  {
+    "title": "BUILD 1 - STEELPATH NOURISH ( 6 formas )",
+    "url": "https://overframe.gg/build/404691/baruuk-prime/baruuk-prime-the-enlightened-one-infinite-energy-damage/",
+    "description": "Build bem complexa de se por em prática, porém depois de feita é muito boa. Primeiramente vc precisa ter um `statstick` que é nada mais nada menos que uma arma meele q server exclusivamente pra buffar a arma invocada pela quarta Habilidade do Baruuk, Desert Wind. Depois vc precisa utilizar essa build com a escola de foco NARAMON pois ela deixa os combos com duração infinita, fazendo com que seu 4 dê crítico vermelho, outro tópico importante, você precisará de um tempo para se adaptar com a utilização dessa build, ela requer um bom entendimento das habilidades do Baruuk para que seja aproveitada 100%. 👌\n\n**DANO**\n\n- HABILIDADE DE HELMINT NOURISH (Grendel) - No lugar da primeira Habilidade - lhe dará dano tóxico \n- 145% de Alcance de Habilidade;\n- 298% de Força de Habilidade;\n- 72,5% de Duração de Habilidade;\n- Arcano Ampliação Exúvia +60% de força de habilidade com (x250 stacks);\n- Fúria Arcana - no acerto crítito +160% de dano para armas meeles;\n- Mod Augment Reactive Storm - Seu dano será alterado conforme as fraquezas do inimigo;\n - Mod Aura Meele Guidance - lhe dará crítico vermelho infinito, não se esqueça de usar NARAMON para obter combo infinito tbm\n- Mod `Archon Stretch`- lhe dára energia quando matar inimigos com habilidades que tenham dano elétrico -  coloque elétrico na build da sua arma exaltada - Desert Wind\n\n**TANK**\n\n- Mod Adaptation rank 8 +8% de resistencia à dano - acumula até 90%;\n- Mod Primed Sure Footed - Fique imune contra qlqr efeito de derrubada - Mod chato de se conseguir ( recomensa de loguin 300 dias) pode ser trocado por Mod Handspring\n\n**ECONOMIA DE ENERGIA**\n\n- Mod Primed Flow - +275% de energia máxima;",
+    "image": {
+      "url": "https://i.imgur.com/vjmEXL8.png"
+    },
+    "thumbnail": {
+      "url": "https://i.imgur.com/Dpgrzr7.png"
+    },
+    "color": "15844367"
+  },
+  {
+    "title": "BUILD DA ARMA DO BARUUK - DESERT WIND",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": "https://i.imgur.com/vEZDrHJ.png"
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": "15844367"
+  },
+  {
+    "title": "BUILD DO STATSTICK DO BARUUK - ARMA NESSE EXEMPLO - COBRA E CRANE PRIME",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": "https://i.imgur.com/KTmTmdi.png"
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": "15844367"
+  },
+  {
+    "title": "",
+    "url": "",
+    "description": "",
+    "image": {
+      "url": ""
+    },
+    "thumbnail": {
+      "url": ""
+    },
+    "color": ""
+  }
+]

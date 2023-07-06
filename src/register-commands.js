@@ -42,6 +42,14 @@ const commands = [
           {
             name: 'banshee prime',
             value: 'banshee',
+          },
+          {
+            name: 'baruuk',
+            value: 'baruuk',
+          },
+          {
+            name: 'baruuk prime',
+            value: 'baruuk',
           }
         ],
         required: true,

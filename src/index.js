@@ -36,25 +36,26 @@ client.on('interactionCreate', (interaction) => {
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') &&
                 ((embed[4]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]] }).then(msg => setTimeout(() => msg.delete(), 300000));
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]] }).then(msg => setTimeout(() => msg.delete(), 300000));
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]] }).then(msg => setTimeout(() => msg.delete(), 300000));
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1]] }).then(msg => setTimeout(() => msg.delete(), 300000));
+                    interaction.reply({ embeds: [embed[0],embed[1]], ephemeral: true }).then(msg => setTimeout(() => msg.delete(), 600000));
+                    
                     return
             } else if (((embed[0]).title != '') ){
-                    interaction.reply({ embeds: [embed[0]] }).then(msg => setTimeout(() => msg.delete(), 300000));
+                    interaction.reply({ embeds: [embed[0]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
                     return
             };
         };
@@ -154,7 +155,7 @@ client.on('interactionCreate', (interaction) => {
                       "url": thumbstatus
                     },
                     "color": embedcolor
-                }]}).then(msg => setTimeout(() => msg.delete(), 60000));
+                }], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 60000));
             })
                 .catch(error => console.log(error));
     } else {
