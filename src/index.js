@@ -1,7 +1,6 @@
 require('dotenv').config();
 const moment = require('moment');
-const { Client, IntentsBitField, EmbedBuilder, time } = require('discord.js');
-
+const { Client, IntentsBitField, EmbedBuilder, time} = require('discord.js');
 const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
@@ -25,7 +24,6 @@ client.on('interactionCreate', (interaction) => {
         const buildchoice = interaction.options.get('warframe').value;
         const fs = require('fs');
         const path = (`./src/embeds/${buildchoice}.json`);
-
 
         if ((typeof(buildchoice) != 'undefined')&&(fs.existsSync(path))){
 
@@ -68,6 +66,7 @@ client.on('interactionCreate', (interaction) => {
             return res.json();
         })
             .then(data => {
+
                 let daystatusON = "";
                 let daystatusOFF = "";
                 let matches = "";
@@ -75,6 +74,8 @@ client.on('interactionCreate', (interaction) => {
                 let thumbstatus = "";
                 let embedcolor = '';
                 let currentDate = new Date();
+
+                const timestamp = moment(currentDate).add(61,'seconds').toDate();
                 const timeRegex1 = /(\d+)h (\d+)m (\d+)/;
                 const timeRegex2 = /(\d+)m (\d+)/;
 
@@ -87,10 +88,12 @@ client.on('interactionCreate', (interaction) => {
 
                 let minutes = parseInt(matches[1]);
                 let seconds = parseInt(matches[2]);
+
                 let timenextNightONE = moment(currentDate);
                 let timenextNightTWO = moment(currentDate);
                 let timenextNightTHREE = moment(currentDate);
                 let timenextNightFOUR = moment(currentDate);
+
                 let timeNow = moment(currentDate)
                 .add(hours, 'hours')
                 .add(minutes, 'minutes')
@@ -147,7 +150,7 @@ client.on('interactionCreate', (interaction) => {
                 interaction.reply({embeds: [{
                     "title": `CETUS ESTÁ DE ${daystatusON}`,
                     "url": "https://api.warframestat.us/pc/cetusCycle/",
-                    "description": `Faltam ${data.timeLeft} para ficar de ${daystatusOFF}\n\n**PROXIMAS NOITES** ⏰\n( horário de Brasília GMT -3 )\n\n- 1º --- ${moment(timenextNightONE).utcOffset(-180).format('HH:mm')}\n\n- 2º --- ${moment(timenextNightTWO).utcOffset(-180).format('HH:mm')}\n\n- 3º --- ${moment(timenextNightTHREE).utcOffset(-180).format('HH:mm')}\n\n- 4º --- ${moment(timenextNightFOUR).utcOffset(-180).format('HH:mm')}\n\n📌*** Essa mensagem será DELETADA em 1 minuto***`,
+                    "description": `Faltam ${data.timeLeft} para ficar de ${daystatusOFF}\n\n**PROXIMAS NOITES** ⏰\n( horário de Brasília GMT -3 )\n\n- 1º --- ${moment(timenextNightONE).utcOffset(-180).format('HH:mm')}\n\n- 2º --- ${moment(timenextNightTWO).utcOffset(-180).format('HH:mm')}\n\n- 3º --- ${moment(timenextNightTHREE).utcOffset(-180).format('HH:mm')}\n\n- 4º --- ${moment(timenextNightFOUR).utcOffset(-180).format('HH:mm')}\n\n📌*** Essa mensagem será DELETADA ${time(timestamp,"R")}***`,
                     "image": {
                       "url": ""
                     },
