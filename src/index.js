@@ -260,7 +260,7 @@ client.on('messageCreate', (m) =>{
             title:'GUIA GERAL',
             description:`Bem vindos ao nosso Guia Geral, aqui voce encontrará informações básicas, intermediárias e avançadas sobre o Warframe, bons estudos tenno 📚🤓\n\n- Obs: Assuntos mais Complexos terão seu próprio canal de guia dedicado\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
             color: '15844367',
-            image:{
+            thumbnail:{
                 url:'https://i.imgur.com/RXV7kSf.png'
             }
         }],
