@@ -160,7 +160,7 @@ client.on('interactionCreate', (interaction) => {
                       "url": thumbstatus
                     },
                     "color": embedcolor
-                }], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 60000));
+                }]}).then(msg => setTimeout(() => msg.delete(), 60000));
             })
                 .catch(error => console.log(error));
     } else {
@@ -259,7 +259,10 @@ client.on('messageCreate', (m) =>{
         embeds:[{
             title:'GUIA GERAL',
             description:`Bem vindos ao nosso Guia Geral, aqui voce encontrará informações básicas, intermediárias e avançadas sobre o Warframe, bons estudos tenno 📚🤓\n\n- Obs: Assuntos mais Complexos terão seu próprio canal de guia dedicado\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
-            color: '15844367'
+            color: '15844367',
+            image:{
+                url:'https://i.imgur.com/RXV7kSf.png'
+            }
         }],
         components: [guiaGeralBasico,guiaGeralIntermediario,guiaGeralAvancado]
         })
@@ -287,23 +290,23 @@ client.on('interactionCreate', async (inte) => {
         }
 
         if (embedcount === 0){
-            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 12000));
+            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
         } else if (embedcount === 1){
-            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 16000));
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
         } else if (embedcount === 2){
-            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 20000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else if (embedcount === 3){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 24000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else if (embedcount === 4){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 24000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else if (embedcount === 5){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 24000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else if (embedcount === 6){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 24000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else if (embedcount === 7){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 24000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else if (embedcount === 8){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 24000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else { inte.reply({content:'esse guia possui mais de 4 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
 })
