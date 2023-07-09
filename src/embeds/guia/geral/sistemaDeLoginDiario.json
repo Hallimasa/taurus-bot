@@ -1,0 +1,17 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔹 Sitema de Login Diário 🔹 ",
+            "description": "Ao iniciar sessão no jogo pela primeira vez ao dia, os jogadores receberão uma recompensa aleatória do Tributo Diário.\n\nOs dias de login são acumulados no total de um jogador, contando com todos os marcos ainda por completar. Somente o número total de dias de login é levado em consideração pelo sistema Tributo Diário, independentemente do hiato do jogador, ou seja, um jogador que logar consecutivamente durante 7 dias, salte um dia, depois logue no dia seguinte, ainda receberá o seu 8º dia acumulado de log-in.\n\nAs recompensas diárias de tributo são aleatórias, mas as chances de adquirir mais freqüentemente itens de valor mais raro e maior aumentam à medida que os jogadores aumentam sua classificação de maestria, com classificações mais altas com maiores chances de receber melhores recompensas. Cada aumento de Rank de Maestria acrescenta 5% ao aumento de chances de queda rara.\n\nDica: Se você estiver interessado em comprar Platinas com dinheiro de verdade, espere o Bônus de login de -75% Desconto de Platina, recomendo.\n\nO jogador também é premiado com Mods Primes, Armas únicas e Cosméticos únicos por obter um certo número de login diário.\n\nAs seguintes recompensas podem ser reivindicadas ao acumular o número necessário de dias de login:",
+            "color": 5564035
+          },
+          {
+            "description": "50 Dias - Imminent Eclipse Sigil, 3 dias de Booster de Afinidade e Catalisador\n100 Dias - **Azima** (Vem com slot de arma e pré-instalado o Catalisador)\n150 Dias - Awakened Luna Sigil, 3 dias de Booster de Créditos e Adaptador Exilus\n200 Dias - **Primed Fury** (sem nível)\n250 Dias - Eternal Stasis Sigil, 3 dias de Booster de Afinidade e Reator\n300 Dias - **Zenistar** (Vem com slot de arma e pré-instalado o Catalisador)\n350 Dias - Solar Flare Sigil, 3 dias de Booster de Crédito e Catalisador\n400 Dias - **Primed Vigor** (sem nível)\n450 Dias - Void Gate Sigil, 3 dias de Booster de Afinidade e Adapator Exilus\n500 Dias - Zenith (Vem com slot de arma e pré-instalado o Catalisador)\n550 Dias - Lotus Deliverance Sigil, 3 dias de Booster de Crédito e Reator\n600 Dias - **Primed Shred** (sem nível)\n650 Dias - Spectral Tide Glyph, 3 Formas e Reator\n700 Dias - Sigma & Octantis (Vem com slot de arma e pré-instalado o Catalisador)\n750 Dias - Guiding Rose Glyph, 3 dias de Booster de Afinidade e Adapator Exilus\n\nEssa é uma demonstração do sistema antigo, pois agora, assim que você chegar em um número de login diário como 100, ao invés de ganhar automaticamente a **Azima** você poderá escolher entre as armas de login 300 **Zennistar** e outras, facilitando a vida do jogador, que quer um específico mod prime, ou arma.\n\nMods Prime de Login e Armas :",
+            "color": 5564035,
+            "image": {
+              "url": "https://i.imgur.com/PZvbPxJ.jpg"
+            }
+          }
+]

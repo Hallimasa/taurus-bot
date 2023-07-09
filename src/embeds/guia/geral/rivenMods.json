@@ -1,0 +1,32 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔹 Riven Mods 🔹 ",
+    "description": "Riven Mods são um dos sistemas mais confusos do Warframe. Os jogadores recebem um depois de completar a jornada Guerra Interior sem contexto do que são, como funcionam ou por que você gostaria de usá-los.\n\nRiven Mods são Mods gerados aleatoriamente vinculados a uma certa família de armas - família que se refere a armas que compartilham o mesmo nome básico (Boltor, Braton, Cernos, etc.). Todos os Riven Mods podem ter atributos encontradas em Mods independentes, incluindo dano base, multishot, dano elementar, duração do multiplicador de combo e dano crítico. A força de um Mod Riven é determinada por sua Disposição Riven (explicado mais tarde).\n\nEmbora os Riven Mods dependam do RNG e sejam rebalanceados a cada três meses, esses Mods fornecem um grau de poder simplesmente incomparável. Para Rivens com Disposições altas, você pode substituir Mods básicos em sua construção por um Riven objetivamente mais forte, apresentando estatísticas de porcentagem mais altas e linhas de estatísticas adicionais. Para Rivens com Disposições mais baixas, você pode obter um Riven que combine os efeitos de vários Mods em um - por exemplo, usando um Riven que tenha dois tipos de dano elementar. Isso permite que você economize espaço no Mod para sua construção.\n\nDesnecessário dizer que os Riven Mods podem transformar uma arma ruim em arma META do jogo. No entanto, esse poder é controlado por duas coisas: o puro RNG do sistema e a Disposição de Riven.\nAntes de poder usar um Riven, você deve revelá-lo completando um desafio listado no cartão Mod. Isso pode variar de matar inimigos a pegar vários peixes seguidos sem errar. Uma vez que um cartão é revelado, você receberá um Riven Mod com toda uma série de estatísticas geradas aleatoriamente.\n\nDisposições Riven têm uma escala de 0,5 a 1,55, denotada por círculos no jogo (1-5). As estatísticas do seu Riven Mod são multiplicadas por esta constante de Disposição do Riven. Valores abaixo de 1 fazendo com que o mod perca sua força. Por outro lado, valores acima de 1 fazem com que o Riven ganhe força.",
+    "color": "18175"
+  },
+  {
+    "description":"Embora seja referenciado como 'ROLL' no jogo, quase todos os jogadores se referem a esse sistema como rolagem de Riven. Ao gastar um recurso raro chamado Kuva, você pode rolar novamente os traços positivos e negativos vinculados ao seu Riven Mod, mantendo a mesma família de armas, polaridade e requisito de Nível de Maestria.\nAo rolar novamente um Riven, você terá a opção de fazer o novo teste ou manter o antigo. Isso é o máximo que o sistema estende para progressão. Não há maneiras de bloquear características, maximizar porcentagens de estatísticas ou usar Kuva para direcionar o farm de uma determinada estatística. É RNG completo.",
+    "image": {
+      "url": "https://i.imgur.com/qz5KnUB.png"
+    }
+  },
+  {
+    "title": " 🔸 Farm Kuva - Missões de Sifão Kuva 🔸 ",
+    "description": "Os Sifões de Kuva são máquinas de colheita Grineer que podem ser encontradas em missões modificadas em planetas, onde a Fortaleza Kuva se desloca para no mapa de navegação, que pode ser destruído para obter Kuva.\n\nPor si só, os Sifões são inofensivos e não podem ser danificados diretamente pelas armas ou habilidades do jogador. Sua única função é reunir e armazenar o Kuva do meio ambiente de alguma forma usando as energias de Tenno nas proximidades. No entanto, eles sempre são acompanhados por reforços Grineer para defendê-los, que incluem Kuva Guardians e Kuva Jesters.\n\nAs missões do Cifão Kuva tornam-se acessíveis somente após completar a missão A Guerra Interior.\n\nSifões Kuva são é o único método de farma as Relíquias Réquiem, essenciais pra pro farm de Kuva Lich\n\nPra conseguir quebrar o sifão e pegar sua Kuva, você precisa acertar as nuvens de kuva que spawnam nas salas e voam pro sifão, use seu Tenno pra interceptar as nuvens nesse meio tempo, acertando elas com sua energia do Void.",
+    "color": 16711680,
+    "image": {
+      "url": "https://i.imgur.com/Uweo6Lv.png"
+    },
+    "thumbnail": {
+      "url": "https://i.imgur.com/oE8bsO9.png"
+    }
+  },
+  {
+    "title": " 🔸 Farm Kuva - Missões de Sobrevivência Kuva 🔸 ",
+    "description": "Nessa missão as cápsulas de saúde de uma sobrevivência normal podem ser convertidas em cápsulas de kuva, e se você conseguir defendê-la por 1minuto, ganhará 200 de kuva em troca.\n\nEsta missão se encontra na Fortaleza Kuva\n\nRecomendo que leve warframes que aumentam a chance de drops dos inimigos, ( Nekros, Khora) e vá farmar kuva pra dar roll naquele seu riven lixoso. kkkk",
+    "color": 9309081
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔸 Escolas de Foco 🔸 ",
+            "description": "**Soilers da quest Segundo Sonho**\nFocus é o nome dado ao verdadeiro poder do seu Tenno, guiado pelas 5 escolas de foco Narramon, Vazarin, Madurai, Unairu e Zenurik.\n\nQuando você completa a quest, aparece a opção para você escolher alguma escola, porém, mas pra frente, você pode pode liberar as todas as outras, então não precisa escolher muito, qualquer uma serve.\n\n**Como conseguir foco para upar minha escola?**\n\nVocê precisará primeiro de lentes, que podem ser instaladas em warframes ou armas que estiverem no rank 30. Portanto, dependendo o nível da Lente, parte da **Afinidade/XP** adquirido pela arma/warframe que possui uma lente , será convertida em foco pra escola que a lente representa.\n",
+            "color":16775416
+          },
+          {
+            "description":"O limite de foco que você pode farmar diariamente é determinado pelo seu nível de maestria.\n\nInicialmente, apenas dois Caminhos de Focos por escola estarão disponíveis para o jogador para ativação após completar a jornada O Segundo Sonho, ambas as habilidades fornecendo principalmente bônus passivos pro Warframe. A fim de revelar o restante das habilidades do Foco em uma escola particular, os jogadores devem ter completado tanto A Guerra Interior e Vigília de Saya, e subsequentemente visitar Os Quills em Cetus para poder desbloquear e classificar seus Caminhos.\n\nDica: Coloque a lente em warframes que matam bastante com suas habilidades, pois assim você ganhará muito mais foco, warframes como: SARYN, VOLT, EQUINOX, OBERON, MESA, EMBER, MIRAGE, entre outros.\n",
+            "color":16775416
+          },
+          { 
+            "description":"Cada escola possui uma gama de habilidades pro seu operador e seu tenno ( operador), você só pode manter **UMA** escola ativa por vez, portando não tem como todas as habilidades das 5 escolas ao mesmo tempo. PORÉM...\n\n**As habilidades passivas**\nCada escola possui 2 passivas pro seu Tenno, que quando maximizadas funcionam mesmo que você esteja com outra escola ativa, mas pra poder ativar uma habilidade passiva de  simplesmente requer que seja gasto 1.000.000 pontos de foco e um Fragmento de Eidolon. Sim, extremamente caro, mas vale muito a pena.\n",
+            "color": 16775416,
+            "thumbnail": {
+              "url": "https://i.imgur.com/nn3wjxs.png"
+            }
+          },
+          {
+            "title": "MADURAI",
+            "description": "O caminho Madurai é uma escola dedicada à ofensa. Tenno do modo Madurai são lutadores inflexíveis, destacando-se nas artes da emboscada e da barragem.\n\n--> Eles são capazes de melhorar a saída de dano bruto de suas armas, assim como as habilidades do Warframe que causam dano.\n\n--> Eles têm um pool de energia e regeneração muito maiores Amp e utilizam o Void Mode para reunir várias cargas de amplificação de danos impressionantes por capricho.\n\n--> O Void Blast e o Void Dash aprimorados geram várias ocorrências de danos em comparação com sua versão padrão.\n\n**dica: ** Essa escola é essencial pra caçar Eidolons em Cetus, pois aumenta muito o dano do seu Tenno e Warframe",
+            "color": 16775416,
+            "thumbnail": {
+              "url": "https://i.imgur.com/hk0sMBf.png"
+            }
+          },
+          {
+            "title": "VAZARIN",
+            "description": "O caminho Vazarin é uma escola dos Protetores. Aqueles que dominam a escola Vazarin recebem benefícios defensivos.\n\n--> Através de um maior raio de afinidade, seus Warframes são capazes de fornecer ajuda de mais longe.\n\n--> Eles têm um pool de saúde e regeneração mais altos, aumentados ainda mais pelo Void Mode altamente regenerativo.\n\n--> Eles são capazes de infligir uma explosão de controle de multidões com o Void Dash para fornecer recuperação imediata e de emergência, complementando uma breve pausa para aliados feridos ao longo do caminho.\n\n--> Eles podem absorver e compensar os danos recebidos pelos aliados, enquanto concedem escudos adicionais com o Void Blast.",
+            "color": 16775416,
+            "thumbnail": {
+              "url": "https://i.imgur.com/6l0vqp6.png"
+            }
+          },
+          {
+            "title": "NARAMON",
+            "description": "O caminho Naramon é uma escola focada na arte de agredir. Aqueles que dominam a escola de Naramon são aprimorados com velocidade e força crua e bruta.\n\n--> Suas armas corpo-a-corpo ganham afinidade adicional com as mortes de corpo a corpo e são capazes de aguentar os bônus de combinação corpo-a-corpo por longos períodos de tempo.\n\n--> Eles são capazes de rastrear, desarmar e dominar seu campo imediato de inimigos enquanto preparam uma fuzilaria de ataques críticos.\n\n--> Eles podem percorrer grandes distâncias em um tempo muito curto, além de ter uma velocidade de movimento maior.\n\n**Dica**: Esta escola é essencial pra todas as builds focadas em armas melee, pois ela possui uma habilidade que ajuda muito a manter o contador de combo sempre em 12x",
+            "color": 16775416,
+            "thumbnail": {
+              "url": "https://i.imgur.com/FqdyeEk.png"
+            }
+          },
+          {
+            "title": "UNAIRU",
+            "description": "O camnho Unairu treina para se tornar um soldado indomável. O Tenno de Unairu fornece as linhas de frente com tenacidade incomparável, junto com buffs diretos para as ofensas e defesas dos aliados. Aqueles que dominam a escola Unairu recebem maior resistência a danos e reflexão de danos.\n\n--> Tanto o Operador quanto o Warframe recebem uma quantidade adicional de blindagem que mitiga e espelha todo o dano recebido.\n\n--> Eles são capazes de prejudicar as capacidades ofensivas e defensivas dos inimigos e ofuscar-lhes, fornecendo invisibilidade ao Tenno aliado.\n\n--> Eles são capazes de afagar diretamente os colegas Operadores, aumentando a produção de dano geral de seus Poderes de Void, bem como suas Amps.\n\n",
+            "color": 16775416,
+            "thumbnail": {
+              "url": "https://i.imgur.com/OUW21KA.png"
+            }
+          },
+          {
+            "title": "ZENURIK",
+            "description": "O caminho Zenurik é uma escola dedicada ao arcano. \n\n--> Eles são capazes de melhorar a eficiência dos ataques corpo-a-corpo canalizados de seu Warframe.\n\n--> Eles são capazes de conceder temporariamente uma regeneração de energia massivamente aumentada para Operadores e Warframes com apenas um aprimoramento do Void Dash.\n\n--> Eles têm um pool de energia muito maior e regeneração de energia, e são capazes de extrair energia extra de captadores de energia.\n\n--> São capazes de devastar uma área ampla com controle de multidões através da concessão de novos poderes para Void Dash, Void Mode e especialmente Void Blast.\n\n**Dica**: Esta é uma excelente escolha como a primeira a ser upada, pois fornece energia ao seu warframe ao utilizar a primeira habilidade do tenno.",
+            "color": 16775416,
+            "thumbnail": {
+              "url": "https://i.imgur.com/ClCQk52.png"
+            }
+          }
+]

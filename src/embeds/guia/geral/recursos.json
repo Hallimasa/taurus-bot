@@ -1,0 +1,54 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔹 Recursos 🔹 ",
+            "description": "São os itens que os inimigos dropam quando morrem nas missões, eles também dropam mods. Existem recursos únicos como **Cristal de Argon**, que some em 21 horas após ser coletado, ou **Extrato Nitain** que só pode ser adquirido trocando por pontos de nightwave, um sistema de mini-missões que  explico mais em outro tópico.\n\nExistem habilidades de Warframes que aumentam as chances de drop, são eles **desecrate** ( 3ª habilidade do Nekros );\n**Prowl** ( 3ª habilidade da Ivara )\n **Strangledome** ( 4ª habilidade da Khora, junto com o mod Pilfering Strangledome )\n **Tentacle Swarm** ( 4ª habilidade do Hydroid, junto com o mod Pilfering Swarm )\n**Petrify** ( 3ª habilidade do Atlas, junto com o mod Ore gaze )\n\n",
+            "color":16714968
+          },
+          { 
+            "description":"E também o companheiro Smeeta Kavat possui uma chance a cada 24 segundos de dar um buff aleatório ao seu dono, um deles é o dobro de recursos por 120 segundos, gatinho muito bom pra farmar itens, recomendo que façam o de vocês.\n\nExistem mods pra sentinelas/companheiros que aumentam o seu raio de coleta dos recursos, e são muito úteis pois você não vai ter q precisar ficar em cima do drop pra poder coletá-lo, agora é só passar correndo que todos os itens voam diretamente em sua direção. Esses mods são **Vaccum** pra sentinelas e **Fetch** pra companheiros",
+            "color": 16714968,
+            "image": {
+              "url": "https://i.imgur.com/YIcHsLX.png"
+            }
+          },
+          {
+            "title": " 🔰 Onde Conseguir ? 🔰 ",
+            "description": "Infelizmente, todas as coisas que são craftáveis no jogo, necessitam de recursos, alguns são raros, outros comuns, porém uma coisa é certa, que você vai ter que farmá-los uma hora ou outra.\n\nExistem mods que facilitam sua vida quando o assunto é farm de recursos, são eles:\n\n**Thief's Whit** -> mostra os loots no seu minimapa\n**Master Thief** -> dá 40% de chance de abrir armários trancados\n**Loot radar** -> Aura que mostra os  loots no seu minimapa\n**Scavenge** -> Mod de Kubrow, faz com que ele tenha 90% de chance de abrir armários trancados\n**Charm** -> Mod do Smeeta Kavat, oferece a chance uma cada 24 segundos de dar 1 de 6 buffs aleatórios ao seu dono, um deles é o dobro de afinidade/recursos coletados  por 2 minutos, ROBADO? Naaadaaaa....\n",
+            "color": 12058879,
+            "image": {
+              "url": "https://i.imgur.com/5uqDTyo.png"
+            },
+            "thumbnail": {
+              "url": "https://media.giphy.com/media/KfxiHq5zmw5Absh5uE/giphy.gif"
+            }
+          },
+          {
+            "description": "- **Warframes bons pra farm de recursos/mods**\n\n- ** Hydroid **\nA 4ª habilidade do Hydroid, não aumenta a chance de drop sozinha, porém se você equipar o mod de sindicato Pilfering Swarm, inimigos segurados pelos tentáculos do seu 4, vão dropar +100% recursos.\n\n-**Khroa**\nA mais nova queridinha dos farms, denovo, sua 4º habilidade não possui chance de aumentar o drop, mas se você equipar o mod Pilfering Strangledome, inimigos segurados pelas correntes droparâo +65% de recursos\n\n-**Nekros**\nConsiderado por muitos, o Rei das Farms, sua 3ª habilidade Dessecrate, possui a chance de 52% de fazer com que pedaços do corpo do  inimigo no chão, dropem itens novamente, então quanto mais você despedaçar o inimigo, melhor, armas com alto dano de corte fazem isso: algumas delas: Kohm, Dread, Ripkas ( junto com o mod Amalgam Ripkas True Steel, oferece 100% de desmembrar os inimigos ).",
+            "color": 12058879
+          },
+          {
+            "description":"Outra dica importante sobre o nekros é que o Dessecrate custa muita energia, e pra anular esse problema existe o mod de sindicato **Despoil**, que faz com que sua habilidade custe vida ao invés de energia, muito mais fácil de se regenerar.\n\n-**Ivara**\nQuando ela usa usa 3ª habilidade Prowl e fica invisível, ela ganha a habilidade de dar pickpocket ( Roubar ) itens dos inimigos vivos, portanto uma build com alcance alto, e bastante duração, pois diminui o tempo de roubo, é essencial pra buildar a Ivara pro farm. Arcane Energize também ajuda, porém não é necessário.\n\n- **Nova Speed**\nA 4ª habilidade da warframe Nova, dá 75% de slow nos inimigos se estiver com 145% de força, porém poucos sabem, que se você colocar força abaixo dos 100% ao invés de dar slow ela passa a aumentar a velocidade dos inimgos, mods que tiram força e que são obrigatórios na build de nova speed são Overextend e a aura Power Donation.",
+            "color": 12058879
+          },
+          {
+            "description": "**Quais são os tipos de recuroso ?**\n\nBoa pergunta, cada planeta dropa um recurso comum, outro incomun e outro raro e recusos de pesquisa, aqueles necessários para construção de armas dos laboratórios do seu clã.\n",
+            "color": 12058879,
+            "image": {
+              "url": "https://i.imgur.com/otSOMbt.jpg"
+            }
+          },
+          {
+            "description": "** Recursos Especiais **\n\n-> ** Extrato Nitain** : Obtido no merdado do sistema Nightwave, trocando por pontos nightwave.\n\n-> **Tellurium** : Recurso obtido em missões de Archwing, ou missões de Urano, pois elas são mistas entre o modo normal/archwing.\n\n-> **Coordenadas Nav Mutualist** : Necessária pra fabricação das chaves pra ter acesso ao boss que dropa o warframe Mesa. Dropam de missões infestadas, como as de Deimos.\n\n-> **Decotificador Orokin** : Recurso obtido nos cofres de Deimos, quando você farma os mods corruptos, eles são necessários na Jornada ( Quest ) Mensagens Ocultas, que recompensam o player com o warframe Mirage.\n\n-> ** Cristal de Argon** : Este recurso é considerado drop raro, é obtido nas missões do Void, uma característica única dele, é que ele some do seu inventário 21 horas após a coleta. Então não adianta farmar muitos dele, pois vão sumir em menos de 1 dia, recomendo farmar só o necessário.",
+            "color": 12058879
+          },
+          {
+            "description": "**Qual a melhor missão pra farmar um recurso em específico??**\n\nVou elencar aqui as missões mais eficientes pra farmar cada recurso:\n\n```TITAN | Saturno\n- Célula Orokin\n- Nano Esporos\n- Plastídeos\n- Ampola de Detonite\n```\n```ANI | Void\n- Cristal de Argon\n- Ferrite\n- Módulo de controle\n- Rubedo\n```\n```ORPHELIA | Urano\n- Gálio\n- Pacote de Polímero\n- Tellurium\n- Plastídeos \n```\n```OESTRUS | Eris\n- Nano Esporos\n- Plastídeos\n- Amostra Mutagênica\n```\n```IO | Júpiter\n- Hexeno\n- Amostra de Fieldron\n- Sensores Neurais\n- Oxium\n- Chapa Metálica\n- Restos\n```\n```GABII | Ceres\n- Circuitos\n- Célula Orokin\n- Ampola de Detonite\n```\n\n-> **Dicas Extras**\nNo modo Caminhos de Aço/Steel Path, as missões são de level 100-150, e os inimigos possuem +250% de dano, +250% de armadura e dropam +100% de recursos",
+            "color": 12058879,
+            "image": {
+              "url": "https://media.giphy.com/media/mGawkrzDZL9OryiWy4/giphy.gif"
+            }
+          }
+]

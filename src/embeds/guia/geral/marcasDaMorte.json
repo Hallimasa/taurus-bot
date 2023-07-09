@@ -1,0 +1,13 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔸 Marcas de Morte 🔸 ",
+            "description": "Marcas de Morte é um sistema usado para avisar que o jogador foi alvo de assassinato por um dos três assassinos do jogo - **Stalker**, o **Zanuka Hunter** e **O Trio Grustrag** - ou um Esquadrão da Morte de um dos seis principais sindicados, o que lhes dá a chance de aparecer em missões em que o jogador participa. Embora perigoso, derrotá-los dá aos jogadores a chance de diagramas de armas, equipamentos ou cosméticos que, em alguns casos, só podem cair desses atacantes.\n\n**Mecânicas**\nMarcas de Morte é alcançado com êxito com a conclusão de certos tipos de missão ou certo objetivo, e os jogadores podem ter marcas de morte de vários assassinos ativos ao mesmo tempo.\n\nGeralmente, Marcas de Morte oferece uma pequena chance de um determinado assassino ou Esquadrão da Morte aparecer durante uma missão. O assassino tem a chance de aparecer nos primeiros 5 minutos da missão. Se esse período de tempo passar sem um encontro, o assassino não pode mais gerar durante a duração da missão. No entanto, o assassino ainda pode gerar após o objetivo estar completo.\n\nAs marcas de morte do mesmo tipo de vários jogadores serão empilhadas, aumentando as chances de esse(s) assassino(s) particular(es) aparecer em uma missão.\n\nPra conseguir a marca do **Stalker** o jogador precisa matar um dos bosses de qualquer planeta, e quando voltar pra sua nave, irá receber uma mensagem do Stalker:\n```Suas ações terão consequências...\n```\nPara conseguir a marca do **Zanuka Hunter** você precisa ajudar 3x os Grinner em missões de invasão, o mesmo vale pro ** Trio Grustrag **, se você ajudar os Corpus durante as invasões\n\nPara conseguir  a marca de algum **Sindicato**, basta ter reputação negativa com qualquer sindicato que naturalmente eles começam a te caçar nas missões. ",
+            "color": 65535,
+            "image": {
+              "url": "https://i.imgur.com/zeIVejL.jpg"
+            }
+          }
+]

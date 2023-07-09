@@ -1,0 +1,12 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔸 Sistema de Crítico 🔸 ",
+            "description": "As armas do jogo, possuem chance de dar X vezes o dano, isto de chama crítico, e está presente em quase 99% dos jogos.\n\nVamos analisar esta arma aqui:\n\nArma Teste:\nDano total: 562\nChance crítica: 25%\nMultiplicador crítico: 2,3x\n\nVendo isto, podemos concluir de que a cada 4 tiros, em média, a arma vai dar um crítico. Multiplicando seu dano por 2,3 vezes.\n\nExistem armas no jogo, ou sinergias de mods, que aumentam a chance crítica de uma arma, pra além dos 100%, isso quer dizer que agora eu tenho chancer de dar críticos dos críticos ou em outras palavras 2,3 x 2,3 = 5,29 vezes o dano.\n\nA interface do jogo deixa claro, se foi um crítico normal, ou se saiu uns mais fortes:\n\nDano normal : Branco\nDano Crítico : Amarelo\nDano Crítico do Crítico: Laranjado\nDano Crítico do Critico do Crítico pra cima: Vermelho",
+            "image": {
+              "url": "https://i.imgur.com/pZi0FsT.png"
+            }
+          }
+]

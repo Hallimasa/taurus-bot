@@ -1,0 +1,49 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔸 Sistema de Dano 🔸 ",
+            "description": " É um sistema que determina o dano causado a um determinado alvo por um determinado atacante. Os resultados dos danos são modificados por várias mecânicas - modificadores de tipo (conteúdo principal deste post),** armadura, bônus de acerto crítico, bônus de furtividade, debuffs de habilidade de Warframe, modificadores de partes do corpo, modificadores de facção** - que são discutidos abaixo e em suas respectivas páginas.\n\nTodo dano causado por qualquer arma ou habilidade pertence a um certo tipo de dano, e cada alvo tem resistências e vulnerabilidades específicas a diferentes tipos de dano. Explorar as vulnerabilidades do inimigo e evitar resistências por meio da seleção de armas e instalação de mod pode melhorar significativamente a produção de dano dos jogadores. Então vamos começar....",
+            "color": 59901,
+            "image": {
+              "url": "https://media.giphy.com/media/SSEBh5gftq04nWS5oE/giphy.gif"
+            }
+          },
+          {
+            "title": " 🔸 Tipos de dano 🔸 ",
+            "description": "**Impacto**  | Dano físico\n**Perfuração** | Dano físico\n**Corte** | Dano físico\n\n**Frio** | Dano elemental\n**Calor** | Dano elmental\n**Elétrico** | Dano elemental \n**Toxina** | Dano elemental\n\n** Explosão** |Dano elemental combinado ( Calor + Frio )\n**Corrosivo**| Dano elemental combinado ( Toxina + Elétrico )\n** Gás** | Dano elemental combinado ( Calor + Toxina )\n**Magnético** | Dano elemental combinado ( Elétrico + Frio )\n** Radiação**| Dano elemental combinado ( Calor + Eletricidade)\n**Viral**| Dano elemental combinado ( Frio + Toxina)\n\n**Dano Puro** | Tipo exclusivo de dano, ignora todas as resistências do inimigo.\n**Void** | Spoiler*||Dano causado pelo seu Tenno, usando AMPs, e pelo warframe Xaku||"
+          },
+          {
+            "title": "Ordem de Mods",
+            "description": "Isso é muito importante de se aprender pra que você possa combinar os mods sem ter dor de cabeça.\n\nO jogo sempre vai combinar os elementos obedecendo esta ordem, se você colocar um mod de calor no slot 1, frio no slot 8, a arma terá dano de Explosão ( Calor + Frio ) ... Mas se você colocar um mod de toxina no campo 4, a arma terá o dano de Gás ( Calor + Toxina) junto com o dano de Frio. Obedecendo assim a ordem abaixo.",
+            "image": {
+              "url": "https://i.imgur.com/KZa3GjU.png"
+            }
+          },
+          {
+            "title": "Tipos de Armaduras",
+            "image": {
+              "url": "https://i.imgur.com/nQNUtgm.png"
+            }
+          },
+          {
+            "title": "Fraquezas de cada tipo",
+            "description": "**Ferrite**",
+            "image": {
+              "url": "https://i.imgur.com/qrXX3BP.png"
+            }
+          },
+          {
+            "description": "Alloy",
+            "image": {
+              "url": "https://i.imgur.com/F6v30dh.png"
+            }
+          },
+          {
+            "description": "Infested Sinew",
+            "image": {
+              "url": "https://i.imgur.com/Gf7m4C8.png"
+            }
+          }
+]

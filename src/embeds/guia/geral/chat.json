@@ -1,0 +1,18 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔸Chat 🔸 ",
+    "description": "O chat do jogo possui várias abas, que podem confundir quem está começando no jogo, são elas:\n\n**esquadão**  - se você formar uma esquadão com outros jogadores ou entrar numa missão aleaória junto com outra pessoa, essa aba será ativada, e nela você pode conversar com os players que estão no seu esquadão.\n\n**Clã** -  aqui você conversa com os membros do seu clã, fala aê corno, por exemplo.\n\n**Aliança** - Aqui você conversa com os membros da aliança do seu clã, seria como se fosse um clã de clãns XD\n\n**Dúvidas** - Aba dedicada aos players iniciantes que possuem toneladas de dúvidas sobre o jogo, sempre quando vejo uma pergunta já respondo, se souber, espero que você faça o mesmo, pra termos uma comunidade Topzera.\n\n**Recrutamento** -  Aqui você acha outros jogadores que desejam fazer missões juntos, é o lugar ideal pra chamar gente pra farmar itens, fazer bosses, etc. Pra que você chame alguém, seja claro no que está querendo fazer, como, eu quero farmar **Pacote de Polímero**, então vou escrever: \n```\n Farm [Pacote de Polímero] 3 vagas\n```\nPor que os conchetes? o jogo possui tags, assim que você abre um conchete, e vai escrevendo dentro, o game tenta prever o que você quer dizer, e deixa a palavra linkável, pra que o jogador possa clicar e ver o item em questão.\n\n**Chat de Trocas** - Aqui é onde você vai vender seu pão, anuciar seus itens e comprar de outros jogadores, fique esperto pois existem players que abusam da inocência de players que estão começando, e colocam o preços das coisas nas alturas.\n\nPra fugir disso, saiba a faixa de preços min-máx do item que quer comprar/vender, existem diversos sites na internet, que listam isto, vou linkar alguns aqui:\n\nhttps://nexushub.co/warframe\nhttps://warframe.market/\n\n(todos são em inglês, então recomendo que procure o nome das coisas em inglês)",
+    "color": 65331,
+    "image": {
+      "url": "https://media.giphy.com/media/Us5SDKfeHnjITrYIbp/giphy.gif"
+             }
+   },
+   {
+    "title": " 🔸 Chat Comandos 🔸 ",
+    "description": "Vou listar os alguns comandos úteis pra que você possa usá-los:\n\n**/unstuck** -> se você estiver travado em algum bug do mapa, entrou em um lugar e está caindo eternamente no void, escreva isso e seja feliz :D comando muito útil\n\n**/w nickname mensagem** -> manda uma mensagem privada, pra pessoa dona do nickname que você escreveu\n\n**/i nickname** -> ignorar um usuário\n\n**/invite nickname** -> Convida alguém pro seu esquadão\n\n**/add friend nickname ** -> Adiciona um amigo\n\n**/remove  friend nickname ** -> Remove um amigo\n\n**/?** -> mostra todos os comandos",
+    "color": 11470591
+  }
+]

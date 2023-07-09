@@ -1,0 +1,34 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔰 Créditos 🔰 ",
+            "description": "As maneiras mais eficientes de farm de crédito são 3 basicamente: \n\n-> **Missões Dark Sector**\n\nSão missões que possuem bonificação de drop, cada uma com a sua, cda planeta possui 2-3 missões deste tipo, menos Void e Deimos, são elas:\n```\n-> GABI | Ceres | +35% drop\n-> SEIMENI | Ceres | +35% drop\n-> COBA | Earth | +15% drop\n-> TIKAL | Earth | +15% drop\n-> AKKAD | Eris | +30% drop\n-> ZABALA | Eris | +30% drop\n-> CHOLISTAN | Europa | +25% drop\n-> LARZAC | Europa | +25% drop\n-> SINAI | Júpiter | +20% drop\n-> CAMERIA | Júpiter | +20% drop\n-> KADESH | Marte | + 20% drop\n-> WAHIBA | Marte | +20% drop\n-> KELASHIN | Netuno | +30% drop\n-> YURSA | Netuno | +30% drop\n-> MEMPHIS | Phobos | +25% drop\n-> ZEUGMA | Phobos | +25% drop\n-> HIERACON | Plutão | +35% drop\n-> SECHURA | Plutão | +35% drop\n-> CARACOL | Saturno | +20% drop\n-> PISCINAS | Saturno | +20% drop\n-> AMARNA | Sedna | +25% drop\n-> SANGERU | Sedna | +25% drop\n-> UR | Urano | +25% drop\n-> ASSUR | Urano | +25% drop\n-> MALVA | Vênus | +10% drop\n-> ROMULA | Vênus | +10% drop\n```",
+            "color": 6288365
+          },
+          {
+            "description": "-> ** Missões de INDEX**\nFunciona como uma aposta, o player aposta créditos pra entrar no Index, e se ganhar recebe 5x mais o valor investido, senão ganhar, perde tudo.\n\nComo funciona? Cada inimigo nesse mapa dropa um ponto de Index, e ao coletá-lo o player sofre penalidades, como -vida e dreno de energia, quanto mais pontos o player coletar, maior serão as penalidades, porém ele recebe um bônus de pontos, exemplo:\n\n",
+            "color": 6288365,
+            "image": {
+              "url": "https://i.imgur.com/lklLauG.png"
+            }
+          },
+          {
+            "description": "O player pode depositar estes pontos em sua base, representada pelo ponto amarelo no mapa, detalhe, cada vez que o inimigo ou algum warframe depositar, as bases trocam de lado. Você tamém dropa pontos ao morrer, e o objetivo da missão é depositar x pontos antes que o tempo acabe ou o inimigo deposite o mesmo lavor.\n\nEsta missão tem tempo? Sim, um cronômetro marca os segundos que faltam pra missão acabar, e se seu time não atingir o número de pontos necessários a missão também falha. Se o time inimigo depositar pontos, o tempo diminui, e se seu time depositar o tempo aumenta.\n\nApós o a entrega dos pontos necessários pra vencer, você poderá escolher ficar na missão e jogar outro round, se ficarem  no mínimo 1 hora, ganharão um banner exclusivo do Pop star Corpus John Prodman, banner dahora pra decoração da sua nave hehe \n\nExistem 3 níveis de index, cada um sua recompensa e custo de entrada.\n",
+            "color": 6288365,
+            "image": {
+              "url": "https://i.imgur.com/Q9X4vww.png"
+            },
+            "thumbnail": {
+              "url": "https://i.imgur.com/JYl3tTf.png"
+            }
+          },
+          {
+            "description": "-> ** Orb Beneficiária | Boss de Foruna**\nExiste um 3º Método, porém eu recomendo esse método somente pra quem tem o sindicato de fortuna no máximo e se é semana de dobro de créditos, junto com o boost de créditos comprado no mercado por platina.\n\nNeste método, você conseguirá facilmente 1 000 000 créditos em 6 minutos em média, isso só será possível se você estiver bem avançado no dojo, pois precisa ter uma arma archwing bem forte. Explico como matar esse boss em outro tópico, mas o método consiste em usar o warframe CHROMA pois sua 4ª habilidade dobra a quantidade de créditos coletados, e se seu Smeeta Kavat procar, dobra mais uma vez, ae quando o boss morrer, você corre pra debaixo dele e ativa seu 4 esperando os créditos caírem do boss, fazendo isso, vc consegue multiplicar o drop normal de créditos do boss que é 125 000.",
+            "color": 6288365,
+            "image": {
+              "url": "https://i.imgur.com/KIIe9x2.png"
+            }
+          }
+]

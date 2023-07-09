@@ -1,0 +1,34 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": "🔸Apps úteis p/ celular🔸",
+            "description": "Como não possuo celular com IOS, não sei se você vai encontrar estes apps na loja da apple.\n\n-> **Warframe ( Digital Extremes )**\n\nMuita gente não sabe, mas existe o app oficial do jogo, nele você loga na sua conta normalmente, sem medo. Coisas que pode fazer no app:\n\n-> Retirar/Colocar itens na sua forja pra fazer.\n-> Retirar/Colocar Drones Extratores nos planetas.\n-> Ver seu inventário completo\n-> Conversar no chat com players do Clã/Aliança",
+            "color": 4519406,
+            "image": {
+              "url": "https://i.imgur.com/j02tljH.jpg"
+            }
+          },
+          {
+            "description": "-> **Market for Warframe - warframe.market (gameaddi)**\n\nEste app não é oficial, ele pega suas informações ( se você está on ou não ) pelo Forum oficial do jogo. Ao se cadastrar nele, você deve enviar uma mensagem pro bot dele no Forum do jogo. Fazendo isso ele vai linkar sua conta.\n\nEsse app serve pra vender/comprar itens ou até fazer leilão de Mods Riven. Sua qualidade é que você está trocando com players do mundo inteiro, aumentando muito suas chances de comprar/vender alguma coisa. Porém é obrigatório que fale em inglês, sad >.<",
+            "color": 4519406,
+            "image": {
+              "url": "https://i.imgur.com/bCvdQeh.jpg"
+            }
+          },
+          {
+            "description": "-> **Lootr for Warframe (Ogg Technologies)**\nEste app é extremamente útil se você está querendo algum item e não sabe onde farmar, ele mostra com base em estatísticas as missões com mais chances de conseguir o item pesquisado numa lista. Atualizado regularmente, recomendo.",
+            "color": 4519406,
+            "image": {
+              "url": "https://i.imgur.com/2zCPugW.jpg"
+            }
+          },
+          {
+            "description": "->**Cephalon Navis - Warframe Tracker App (SlayerOrnstein)**\nApp útil pra quem está procurando por certas recompensas nas Invasões/Alertas/Bounties e não tem paciência e nem tempo pra ficar entrando toda hora no jogo pra ver isso. \n\nEle tamém mostra a hora certa de Cetus pra que você que está querendo caçar Eidolons logue no horários certo, geralmente 15min antes de anoitecer, pra achar squad.",
+            "color": 4519406,
+            "image": {
+              "url": "https://i.imgur.com/PHBrj28.jpg"
+            }
+          }
+]

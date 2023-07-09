@@ -1,0 +1,10 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔹 Espectros 🔹 ",
+            "description": "Um Espectro é uma unidade aliada controlada por IA que lutará ao lado de um jogador durante uma missão. Eles têm seu próprio conjunto de armas e / ou habilidades que podem usar contra inimigos e geralmente são convocados por meio de um item de equipamento consumível.\n\nEles possuem o level dos inimigos da missão em questão, e são muito úteis em missões onde você estiver com problemas pra completar.\n\nExistem 3 tipos de Espectros:\n\n-> **Espectros de Unidades**:\n\nSão adquiridos quando spawna na missão um sindicato no qual o player possui reputação negativa, cada sindicato ( dos 6 ) possuem suas próprias invasões e dropam seus próprios espectros.\n\n-> **Espectros do Clem**\n\nClem é um grinner gente fica que lhe fornece uma seu espectro ao jogador que lhe ajudar nas suas missões, você pode ajudar o Clem na aba de Alertas, na sua Navegação.\n\n-> **Espectros de Warframes**\n\nSão espectros adquiridos em missões de resgate, e possuem níveis de acordo com a dificuldade da missão de resgate. O player pode replicar uma cópia do seu warframe e armas porém o espectro não vai utilizar mods. \n\nDica: o Espectro do Nidus é muito bom, ele cura dá buff de dano e aumenta sua força de habilidade.",
+            "color": 4440704
+          }
+]
