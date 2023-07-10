@@ -174,39 +174,39 @@ client.on('interactionCreate', (interaction) => {
 client.on('messageCreate', (m) =>{
     if (m.author.bot) return;
     
-    if (!(m.channel.id === process.env.CHAT_GUIA_GERAL_ID)) return;
     if (m.content === "config.guiageral.channel"){
+        if (!(m.channel.id === process.env.CHAT_GUIA_GERAL_ID)) return;
     const guiaGeralBasico =  new ActionRowBuilder().addComponents(
         new StringSelectMenuBuilder()
         .setCustomId('guiageralBasico')
         .setPlaceholder('Básico')
         .setMaxValues(1)
         .setOptions ([
-            {label:'1.Afinidade Xp',value:'afinidadeXp',description:'description'},
-            {label:'2.Archwing',value:'archwing',description:'description'},
-            {label:'3.Batatas',value:'batatas',description:'description'},
-            {label:'4.Chat',value:'chat',description:'description'},
-            {label:'5.Créditos',value:'credito',description:'description'},
-            {label:'6.Companheiros/Sentinelas',value:'companheirosSentinelas',description:'description'},
-            {label:'7.Consumíveis',value:'consumiveis',description:'description'},
-            {label:'8.Darvo-NoobTrap',value:'darvo',description:'description'},
-            {label:'9.Dojo',value:'dojo',description:'description'},
-            {label:'10.Endo',value:'endo',description:'description'},
-            {label:'11.Esculturas Ayatan',value:'esculturasAyatan',description:'description'},
-            {label:'12.Forja',value:'forja',description:'description'},
-            {label:'13.Inventário-Espaços',value:'InventarioEspacos',description:'description'},
-            {label:'14.Maestria',value:'maestria',description:'description'},
-            {label:'15.Mercados',value:'mercado',description:'description'},
-            {label:'16.Modos de Jogo',value:'modosDeJogo',description:'description'},
-            {label:'17.Mods',value:'mods',description:'description'},
-            {label:'18.Movimentação',value:'movimentacao',description:'description'},
-            {label:'19.Navegação',value:'navegacao',description:'description'},
-            {label:'20.Platina',value:'platina',description:'description'},
-            {label:'21.Ranks',value:'ranks',description:'description'},
-            {label:'22.Recursos',value:'recursos',description:'description'},
-            {label:'23.Relay',value:'relay',description:'description'},
-            {label:'24.Terminais',value:'terminais',description:'description'},
-            {label:'25.Trocas entre Players',value:'trocaEntrePlayers',description:'description'}
+            {label:'1.Afinidade Xp',value:'afinidadeXp',description:'XP necessária para subir o rank do warframe/arma'},
+            {label:'2.Archwing',value:'archwing',description:'Veículo que possibilita missões no espaço aberto'},
+            {label:'3.Batatas',value:'batatas',description:'Itens que duplicam a capacidade de mods'},
+            {label:'4.Chat',value:'chat',description:'chat do game e principais comandos'},
+            {label:'5.Créditos',value:'credito',description:'moeda do jogo, utilizada em todos os craftings'},
+            {label:'6.Companheiros/Sentinelas',value:'companheirosSentinelas',description:'companheiros que te ajudam nas missões'},
+            {label:'7.Consumíveis',value:'consumiveis',description:'itens consumíveis durante a missão, aperte "Y"'},
+            {label:'8.Darvo-NoobTrap',value:'darvo',description:'NPC mercador que passa a faca nos noobs'},
+            {label:'9.Dojo',value:'dojo',description:'Espaço comunitário do clã'},
+            {label:'10.Endo',value:'endo',description:'item necessário para o aprimoramento de mods'},
+            {label:'11.Esculturas Ayatan',value:'esculturasAyatan',description:'Item decorativo que pode ser fonde de ENDO'},
+            {label:'12.Forja',value:'forja',description:'Forja da sua Orbital'},
+            {label:'13.Inventário-Espaços',value:'InventarioEspacos',description:'Seu inventário de itens, espaços'},
+            {label:'14.Maestria',value:'maestria',description:'Rank da sua conta no jogo'},
+            {label:'15.Mercados',value:'mercado',description:'Mercado presente na sua Nave'},
+            {label:'16.Modos de Jogo',value:'modosDeJogo',description:'Tipos de modo de Jogo'},
+            {label:'17.Mods',value:'mods',description:'Cartas que melhoram os status do warframe/arma'},
+            {label:'18.Movimentação',value:'movimentacao',description:'Dicas para uma melhor movimentação no jogo'},
+            {label:'19.Navegação',value:'navegacao',description:'Módulo de Navegação da sua Nave'},
+            {label:'20.Platina',value:'platina',description:'Moeda Premium do jogo, obtida trocando com players'},
+            {label:'21.Ranks',value:'ranks',description:'Nível da arma/warframe aumenta capacidade de mods'},
+            {label:'22.Recursos',value:'recursos',description:'Recusos de cada Planeta e como Farmá-los'},
+            {label:'23.Relay',value:'relay',description:'Nave comunitária dos Tenno'},
+            {label:'24.Terminais',value:'terminais',description:'Nódulos necessários para progressão de planetas'},
+            {label:'25.Trocas entre Players',value:'trocaEntrePlayers',description:'Sistema de troca entre jogadores'}
         ]),
     );
     const guiaGeralIntermediario =  new ActionRowBuilder().addComponents(
@@ -215,30 +215,30 @@ client.on('messageCreate', (m) =>{
         .setPlaceholder('Intermediário')
         .setMaxValues(1)
         .setOptions ([
-            {label:'1.Cephalon Simaris',value:'cephalonSimaris',description:'description'},
-            {label:'2.Combo Counter',value:'comboCounter',description:'description'},
-            {label:'3.Como Missões Recompensam?',value:'comoMissoesRecompensam',description:'description'},
-            {label:'4.Conclave-PVP',value:'conclave',description:'description'},
-            {label:'5.Drone Extrator',value:'droneExtrator',description:'description'},
-            {label:'6.Escolas de Foco',value:'escolasDeFoco',description:'description'},
-            {label:'7.Espectros',value:'espectros',description:'description'},
-            {label:'8.Helminth-Troca de Habilidades',value:'helminth',description:'description'},
-            {label:'9.Mapas Abertos',value:'mapasAbertos',description:'description'},
-            {label:'10.Marcas da Morte',value:'marcasDaMorte',description:'description'},
-            {label:'11.Mercador Baro Kitter',value:'mercadorBaroKitter',description:'description'},
-            {label:'12.Missões Pesadelo',value:'missoesPesadelo',description:'description'},
-            {label:'13.Riven Mods',value:'rivenMods',description:'description'},
-            {label:'14.Necramech',value:'necramech',description:'description'},
-            {label:'15.Scanner',value:'scanner',description:'description'},
-            {label:'16.Sindicatos',value:'sindicatos',description:'description'},
-            {label:'17.Sistema de Crítico',value:'sistemaDeCritico',description:'description'},
-            {label:'18.Sistema de Dano',value:'sistemaDeDano',description:'description'},
-            {label:'19.Sistema de Fissuras',value:'sistemaDeFissuras',description:'description'},
-            {label:'20.Sistema de Prime Vault',value:'sistemaDePrimeVault',description:'description'},
-            {label:'21.Sistema de Login Diário',value:'sistemaDeLoginDiario',description:'description'},
-            {label:'22.Sistema de Status',value:'sistemaDeStatus',description:'description'},
-            {label:'23.Sistema Nightwave',value:'sistemaNightwave',description:'description'},
-            {label:'24.Stalker',value:'stalker',description:'description'}
+            {label:'1.Cephalon Simaris',value:'cephalonSimaris',description:'Npc que fica em qlqr Relay'},
+            {label:'2.Combo Counter',value:'comboCounter',description:'Combo da sua Arma Melee'},
+            {label:'3.Como Missões Recompensam?',value:'comoMissoesRecompensam',description:'Explicação sobre tabela de Drops AABC'},
+            {label:'4.Conclave-PVP',value:'conclave',description:'Modo PVP do Jogo - Ninguém faz isso'},
+            {label:'5.Drone Extrator',value:'droneExtrator',description:'Drone que coleta recursos de modo AFK'},
+            {label:'6.Escolas de Foco',value:'escolasDeFoco',description:'Caminhos que seu Operados pode escolher'},
+            {label:'7.Espectros',value:'espectros',description:'Warframes invocados durante missões'},
+            {label:'8.Helminth-Troca de Habilidades',value:'helminth',description:'Npc que fica dentro da sua nave, Boquinha'},
+            {label:'9.Mapas Abertos',value:'mapasAbertos',description:'Mapas gigantes com sindicatos exclusivos'},
+            {label:'10.Marcas da Morte',value:'marcasDaMorte',description:'Quando voce entra na lista negra de algum boss'},
+            {label:'11.Mercador Baro Kitter',value:'mercadorBaroKitter',description:'Mercador que vende Mods Prime'},
+            {label:'12.Missões Pesadelo',value:'missoesPesadelo',description:'Versões mais difíceis de algumas missões'},
+            {label:'13.Riven Mods',value:'rivenMods',description:'Mods exclusivos de cada arma'},
+            {label:'14.Necramech',value:'necramech',description:'Veículo tanque de guerra'},
+            {label:'15.Scanner',value:'scanner',description:'Item utilizado para scannear coisas...'},
+            {label:'16.Sindicatos',value:'sindicatos',description:'Sindicatos onde você consegue itens únicos'},
+            {label:'17.Sistema de Crítico',value:'sistemaDeCritico',description:'Como funciona o Crítico no jogo?'},
+            {label:'18.Sistema de Dano',value:'sistemaDeDano',description:'Como funciona o Dano no jogo?'},
+            {label:'19.Sistema de Fissuras',value:'sistemaDeFissuras',description:'Missões necessárias para se obter itens PRIME'},
+            {label:'20.Sistema de Prime Vault',value:'sistemaDePrimeVault',description:'Pq alguns itens prime não estão disponíveis?'},
+            {label:'21.Sistema de Login Diário',value:'sistemaDeLoginDiario',description:'Recompensas com o logín diário do game'},
+            {label:'22.Sistema de Status',value:'sistemaDeStatus',description:'Como funciona o status no jogo?'},
+            {label:'23.Sistema Nightwave',value:'sistemaNightwave',description:'sitema de desafios diários e semanais'},
+            {label:'24.Stalker',value:'stalker',description:'Boss mais famoso do game, matador de noobs'}
         ]),
     );
     const guiaGeralAvancado =  new ActionRowBuilder().addComponents(
@@ -247,13 +247,14 @@ client.on('messageCreate', (m) =>{
         .setPlaceholder('Avançado')
         .setMaxValues(1)
         .setOptions ([
-            {label:'1.Apps para Celular',value:'appsParaCelular',description:'description'},
-            {label:'2.Arbitragem',value:'arbitragem',description:'description'},
-            {label:'3.Como Buildar Armas',value:'comoBuildarArmas',description:'description'},
-            {label:'4.Percuso de Aço',value:'percursoDeAco',description:'description'},
-            {label:'5.Simulacro',value:'simulacro',description:'description'},
-            {label:'6.Tripulante Railjack',value:'tripulanteRailjack',description:'description'},
-            {label:'7.Lock-pin',value:'lockPin',description:'description'}
+            {label:'1.Apps para Celular',value:'appsParaCelular',description:'Apps que utilizo e recomendo'},
+            {label:'2.Arbitragem',value:'arbitragem',description:'Missões onde o player possui apenas 1 vida'},
+            {label:'3.Como Buildar Armas',value:'comoBuildarArmas',description:'Dicas sobre como fazer suas próprias builds'},
+            {label:'4.Percuso de Aço',value:'percursoDeAco',description:'Modo Dicífil do jogo, inimigos lvl 120+'},
+            {label:'5.Simulacro',value:'simulacro',description:'Teste suas builds aqui'},
+            {label:'6.Tripulante Railjack',value:'tripulanteRailjack',description:'Invocáveis durante missões, ajudam bastante'},
+            {label:'7.Lock-pin',value:'lockPin',description:'Marcador para Mapas Abertos não fique mais perdido'},
+            {label:'7.Shield Gate',value:'shieldGate',description:'Sistema do jogo que deixa qualquer warframe tank'}
         ]),
     );
 

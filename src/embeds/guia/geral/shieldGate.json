@@ -1,0 +1,13 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
+    },
+    "title": " 🔹 SHIELD GATE 🔹 ",
+            "description": "Shield Gate é um efeito que ocorre quando os escudos estão totalmente esgotados, o que evita que qualquer excesso de dano vaze para sua vida. Warframes, Companheiros e Necramechs ganham 1,3 segundos de invulnerabilidade ao atingir 0 de escudo, reiniciando apenas quando os escudos podem ser totalmente reabastecidos. Se o escudo ainda estiver em processo de recarga após a ativação do Shield Gate, o próximo Shield Gate durará apenas 0,33 segundos. O Shield Gate de Hildryn e aliados afetados pela skill da  Protea GrenadeFan duram 3 segundos.\n\nComo o bloqueio do escudo é reiniciado após a restauração completa dos escudos, Warframes com escudos máximos baixos e/ou regeneração podem explorar isso reduzindo os escudos.\n\nOs inimigos têm um Shield Gate que dura 0,1 segundos, durante o qual apenas 5% do dano causado afetará sua saúde. No entanto, mirar em pontos fracos contornará completamente seu portão de proteção.\n\n**CHAVE DRAGÃO DECOMPONDO**\nEquipar uma Chave do Dragão Decomposto reduz os escudos em 75%. Durante as missões, isso é indicado por um símbolo à esquerda do escudo/barra de saúde (mostrado à direita).\n\nUse e abuse do Shield Gate, Mods que convertem energia gasta em Habilidades em escudos são muito utilizados para este fim, mods como: [Brief Respite] Set de Mods [Augur]",
+    "color": "18175",
+    "image":{
+      "url":"https://i.imgur.com/lYHpxzO.png"
+    }
+  }
+]
