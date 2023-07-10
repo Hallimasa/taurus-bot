@@ -1,5 +1,6 @@
 require('dotenv').config();
 const moment = require('moment');
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder} = require('discord.js');
 const { channel } = require('diagnostics_channel');
