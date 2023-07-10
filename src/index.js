@@ -79,7 +79,7 @@ client.on('interactionCreate', (interaction) => {
                 let embedcolor = '';
                 let currentDate = new Date();
 
-                const timestamp = moment(currentDate).add(61,'seconds').toDate();
+                const timestamp = moment(currentDate).add(1,'minutes').toDate();
                 const timeRegex1 = /(\d+)h (\d+)m (\d+)/;
                 const timeRegex2 = /(\d+)m (\d+)/;
 
