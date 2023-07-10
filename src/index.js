@@ -162,7 +162,7 @@ client.on('interactionCreate', (interaction) => {
                       "url": thumbstatus
                     },
                     "color": embedcolor
-                }]}).then(msg => setTimeout(() => msg.delete(), 60000));
+                }]}).then(msg => setTimeout(() => msg.delete(), 180000));
             })
                 .catch(error => console.log(error));
     } else {
