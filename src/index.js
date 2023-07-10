@@ -1,5 +1,6 @@
 require('dotenv').config();
 const moment = require('moment');
+
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder} = require('discord.js');
 const { channel } = require('diagnostics_channel');
 const client = new Client({
@@ -14,7 +15,7 @@ const client = new Client({
 client.login(process.env.TOKEN);
 client.on('ready', (c) =>{
     console.log(`✅ ${c.user.tag} is online`)
-    c.user.setActivity(`Using !help`, { type:'Watching' });
+    c.user.setActivity(`Using !help`,);
 });
 
 // SLASH COMMANDS

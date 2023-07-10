@@ -12,10 +12,11 @@
   "dependencies": {
     "discord.js": "^14.11.0",
     "dotenv": "^16.3.1",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.1"
   },
-  "engines" : { 
-    "npm" : ">=9.5.1",
-    "node" : ">=18.16.1"
+  "engines": {
+    "npm": ">=9.5.1",
+    "node": ">=18.16.1"
   }
 }
