@@ -1,0 +1,13 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 3 minutos"
+    },
+    "title": " 🔹 1. UM HOMEM DE POUCAS PALAVRAS 🔹 ",
+            "description": "Um homem de poucas palavras é uma jornada dada pelo NPC Darvo em qualquer Relay. Ele encarrega o jogador de resgatar um Empreiteiro de Grineer de Darvo, que é desobediente à Rainha Grinner\n\n**Quest Semanal**\n\nA conclusão da missão será desbloqueada semanalmente 'Ajude Clem' Alerta. Toda segunda-feira às 00:00 UTC, os jogadores receberão essa missão alertas seção do Star Chart que pode ser clicado para visitar Darvo em um relay. Conversar com Darvo dará o prompt 'Clem precisa da minha ajuda?', que acionará 10 minutos Sobrevivência missão amplamente idêntica à missão final da missão. Aos cinco minutos, a célula será atacada por Shik Tal, o Lynx, ou um Juggernaut, dependendo se o esquadrão está lutando contra o Grineer, Corpus, ou Infestado respectivamente. Essa missão é repetível, mas só pode ser realizada uma vez a cada sete dias após a conclusão bem-sucedida. Assim como na missão de missão, a missão semanal recompensará um `Clone CLEN Blueprint` que poderá ser invocado durante suas missões para lhe ajudar..",
+    "color": "18175",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/9/94/ClemAvatar.png/revision/latest?cb=20160124123243"
+    }
+  }
+]

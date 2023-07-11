@@ -2,7 +2,7 @@ require('dotenv').config();
 const moment = require('moment');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
-const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder} = require('discord.js');
+const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
 const { channel } = require('diagnostics_channel');
 const client = new Client({
     intents: [
@@ -201,7 +201,7 @@ client.on('messageCreate', (m) =>{
             {label:'17.Mods',value:'mods',description:'Cartas que melhoram os status do warframe/arma'},
             {label:'18.Movimentação',value:'movimentacao',description:'Dicas para uma melhor movimentação no jogo'},
             {label:'19.Navegação',value:'navegacao',description:'Módulo de Navegação da sua Nave'},
-            {label:'20.Platina',value:'platina',description:'Moeda Premium do jogo, obtida trocando com players'},
+            {label:'20.Platina',value:'platina',description:'Moeda Premium do jogo, obtida trocando com players',emoji:'<:platina:1128440939568967740>'},
             {label:'21.Ranks',value:'ranks',description:'Nível da arma/warframe aumenta capacidade de mods'},
             {label:'22.Recursos',value:'recursos',description:'Recusos de cada Planeta e como Farmá-los'},
             {label:'23.Relay',value:'relay',description:'Nave comunitária dos Tenno'},
@@ -277,22 +277,23 @@ client.on('messageCreate', (m) =>{
             .setPlaceholder('Principais')
             .setMaxValues(1)
             .setOptions ([
-                {label:'1. O Despertar',value:'oDespertar',description:'description'},
-                {label:'2. Recompensa de Vor',value:'recompensaDeVor',description:'description'},
-                {label:'3. Uma Vez Acordado',value:'umaVezAcordado',description:'description'},
-                {label:'4. A Archwing',value:'aArchwing',description:'description'},
-                {label:'5. Sonhos Roubados',value:'sonhosRoubados',description:'description'},
-                {label:'6. O Novo Estranho',value:'oNovoEstranho',description:'description'},
-                {label:'7. Natah',value:'natah',description:'description'},
-                {label:'8. Segundo Sonho',value:'segundoSonho',description:'description'},
-                {label:'9. Guerra Interior',value:'guerraInterior',description:'description'},
-                {label:'10. Correntes de Harrow',value:'correntesDeHarrow',description:'description'},
-                {label:'11. Prólogo da Apostasia',value:'prologoDaApostasia',description:'description'},
-                {label:'12. O Sacrifício',value:'oSacrificio',description:'description'},
-                {label:'13. O Prelúdio da Guerra',value:'oPreludioDaGuerra',description:'description'},
-                {label:'14. A Nova Guerra',value:'aNovaGuerra',description:'description'},
-                {label:'15. Anjos da Zariman',value:'anjosDaZariman',description:'description'},
-                {label:'16. Destrutor de Véus',value:'destrutorDeVeus',description:'description'}
+                {label:'0. O Paradoxo de Duviri',value:'oParadoxodeDuviri',description:'Conheça o mapa Aberto chamado Duviri'},
+                {label:'1. O Despertar',value:'oDespertar',description:'Jornada inicial do game, aprenda comandos básicos'},
+                {label:'2. Recompensa de Vor',value:'recompensaDeVor',description:'Jornada para remover o bagui da sua perna'},
+                {label:'3. Uma Vez Acordado',value:'umaVezAcordado',description:'Jornada que apresenta o player aos infestados'},
+                {label:'4. A Archwing',value:'aArchwing',description:'Construa seu primeiro veículo, archwing'},
+                {label:'5. Sonhos Roubados',value:'sonhosRoubados',description:'Conheça e ajude o npc mercador Maroo'},
+                {label:'6. O Novo Estranho',value:'oNovoEstranho',description:'Conheça e ajude o npc Cephalon Suda'},
+                {label:'7. Natah',value:'natah',description:'Descubra o passado obscuro da sua SpaceMomy'},
+                {label:'8. Segundo Sonho',value:'segundoSonho',description:'Ache seu verdadeiro eu, acorde desse sonho eterno'},
+                {label:'9. Guerra Interior',value:'guerraInterior',description:'Aprenda a controlar seus novos poderes'},
+                {label:'10. Correntes de Harrow',value:'correntesDeHarrow',description:'Investigue o misterioso Rell'},
+                {label:'11. Prólogo da Apostasia',value:'prologoDaApostasia',description:'Hora de perder sua SpaceMomy para o Ballas'},
+                {label:'12. O Sacrifício',value:'oSacrificio',description:'Descubra um warframe teimoso, Excalibur Umbra'},
+                {label:'13. O Prelúdio da Guerra',value:'oPreludioDaGuerra',description:'Preparativos para guerra que está por vir'},
+                {label:'14. A Nova Guerra',value:'aNovaGuerra',description:'A guerra, jornada longa, tire o dia para fazer...'},
+                {label:'15. Anjos da Zariman',value:'anjosDaZariman',description:'Conheça a nave Zariman e ajude seus tripulates'},
+                {label:'16. Destrutor de Véus',value:'destrutorDeVeus',description:'Ajude o Kahl-175 um grinner gente boa'}
             ]),
         );
         const guiaJornadasSecundarias =  new ActionRowBuilder().addComponents(
@@ -301,21 +302,31 @@ client.on('messageCreate', (m) =>{
             .setPlaceholder('Secundarias')
             .setMaxValues(1)
             .setOptions ([
-                {label:'1.teste',value:'teste4',description:'description'},
-                {label:'1.teste',value:'teste5',description:'description'},
-                {label:'1.teste',value:'teste6',description:'description'},
-                {label:'1.teste',value:'teste7',description:'description'},
-                {label:'1.teste',value:'teste8',description:'description'},
-                {label:'1.teste',value:'teste9',description:'description'},
-                {label:'1.teste',value:'teste10',description:'description'},
-                {label:'1.teste',value:'teste11',description:'description'}
+                {label:'1. Um Homem de Poucas Palavras',value:'umHomemDePoucasPalavras',description:'ajude e seja ajudado pelo nosso querido CLEM'},
+                {label:'2. Uivo do Kubrow',value:'uivoDoKubrow',description:'conquiste seu primeiro companheiro'},
+                {label:'3. Vigília de Saya',value:'vigiliaDeSaya',description:'Conheça o mapa aberto de Cetus'},
+                {label:'4. Vox Solaris',value:'voxSolaris',description:'Conheça o mapa aberto de Fortuna'},
+                {label:'5. Coração de Deimos',value:'coracaoDeDeimos',description:'Conheça o mapa aberto de Deimos'},
+                {label:'6. A Surfista',value:'aSurfista',description:'prove seus talentos com o skate k-drive'},
+                {label:'7. O Protocolo DeadLock',value:'oProtocoloDeadlock',description:'entre no void, conquiste o warframe Protea'},
+                {label:'8. O Teorema Limbo',value:'oTeoremaLimbo',description:'Desvende mistérios e conquiste o warframe Limbo'},
+                {label:'9. Hino de Octavia',value:'hinoDeOctavia',description:'Descubra o poder da música'},
+                {label:'10. Areias de Inaros',value:'areiasDeInaros',description:'ajude o Baro Kitter e conquiste o deserto de Marte'},
+                {label:'11. O Bosque Prateado',value:'oBosquePrateado',description:'Descubra os mistérios das plantas'},
+                {label:'12. Paciente Zero',value:'pacienteZero',description:'Enfrente a versão infestada do boss de Júpiter'},
+                {label:'13. O Preceito de Jordas',value:'oPreceitoDeJordas',description:'Não faça essa jornada se tiver archwing fraca'},
+                {label:'14. Mensagens Ocultas',value:'mensagensOcultas',description:'Desvende charádas... ou apenas leia os spoilers'},
+                {label:'15. A Jogada de Glast',value:'aJogadaDeGlast',description:'Conquiste o diagrama do warframe Nidus'},
+                {label:'16. A Máscara de Revenant',value:'aMascaraDeRevenant',description:'Consquiste o diagrama do warframe Revenant'},
+                {label:'17. O Chamado da Tempestarii',value:'oChamadoDaTempestarii',description:'Persiga e capture uma nave fantasma'},
+                {label:'18. Maré Ascendente',value:'mareAscendente',description:'Construa sua Nave de Guerra, Railjack'}
             ]),
         );
     
         m.channel.send({
             embeds:[{
                 title:'GUIA JORNADAS',
-                description:`Bem vindos ao nosso Guia de Jornadas, aqui voce encontrará informações sobre as jornadas Principais ( Essenciais para progessão no game ) e Secundárias ( Totalmente Opcionais ), bons estudos tenno 📚🤓\n\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
+                description:`Bem vindos ao nosso Guia de Jornadas, aqui voce encontrará informações sobre as **JORNADAS PRINCIPAIS** ( Essenciais para progessão no game e Desbloqueio do Modo **PERCURSO DE AÇO/ARBITRAGEM** ) e **JORNADAS SECUNDÁRIAS** ( Totalmente Opcionais ), bons estudos tenno: 📚🤓\n\n- As jornadas principais estão em ordem de completa, porém as secundárias não.\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
                 color: '15844367',
                 thumbnail:{
                     url:'https://i.imgur.com/zIX7qkT.png'
