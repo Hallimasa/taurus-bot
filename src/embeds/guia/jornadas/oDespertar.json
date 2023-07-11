@@ -1,0 +1,13 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 3 minutos"
+    },
+    "title": " 🔹 1. O DESPERTAR 🔹 ",
+            "description": "Despertar é a missão de introdução a WARFRAME, projetado para permitir que os jogadores se familiarizem com o básico do controle e combate do Warframe. Foi introduzido com Atualização 29.0 ( 2020-08-25 ). Os jogadores têm uma escolha entre vários Warframes iniciais: Excalibur, Mag, e Volt, juntamente com uma pequena seleção de armas.\n\nJogadores iniciantes serão recebidos pelo Lotus, que os informa sobre dois caminhos diferentes para começar o jogo: o Caminho do Quadro de Guerra que leva ao Despertar, ou o Caminho do Paradoxo que leva a O paradoxo de Duviri, e que ambos os caminhos acabarão convergindo.",
+    "color": "18175",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/b/b7/Awakening.png/revision/latest/scale-to-width-down/1000?cb=20220307162302"
+    }
+  }
+]

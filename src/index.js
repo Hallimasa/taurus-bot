@@ -263,20 +263,81 @@ client.on('messageCreate', (m) =>{
             title:'GUIA GERAL',
             description:`Bem vindos ao nosso Guia Geral, aqui voce encontrará informações básicas, intermediárias e avançadas sobre o Warframe, bons estudos tenno 📚🤓\n\n- Obs: Assuntos mais Complexos terão seu próprio canal de guia dedicado\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
             color: '15844367',
+            image:{
+                url:'https://i.imgur.com/WuYxhkX.gif'
+            },
             thumbnail:{
                 url:'https://i.imgur.com/RXV7kSf.png'
             }
         }],
         components: [guiaGeralBasico,guiaGeralIntermediario,guiaGeralAvancado]
         })
-    }    
+    } else if (m.content === "config.guiajornadas.channel"){
+        if (!(m.channel.id === process.env.CHAT_GUIA_JORNADAS_ID)) return;
+        const guiaJornadasPrincipais =  new ActionRowBuilder().addComponents(
+            new StringSelectMenuBuilder()
+            .setCustomId('guiaJornadasPrincipais')
+            .setPlaceholder('Principais')
+            .setMaxValues(1)
+            .setOptions ([
+                {label:'1. O Despertar',value:'oDespertar',description:'description'},
+                {label:'2. Recompensa de Vor',value:'recompensaDeVor',description:'description'},
+                {label:'3. Uma Vez Acordado',value:'umaVezAcordado',description:'description'},
+                {label:'4. A Archwing',value:'aArchwing',description:'description'},
+                {label:'5. Sonhos Roubados',value:'sonhosRoubados',description:'description'},
+                {label:'6. O Novo Estranho',value:'oNovoEstranho',description:'description'},
+                {label:'7. Natah',value:'natah',description:'description'},
+                {label:'8. Segundo Sonho',value:'segundoSonho',description:'description'},
+                {label:'9. Guerra Interior',value:'guerraInterior',description:'description'},
+                {label:'10. Correntes de Harrow',value:'correntesDeHarrow',description:'description'},
+                {label:'11. Prólogo da Apostasia',value:'prologoDaApostasia',description:'description'},
+                {label:'12. O Sacrifício',value:'oSacrificio',description:'description'},
+                {label:'13. O Prelúdio da Guerra',value:'oPreludioDaGuerra',description:'description'},
+                {label:'14. A Nova Guerra',value:'aNovaGuerra',description:'description'},
+                {label:'15. Anjos da Zariman',value:'anjosDaZariman',description:'description'},
+                {label:'16. Destrutor de Véus',value:'destrutorDeVeus',description:'description'}
+            ]),
+        );
+        const guiaJornadasSecundarias =  new ActionRowBuilder().addComponents(
+            new StringSelectMenuBuilder()
+            .setCustomId('guiaJornadasSecundarias')
+            .setPlaceholder('Secundarias')
+            .setMaxValues(1)
+            .setOptions ([
+                {label:'1.teste',value:'teste4',description:'description'},
+                {label:'1.teste',value:'teste5',description:'description'},
+                {label:'1.teste',value:'teste6',description:'description'},
+                {label:'1.teste',value:'teste7',description:'description'},
+                {label:'1.teste',value:'teste8',description:'description'},
+                {label:'1.teste',value:'teste9',description:'description'},
+                {label:'1.teste',value:'teste10',description:'description'},
+                {label:'1.teste',value:'teste11',description:'description'}
+            ]),
+        );
+    
+        m.channel.send({
+            embeds:[{
+                title:'GUIA JORNADAS',
+                description:`Bem vindos ao nosso Guia de Jornadas, aqui voce encontrará informações sobre as jornadas Principais ( Essenciais para progessão no game ) e Secundárias ( Totalmente Opcionais ), bons estudos tenno 📚🤓\n\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
+                color: '15844367',
+                thumbnail:{
+                    url:'https://static.wikia.nocookie.net/warframe/images/6/6d/CaptainVorFK.png/revision/latest/scale-to-width-down/1000?cb=20140115160130'
+                },
+                image:{
+                    url:'https://i.imgur.com/On6yjgt.gif'
+                }
+            }],
+            components: [guiaJornadasPrincipais,guiaJornadasSecundarias]
+            })
+    }
 });
   
 // BUTTONS INTERACTIONS     -----------------------------------
 
 client.on('interactionCreate', async (inte) => {
-    // if (!(inte.customId === 'default')) return;
     if (!inte.isAnySelectMenu())return;
+    //
+    if ((inte.customId === 'guiageralBasico')||(inte.customId === 'guiaGeralIntermediario')||(inte.customId === 'guiaGeralAvancado')){
 
     const selectChoice = inte.values[0];
     const fs = require('fs');
@@ -312,4 +373,42 @@ client.on('interactionCreate', async (inte) => {
             inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else { inte.reply({content:'esse guia possui mais de 4 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+
+    } else if ((inte.customId === 'guiaJornadasPrincipais')||(inte.customId === 'guiaJornadasSecundarias')){
+    
+        const selectChoice = inte.values[0];
+        const fs = require('fs');
+        const path = (`./src/embeds/guia/jornadas/${selectChoice}.json`);
+
+    if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
+
+        const embed = (new EmbedBuilder(require(`../src/embeds/guia/jornadas/${selectChoice}.json`))).data ;
+        const map = new Map(Object.entries(embed));
+
+        let embedcount = 0
+        for (let i=0;(i < map.size);i++){
+            embedcount = i
+        }
+
+        if (embedcount === 0){
+            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000));
+        } else if (embedcount === 1){
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000));
+        } else if (embedcount === 2){
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+        } else if (embedcount === 3){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+        } else if (embedcount === 4){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+        } else if (embedcount === 5){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+        } else if (embedcount === 6){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+        } else if (embedcount === 7){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+        } else if (embedcount === 8){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+        } else { inte.reply({content:'esse guia possui mais de 4 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+    } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+    }
 })
