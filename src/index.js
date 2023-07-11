@@ -263,9 +263,6 @@ client.on('messageCreate', (m) =>{
             title:'GUIA GERAL',
             description:`Bem vindos ao nosso Guia Geral, aqui voce encontrará informações básicas, intermediárias e avançadas sobre o Warframe, bons estudos tenno 📚🤓\n\n- Obs: Assuntos mais Complexos terão seu próprio canal de guia dedicado\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
             color: '15844367',
-            image:{
-                url:'https://i.imgur.com/WuYxhkX.gif'
-            },
             thumbnail:{
                 url:'https://i.imgur.com/RXV7kSf.png'
             }
@@ -321,10 +318,7 @@ client.on('messageCreate', (m) =>{
                 description:`Bem vindos ao nosso Guia de Jornadas, aqui voce encontrará informações sobre as jornadas Principais ( Essenciais para progessão no game ) e Secundárias ( Totalmente Opcionais ), bons estudos tenno 📚🤓\n\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
                 color: '15844367',
                 thumbnail:{
-                    url:'https://static.wikia.nocookie.net/warframe/images/6/6d/CaptainVorFK.png/revision/latest/scale-to-width-down/1000?cb=20140115160130'
-                },
-                image:{
-                    url:'https://i.imgur.com/On6yjgt.gif'
+                    url:'https://i.imgur.com/zIX7qkT.png'
                 }
             }],
             components: [guiaJornadasPrincipais,guiaJornadasSecundarias]
