@@ -1,0 +1,17 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " Farm Mods Pesadelo ",
+    "description": "Mods pesadelo seguem um estilo parecido com os corrompidos no entanto estes fornecem apenas benefícios (ainda que numa fração mais balanceada que os corrompidos) e são adquiridos ao completar as missões pesadelo espalhadas pelo mapa estelar, essas missões são habilitadas ao destravar todos os nodos de um planeta e surgem no montante de 1 missão pesadelo por planeta e que resetam a cada 8 horas, ou seja, há um total de 18 missões pesadelo disponíveis (lembrando que só podem ser concluídas uma vez por reset cada, sem repetições).\n➯ Essas missões são relativamente simples de serem concluídas até para jogadores sem muita experiência, elas sempre trazem alguma desvantagem (tipo redução de energia, baixa gravidade, dreno de vida, etc) mas são facilmente dribladas.\n➯ Recomendo adquiri-los pois alguns destes são essenciais para builds além de possuírem bom valor de venda (principalmente Blaze, Hammer Shot, Lethal Torrent e Constitution).\n\nEis a tabela com os mods e suas respectivas tiers e probabilidades:",
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2020461310704585205/2BAD4517A5B19D11AF033B0AAB906E07D5A0CA5F/"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"O drop desses mods é restrito às suas respectivas tiers, com exceção das missões pesadelo de resgate (podem bonificar mods de qualquer uma das três tiers). A disposição dos mods é a seguinte:\n\n- Rotação/Tier A = missões pesadelo em Mercúrio, Vênus, Terra e Marte.\n- Rotação/Tier B = missões pesadelo em Fobos, Ceres, Júpiter, Europa, Saturno, Void, Lua, Fortaleza Kuva e Deimos.\n- Rotação/Tier C = missões pesadelo em Urano, Netuno, Plutão, Eris e Sedna.",
+    "color":"18175"
+  }
+]

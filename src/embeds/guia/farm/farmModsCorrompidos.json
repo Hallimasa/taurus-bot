@@ -1,0 +1,26 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " O Cofre Orokin ",
+    "description": "É uma sala intocada existente em missões que não tenham mapa restrito em Deimos, esse cofre encontra-se escondido em uma parte aleatória do mapa e para abri-lo é necessário estar com a chave dragão indicada na porta equipada nos seus consumíveis, para forjá-las é só adquirir os diagramas no laboratório orokin do dojo do seu clã. Ao abrir o cofre com sucesso o esquadrão será recompensado com um mod corrompido aleatório ao extrair, esses mods são especiais pois fortalecem grandemente determinado status enquanto reduzem significativamente outro, mas não se engane boa parte deles é extremamente necessária para builds avançadas.",
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2023853806687799983/BBC50A835BFA015AC21CAB03D86CD4F6D3596F8F/"
+    },
+    "color": "18175"
+  },
+  {
+    "title":"Chaves Dragão e Tipos",
+    "description":"São as chaves necessárias para abrir a porta do Cofre, são equipadas na roda de consumíveis do arsenal e tem uma característica peculiar de gerar um debuff no usuário que varia conforme o tipo.\nO custo de fabricação de uma chave de qualquer tipo é de 500 Créditos, 250 Ferrites e 10 Traços do Void e leva 1 minuto para forjar.\n\nDragão Sangrando (-75% de saúde)\n\nDragão Decompondo (-75% de escudo)\n\nDragão Extinto (-75% de dano)\n\nDragão Manco (-50% de velocidade de movimento)",
+    "color":"15105570"
+  },
+  {
+    "title":"Procedimentos em Grupo / Solo",
+    "description":"- A missão ideal para cofre orokin é Horend (Deimos), missão de captura bem rápida./n- Antes de começar decidam como será a divisão das chaves, cada um pode carregar uma chave diferente ou um dos jogadores carrega todas sozinho.\nOBS: se você optou por carregar TODAS vai notar que a interface diz que só uma chave está ativa mas não se preocupe você está sob efeito de todas elas!!!\n- Já dentro da missão, dividam-se para explorar o mapa e encontrar o cofre (não esquecendo de capturar o alvo da missão).\n- Se o portador da chave correta encontrar o cofre primeiro, ele mesmo abre, caso contrário recomenda-se marcar no mapa (botão G do teclado) para informar o esquadrão.\n- Aberto o cofre é só seguir para a extração, ao final da missão o esquadrão será recompensado com um mod corrompido aleatório.\n\nEstes são os famosos MODS CORROMPIDOS, utilizados em quase todas as builds do jogo:",
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2020461310702238447/FC73C9608762C61108152967DA156DBDD85BF730/"
+    },
+    "color":"15105570"
+  }
+]

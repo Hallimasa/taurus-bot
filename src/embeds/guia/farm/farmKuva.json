@@ -1,0 +1,14 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " FARM DE KUVA ",
+    "description": "- **Loja de Honras do Percurso de Aço**: é o principal meio de farming de kuva. Consiste em jogar missões do tipo sobrevivência/interferência e matar os Acólitos (dropam 2 essências de aço) que surgirem no decorrer da missão, e combinando essas missões com uma Fissura do Void você ainda ganha +1 essência por cada relíquia aberta. Feito isso é possível comprar pacotes de 10K de Kuva com Teshin (no Relay) pagando 15 essências (limitado a 25 pacotes por semana - ou seja, 375 essências no total).\n\n- **Loja de Honras da Arbitragem**: outro meio extremamente usado. Consiste em jogar missões de arbitragem (de preferência do tipo defesa ou interferência), matar os drones de arbitragem dentro dessas missões e completar as rotações recompensa o jogador com essências vitus, que posteriormente pode ser usada para comprar pacotes de 10K de Kuva com o vendedor na sala dos Árbitros do Hexis (no Relay) pelo valor de 25 vitus cada.[GUIA MAIS DETALHADO DE ARBITRAGEM](https://docs.google.com/document/d/14yAA4rv82MVjDJKasm70oL_peegCHPQioDeMGdvf4DM/edit)",
+    "color": "18175"
+  },
+  {
+    "description":"- **Sobrevivência Kuva em Taveuni (Fortaleza Kuva)**: outra opção interessante, protegendo todos os coletores kuva que você ativar ao longo da missão até que dá pra sair com uma recompensa decente e somado ao fato de estar jogando no modo Percurso de Aço dá ainda pra garantir umas essências que poderão ser trocadas por mais kuva.\n\n- **Alertas de Inundação ou Sifão Kuva**: Uma forma decente e direta de conseguir kuva, essas 6 missões (5 sifões (nível 25-35) +1 inundação(nível 80-100)) só podem ser concluídas uma vez cada daí você terá que esperar o contador resetar para poder entrar mais uma vez. Se feita de forma impecável o pagamento em kuva vai de de 700 (sifão) a 1.400 (inundação), sem contar com a relíquia réquiem de brinde (100% garantida em inundação).",
+    "color":"18175"
+  }
+]

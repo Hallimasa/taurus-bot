@@ -1,6 +1,6 @@
 require('dotenv').config();
 const moment = require('moment');
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
 
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
 const { channel } = require('diagnostics_channel');
@@ -16,7 +16,7 @@ const client = new Client({
 client.login(process.env.TOKEN);
 client.on('ready', (c) =>{
     console.log(`✅ ${c.user.tag} is online`)
-    c.user.setActivity(`Using !help`,);
+    c.user.setActivity(`/eidolon e guias`,);
 });
 
 // SLASH COMMANDS
@@ -174,7 +174,7 @@ client.on('interactionCreate', (interaction) => {
 client.on('messageCreate', (m) =>{
     if (m.author.bot) return;
     
-    if (m.content === "config.guiageral.channel"){
+    if (m.content === "config.guiageral.channel"){   // MENU GUIA GERAL
         if (!(m.channel.id === process.env.CHAT_GUIA_GERAL_ID)) return;
     const guiaGeralBasico =  new ActionRowBuilder().addComponents(
         new StringSelectMenuBuilder()
@@ -269,7 +269,8 @@ client.on('messageCreate', (m) =>{
         }],
         components: [guiaGeralBasico,guiaGeralIntermediario,guiaGeralAvancado]
         })
-    } else if (m.content === "config.guiajornadas.channel"){
+
+    } else if (m.content === "config.guiajornadas.channel"){   // MENU GUIA JORNADAS
         if (!(m.channel.id === process.env.CHAT_GUIA_JORNADAS_ID)) return;
         const guiaJornadasPrincipais =  new ActionRowBuilder().addComponents(
             new StringSelectMenuBuilder()
@@ -334,15 +335,57 @@ client.on('messageCreate', (m) =>{
             }],
             components: [guiaJornadasPrincipais,guiaJornadasSecundarias]
             })
+
+
+    }  else if (m.content === "config.guiafarm.channel"){   // MENU GUIA FARM
+        if (!(m.channel.id === process.env.CHAT_GUIA_FARM_ID)) return;
+        const guiaFarm =  new ActionRowBuilder().addComponents(
+            new StringSelectMenuBuilder()
+            .setCustomId('guiaFarm')
+            .setPlaceholder('Selecione um item ou categoria')
+            .setMaxValues(1)
+            .setMinValues(1)
+            .setOptions ([
+                {label:'1. Farm de Créditos',value:'farmCreditos',description:'Maneiras mais eficientes de farmar Créditos'},
+                {label:'2. Farm de Afinidade(XP)',value:'farmAfinidade',description:'Maneiras mais eficientes de farmar Afinidade'},
+                {label:'3. Farm Endo',value:'farmEndo',description:'Maneiras mais eficientes de farmar Endo'},
+                {label:'4. Dicas de Farm',value:'dicasDeFarm',description:'dicas para se farmar de forma eficiente'},
+                {label:'5. Farm Recursos I',value:'farmRecursosI',description:'Veja o melhor local de farm de cada recurso I'},
+                {label:'6. Farm Recursos II',value:'farmRecursosII',description:'Veja o melhor local de farm de cada recurso II'},
+                {label:'7. Farm de Foco',value:'farmFoco',description:'Maneiras mais eficientes de farmar Foco'},
+                {label:'8. Farm Kuva',value:'farmKuva',description:'Maneiras mais eficientes de farmar Kuva'},
+                {label:'9. Farm Relíquias',value:'farmReliquias',description:'Maneiras mais eficientes de farmar cada Relíquia'},
+                {label:'10. Farm Traços do Void',value:'farmTracosDoVoid',description:'Onde conseguir Traços do Void?'},
+                {label:'11. Farm Mods Corrompidos',value:'farmModsCorrompidos',description:'Onde e como conseguir Mods Corrompidos?'},
+                {label:'12. Farm Mods Pesadelo',value:'farmModsPesadelo',description:'Maneiras mais eficientes de farma Mods Pesadelo'},
+                {label:'13. Farm Aya',value:'farmAya',description:'Maneiras mais eficientes de farma Aya'},
+                {label:'14. Farm de Coroas de Granum',value:'farmDeCoroasDeGranum',description:'Moedas que servem para entrar no Granum Void'},
+                {label:'15. Farm de Warframes I',value:'farmDeWarframesI',description:'Locais de Farm para todos os warframes normais 1'},
+                {label:'16. Farm de Warframes II',value:'farmDeWarframesII',description:'Locais de Farm para todos os warframes normais 2'},
+                {label:'17. Farm de Warframes III',value:'farmDeWarframesIII',description:'Locais de Farm para todos os warframes normais 3'}
+            ]),
+        );
+    
+        m.channel.send({
+            embeds:[{
+                title:'GUIAS DE FARM',
+                description:`Bem vindos ao nosso Guia de Farm, aqui voce encontrará informações sobre como obter os itens do game de forma eficiente e direta. Caso o guia esteja com alguma informação errada/faltando, mande um PM para o kenzouframe arrumar 🛠 \n\n- Recursos de Railjack e Mapas Abertos como Cetus,Fortuna, Deimos, Zariman e Duviri estão em seus respectivos canais próprios(para não confundir vcs com muita informação)\n- Utilizei várias fontes na internet para fazer esse guia, como essa [aqui](https://steamcommunity.com/sharedfiles/filedetails/?id=522046479) junto com meus anos de experiência no joguin 🤡 \n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
+                color: '15844367',
+                thumbnail:{
+                    url:'https://i.imgur.com/JjItQ6Y.png'
+                }
+            }],
+            components: [guiaFarm]
+            })
     }
+
 });
   
 // BUTTONS INTERACTIONS     -----------------------------------
-
 client.on('interactionCreate', async (inte) => {
     if (!inte.isAnySelectMenu())return;
-    //
-    if ((inte.customId === 'guiageralBasico')||(inte.customId === 'guiaGeralIntermediario')||(inte.customId === 'guiaGeralAvancado')){
+
+    if ((inte.customId === 'guiageralBasico')||(inte.customId === 'guiaGeralIntermediario')||(inte.customId === 'guiaGeralAvancado')){    // GUIA GERAL
 
     const selectChoice = inte.values[0];
     const fs = require('fs');
@@ -376,10 +419,10 @@ client.on('interactionCreate', async (inte) => {
             inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
         } else if (embedcount === 8){
             inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else { inte.reply({content:'esse guia possui mais de 4 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+        } else { inte.reply({content:'esse guia possui mais de 8 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
 
-    } else if ((inte.customId === 'guiaJornadasPrincipais')||(inte.customId === 'guiaJornadasSecundarias')){
+    } else if ((inte.customId === 'guiaJornadasPrincipais')||(inte.customId === 'guiaJornadasSecundarias')){    // GUIA JORNADA
     
         const selectChoice = inte.values[0];
         const fs = require('fs');
@@ -413,7 +456,48 @@ client.on('interactionCreate', async (inte) => {
             inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
         } else if (embedcount === 8){
             inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
-        } else { inte.reply({content:'esse guia possui mais de 4 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+        } else { inte.reply({content:'esse guia possui mais de 8 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
-    }
+
+    // GUIA FARM
+    } else if (inte.customId === 'guiaFarm'){    // GUIA FARM
+    
+        const selectChoice = inte.values[0];
+        const fs = require('fs');
+        const path = (`./src/embeds/guia/farm/${selectChoice}.json`);
+
+    if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
+
+        const embed = (new EmbedBuilder(require(`../src/embeds/guia/farm/${selectChoice}.json`))).data ;
+        const map = new Map(Object.entries(embed));
+
+        let embedcount = 0
+        for (let i=0;(i < map.size);i++){
+            embedcount = i
+        }
+
+        if (embedcount === 0){
+            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000));
+        } else if (embedcount === 1){
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000));
+        } else if (embedcount === 2){
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 3){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 4){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 5){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 6){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 7){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 8){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 9){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else { inte.reply({content:'esse guia possui mais de 9 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+    } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+
+    }    // GUIA ...
 })

@@ -1,0 +1,35 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " FARM DE RELÍQUIAS ",
+    "description": "Com a atualização 'Espectros do Trilho' foram adicionadas relíquias ao jogo substituindo o antigo sistema de chaves do Void. Relíquias são artefatos orokin usados para abrir tesouros valiosos após concluir uma Fenda do Void (ou Tempestade do Void), sendo o principal meio de adquirir primes atualmente.\nQuanto a relação completa das partes prime com suas respectivas relíquias você pode checar no Codex ou no Segmento de Relíquias da nave em detalhes o que cada relíquia oferece e até mais informações sobre o farm de cada uma.\nElas podem ser obtidas através de recompensas de missões, pacotes aleatórios de relíquias (comprados nos sindicatos ou com Teshin), ou via troca entre jogadores.\nOs locais listados a seguir não são os únicos meios de conseguir relíquias já que você pode obtê-las em praticamente qualquer missão do jogo, entretanto são os mais usados para farmar as relíquias de forma eficiente e menos desgastante.",
+    "color": "18175"
+  },
+  {
+    "title":"Farm de relíquias LITH",
+    "description":"- **Hepit (Void)**: missão de captura, relíquia Lith é garantida como recompensa de conclusão, é o melhor método para esse tipo por ser uma missão extremamente rápida;\n\n- **Massacre do Santuário**: método alternativo interessante, na rotação A (zona 2 e 4) tanto na dificuldade normal como na elite você tem a chance de receber relíquias Lith (com o diferencial de que no Elite você recebe relíquias já refinadas no nível radiante!);\n\n- **Olympus (Marte)**: com a chegada do modo Interferência essas missões se tornaram um atrativo para relíquias, nesse local nas rotações A e B é sempre garantida uma relíquia Lith como recompensa.",
+    "color":"10181046"
+  },
+  {
+    "title":"Farm de relíquias MESO",
+    "description":"- **Ur (Urano)**: missão de interferência, a rotação A é exclusivamente composta de relíquias Meso. Além de ser a localidade onde são farmadas as armas de assinatura do Gauss: Acceltra e Akarius, que dropam dos demolidores infestados, então vale a pena vir;\n\n- **Kappa (Sedna)**: missão de interferência, aqui na rotação A também é garantida uma relíquia Meso. Outro fator extra para vir aqui é por ser o local onde o Gauss é farmado (embora suas partes dropem da rotação C);\n\n- **Olympus (Marte)**: missão de interferência, relíquia Meso é garantida na rotação C.\n\n- **Ukko (Void)**:, missão de captura, eu não recomendo tanto essa missão pois a recompensa final é dividida entre metade relíquias Neo e metade Meso, só aconselho se você precisa dos dois tipos de relíquia porque assim a frustração será menor.",
+    "color":"9807270"
+  },
+  {
+    "title":"Farm de relíquias NEO",
+    "description":"- **Kappa (Sedna)**: missão de interferência, Neo garantida na rotação B;\n\n- **Ur (Urano)**: missão de interferência, Neo garantida nas rotações B e C;\n\n- **Apollo (Lua)**: missão de interferência, aqui a rotação A é exclusiva de relíquias Neo, e como também é o melhor local para farmar Axi também vale a pena vir por essa razão;\n\n- **Ukko (Void)**: como já expliquei anteriormente a recompensa final é dividida entre metade Neo e metade Meso, então pense bem se vale a pena;\n\n- **Hydron (Sedna)**: missão de defesa, por ser o local mais usado para upar frames/armas pelo público em geral até que pode ser um bom negócio se você busca matar dois coelhos com uma cajadada só, aqui na rotação A (hordas 5 e 10) você tem 70% de chance de receber uma relíquia Neo como recompensa de conclusão;\n\n- **Xini (Eris)**: missão de interceptação, esse local não é mais tão popular por conta das missões de interferência, aqui a rotação A tem 70% de chance de te recompensar com relíquia Neo.",
+    "color":"2123412"
+  },
+  {
+    "title":"Farm de relíquias AXI",
+    "description":"- **Apollo (Lua)**: missão de interferência, é o atual melhor local para farmar Axi, seja em solo ou grupo, a rotação ideal é a B já que é 100% composta de relíquias Axi (rotação C também serve apesar das chances serem de 86,97%), por isso recomendo que você controle a quantidade de conduítes protegidos por rodada de forma a manter sempre essa rotação;\n\n- **Xini (Eris)**: missão de interceptação, rotações B e C são formadas exclusivamente de relíquias Axi. Não é mais uma opção tão interessante por causa de Apollo.",
+    "color":"7419530"
+  },
+  {
+    "title":"Farm de relíquias RÉQUIEM (I,II,III e IV)",
+    "description":"Essas relíquias não são usadas para farmar partes prime, e sim para farmar mods réquiem utilizados para finalizar um Kuva Lich / Irmã de Parvos. Elas são bem diretas quanto ao 'farm':\n\n- **Missões de Inundação Kuva** espalhadas pelo mapa estelar tem uma relíquia réquiem garantida como recompensa, então é um método confiável de consegui-las;\n\n- **Missões de Sifão Kuva** espalhadas pelo mapa estelar tem 50% de chance de te dar uma relíquia réquiem como recompensa de conclusão;\n\n- **Finalizar os Thralls do Lich/Irmã** tem 5% de chance de fazê-los dropar um relíquia réquiem aleatória, é um método que pode ser eficiente até certo ponto visto que enquanto farma murmúrios matando os Thralls de quebra você ganha essas relíquias sem ter que ativamente buscar por elas.\nMas não esquente muito com essas relíquias réquiem, se você caçar liches/irmãs ativamente vai ter tantas delas a ponto de não saber o que fazer.",
+    "color":"16711680"
+  }
+]

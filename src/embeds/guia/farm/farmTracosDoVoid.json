@@ -1,0 +1,14 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " FARM TRAÇOS DO VOID ",
+    "description": "Um recurso adicionado junto com o sistema de relíquias (substituindo o antigo sistema das chaves do void), serve primariamente para refinar as relíquias (custo de 25-50-100 traços dependendo da qualidade escolhida) aumentando a chance de conseguir partes prime mais raras, além de servir como material para forjar chaves dragão (10 traços por chave).\n\nTraços do Void são adquiridos ao coletar reagentes em missões de fendas/tempestades do void que ocasionalmente dropam dos inimigos corrompidos ou como recompensa bônus de conclusão no caso das tempestades do void em railjack.\n\nA quantidade de traços recebida é afetada se você possuir um Booster de Recursos em Dobro ativo, assim como o buff de recursos do Kavat Smeeta.\n\nHá um limite de quantos traços do void um jogador pode armazenar, sendo determinado pelo nível de maestria usando a fórmula: (Número do Rank * 50) + 100,\n\nA exemplo, um jogador de maestria 13 só pode carregar no máximo 750 traços sendo descartada qualquer quantidade extra adquirida após atingir o limite.",
+    "color": "18175"
+  },
+  {
+    "description":"- **se ESTÁ com pressa** = recomendo rushar fendas em modos de jogo rápidos como extermínio, captura e sabotagem, em algumas partidas você terá o suficiente para refinar uma relíquia ao nível radiante.\n\n- **Se NÃO está com pressa** = recomendo fendas longas como interferência e sobrevivência em grupos, assim você coleta traços enquanto abre diversas relíquias. Aconselho fazer isso principalmente em preparação a chegada de um novo prime, você consegue atingir o limite em algumas horas sem precisar ficar reiniciando a missão várias vezes e procurando grupos em modos de jogo mais rápidos.\nSe puder jogar no modo Percurso de Aço melhor ainda, você sairá de lá com traços, essências de aço, recursos diversos e partes prime.\n\nOBS: Caso não queira gastar suas relíquias energizando uma fenda do void com elas, basta abrir a missão de fenda e NÃO ADICIONAR uma relíquia, você ganhará os traços do mesmo jeito ao coletar os reagentes, contudo não ganhará os traços bônus por escolherem a sua recompensa (só quem colocou relíquia pode escolher recompensa).",
+    "color":"18175"
+  }
+]

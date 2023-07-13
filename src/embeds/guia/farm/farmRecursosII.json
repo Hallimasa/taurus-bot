@@ -1,0 +1,24 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+      "title":"RECURSOS DE CLASSE DE NAVEGAÇÃO",
+      "description":"- **Coordenadas Nav (Nav Coordinate)** = Disponíveis em qualquer missão do jogo.\n\n- **Sinalizador de Navegação Animo (Animo Nav Beacon)** = Esse recurso pode ser adquirido ao matar e hackear os ambulas trazidos pelas naves de pouso condor em certas missões corpus em Plutão.\n\n- **Pontos de Julgamento** = Esse recurso pode ser adquirido como recompensa de vitória nas arenas de Sedna: (Nakki - entrada gratuita, 10 pontos ao vencer); (Yam - entrada custa 10 pontos, 15 ao vencer); (Vodyanoi - entrada custa 15 pontos, 25 ao vencer). Esse recurso é necessário para desafiar Kela de Thaym em Merrow (Sedna), a entrada custa 25 pontos e reembolsa 13 ao completar.\n\n- **ULA Criptográfica (Cryptographic ALU)** = Esse recurso só está disponível para drop durante o evento recorrente 'Armada Razorback' e dropa dos inimigos em missões archwing de Júpiter e Netuno.\n\n- **Isótopo Ômega (Omega Isotope)** = Esse recurso só está disponível para drop durante o evento recorrente 'Ameaça Fomoriana' e dropa de inimigos normais (não-archwing) em qualquer missão do planeta em que o Balor Fomorian está instalado na ocasião.",
+      "color":"4298320"
+    },
+    {
+      "title":"RECURSOS DE CLASSE DE PESQUISA",
+      "description":"- **Amostra Mutagênica (Mutagen Sample)** = Usada para fabricar Massa Mutagênica, disponível em missões de planetas dominados pela facção dos infestados. Recomendo Terrorem, Hyf ou Deriva de Cambion (todos em Deimos).\n\n- **Ampola de Detonite (Detonite Ampule)** = Usada para fabricar Injetor de Detonite, disponível em missões de planetas dominados pela facção dos grineers. Recomendo Piscinas (Saturno) e Gabii (Ceres).\n\n- **Amostra de Fieldron (Fieldron Sample)** = Usada para fabricar Fieldron, disponível em missões de planetas dominados pela facção dos corpus. Recomendo Wahiba (Marte) e Kelashin (Netuno).",
+      "color":"15548997"
+    },
+    {
+      "title":"RECURSOS DE CLASSE ESPECIAIS",
+      "description":"- **Código Genético de Kavat (Kavat Genetic Code)** = adquirido ao ESCANEAR Kavats Selvagens VIVOS em missões do cenário derelict em Deimos. Vale ressaltar que a chance de conseguir o código é de 25% na dificuldade normal, enquanto que 100% no Percurso de Aço.\n\n- **Extrato Nitain (Nitain Extract)** = o método mais fácil é comprar 5 Extratos por 15 créditos da Nightwave.\n\n- **Essência Vitus (Vitus Essence)** = recurso exclusivo das missões de Arbitragem (destravadas após completar o mapa estelar). Conseguido via recompensa de rotação ou primariamente como drop do inimigo 'Drone de Escudos da Arbitragem'.\n\n- **Essência de Aço (Steel Essence)** = recurso exclusivo de missões na dificuldade Percurso de Aço. Pode ser conseguido via diárias, recompensa de conclusão ou primariamente como drop dos acólitos que surgem periodicamente em missões dessa dificuldade.\n\n- **Fragmento Riven (Riven Sliver)** = potencial drop dos inimigos eximus acima do nível 30.\n10 fragmentos podem ser trocados por 1 riven selado aleatório com Palladino em Iron Wake (Terra) após a conclusão da jornada 'Correntes de Harrow'.",
+      "color":"16776960"
+    },
+    {
+      "description":"- **Núcleo de Sentient Intacto (Intact Sentient Core)** = drop comum dos inimigos sentients. O melhor jeito é caçar Eidolons, nas Planícies à noite, pois estes atraem inúmeros vomvalistas.\n\n- **Plasma Thrax Lunar (Lua Thrax Plasm)** = drop exclusivo de missões de sobrevivência conjuncional, primariamente pelos inimigos Thrax que surgem periodicamente e também via recompensa garantida por cada rotação concluída.\n\n- **Fibras Somáticas (Somatic Fibers)** = esse recurso dropa dos Demolidores em missões de Interferência na Lua, além de ser recompensa possível da rotação A do modo Sobrevivência Conjuncional na Lua. Recomendo fortemente Apollo (Lua).\n\n- **Capacitor Javlok (Javlok Capacitor)** = usado para fabricar a arma Javlok e nada mais. Drop exclusivo dos Promotores (Prosecutors) encontrados em Ceres.\n\n- **Decodificador Orokin (Orokin Cipher)** = hoje em dia é um recurso inútil, só serve mesmo de alimento para o Helminte. Recompensa garantida de 1 decodificador ao abrir um Cofre Orokin.\n\n- **Resíduos Espectrais (Spectral Debris)** = usado para fabricar partes dos Cães Robóticos das Irmãs. Drop exclusivo dos espíritos errantes dentro do Void de Granum.",
+      "color":"16776960"
+    }
+]

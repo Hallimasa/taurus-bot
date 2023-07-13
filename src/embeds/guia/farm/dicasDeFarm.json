@@ -1,0 +1,36 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " Dicas simples que podem ser úteis ",
+    "description": "- **Recomendo jogar em solo ou com grupo dedicado somente ao farm**, pois entrar em grupo com jogadores com objetivos diferentes só trará confusão especialmente no modo sobrevivência já que os inimigos acabarão se dispersando se o esquadrão ficar se dividindo em várias direções;\n\n- **Missões de Infestação spawnam inimigos com maior frequência**, ou seja, uma melhor taxa de drop e indo em determinadas missões dark sector ou no modo percurso de aço contribui ainda mais;\n\n- **Equipe seu companheiro com mods que sugam os drops até o usuário**, para as sentinelas/robóticos é o Vacuum, já para os animais se chama Fetch, no rank máximo ambos trazem um ótimo raio de sucção de pouco mais de 10m;",
+    "color": "18175"
+  },
+  {
+    "description":"- **Não deixe de quebrar contêineres/depósitos de recurso se possível (especialmente se você está começando no jogo)**, com uma boa melee de longo alcance ou com warframes com habilidades que afetem o ambiente isso é moleza e os mods de sucção dos companheiros tornam esse trabalho ainda mais prático;\n\n- **Usar mods/auras de mapeamento do radar**, estes são opcionais mas podem ser uma mão na roda, especialmente na hora de procurar os armários nas missões de sabotagem, e são estes: Thief's Wit (mod para warframe), Animal Instinct (mod para companheiros), Loot Detector (aura para warframe - indispensável para armários de sabotagem).",
+    "color":"18175"
+  },
+  {
+    "title":"Buildando warframes que maximizem o farm",
+    "description":"Quero esclarecer uma coisa antes de seguir: os inimigos geram loot extra em 3 momentos possíveis - Uma vez em vida (sendo furtados pela Ivara), uma vez na morte (afetados pelas habilidades da Khora, Hydroid ou Atlas) e uma vez depois da morte (via habilidade do Nekros).\nNo jogo alguns warframes tem um nicho de especialização que favorece o farm, então a ideia é usar suas capacidades inatas ou providas por mods para extrair seu potencial nessa categoria, dentre estes temos:",
+    "color":"12370112"
+  },
+  {
+    "description":"[NEKROS](https://overframe.gg/build/582/nekros-prime/desecrate-despoil-max-range-build/) = Consiste em usar a 3ª habilidade do Nekros (54% de chance de loot extra), estando ele equipado (ou não) com um mod de ampliação chamado Despoil. A vantagem de usar o mod é para flexibilizar a build pois você não precisará dar atenção a eficiência de energia. Fácil de buildar, ótimo frame para novatos que não dispõem de muitos recursos pois com pouco esforço consegue-se uma build decente e útil.\n\n[KHORA](https://overframe.gg/build/357969/khora-prime/thunderdome-khora-steel-path-endurance-survival-and-looting/) = Consiste em usar a Khora equipada com o mod de ampliação Pilfering Strangledome (65% de chance de loot extra aos inimigos presos no domo).\nEm resumo, você matará os inimigos presos no domo na base da 2ª skill, a chicotada (mantendo sempre o combo alto para maximizar o dano - recomendo usar escola de foco Naramon com power spike ativo ou até arcanos de Destreza nas armas).\nHá várias armas que são populares para stat stick, dentre elas: amphis, jaw sword, mire, venka prime, adagas etéreas, armas corpo-a-corpo tenet/kuva/encarnação, etc.",
+    "color":"12370112"
+  },
+  {
+    "description":"[HYDROID](https://overframe.gg/build/276457/) = Consiste em usar o Hydroid equipado com um mod de ampliação chamado Pilfering Swarm que dá a 4ª habilidade, Tentacle Swarm, do Hydroid 100% de chance dos inimigos segurados pelos tentáculos droparem loot adicional (não precisam necessariamente ser mortos pelos tentáculos).\nChance de drop extra não é afetada pela força do poder, no entanto uma build voltada para força + duração é crucial se você deseja ficar de boa enquanto os tentáculos fazem o trabalho, com um pouco de eficiência e alcance se for de seu gosto, é totalmente viável fazer uma build balanceada em todos os aspectos e sua utilidade em missões de dificuldade fácil para intermediária é incontestável.\n\n[ATLAS](https://overframe.gg/build/205455/) = Consiste em usar o Atlas equipado com um mod de ampliação chamado Ore Gaze (chance de inimigos sob efeito do Petrify gerarem loot extra quando mortos).\nEssa habilidade é afetada pela Força do Poder (certifique-se de atingir no mínimo 200% de força para ter 50% de chance de drop), acima de tudo certifique-se de sempre matar os inimigos enquanto estão petrificados, evite deixar o efeito passar.\nOBS: Não é um frame tão recomendado para farm (muito custoso) especialmente se você for novato, mas ele é útil quando você deseja loot extra de inimigos específicos.",
+    "color":"12370112"
+  },
+  {
+    "description":"[IVARA](https://overframe.gg/build/12206/ivara-prime/moon-jelly-config-a/) = Build que foca na 3ª habilidade da ivara, o Prowl, que além de várias outras coisas permite a ela, 'bater a carteira' de inimigos próximos fazendo com que dropem loot extra (uma vez por inimigo), contanto que o inimigo alvo esteja intocado até o momento do furto.\nPara tornar essa habilidade mais eficiente aqui vão alguns conselhos, mantenha sempre a força do poder em 100% pois afeta diretamente a chance de sucesso na hora de 'furtar', ideal também uma boa quantidade de duração pois afeta o tempo de conclusão do furto, de resto procure manter uma quantia decente de alcance e eficiência para manter a área e consumo de energia da habilidade em cheque. Em suma, uma build balanceada é muito bem-vinda aqui.\nOBS: É uma boa opção se você deseja farmar toróides junto com um nekros.",
+    "color":"12370112"
+  },
+  {
+    "title":"BÔNUS: Forma Alternativa de Farmar Recursos de Classe RARA",
+    "description":"A ideia é equipar o mod Spare Parts (45% de chance de sentinelas droparem recurso raro ao morrer) na sua sentinela e deixar que os inimigos a destruam e em seguida revivê-la usando um warframe infundido com o Dispensary da Protea (+ mod de ampliação Repair Dispensary).\nOBS: A sentinela Djinn (com Reawaken equipado) também serve se você não tem nada da Protea para usar!\n[LINK PARA O VÍDEO EXPLICATIVO](https://www.youtube.com/watch?v=4MbGvcxUlRc&t=1s)",
+    "color":"10181046"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " 💲 FARM DE ENDO 💲 ",
+    "description": "*OBS: Vale destacar que devido ao histórico desse recurso (da época dos núcleos) endo é 'tratado como se fosse um mod', portanto é SIM afetado pelo booster de 'Bônus de Chance de Obtenção de Mods'*\n\n- **Arena no Percurso de Aço**: Esse é o PRINCIPAL método para farmar endo, trata-se da missão Yam em Sedna (mesmo loot que Vodyanoi só que mais fácil e barato). Para ser realmente eficaz requer um time bem coordenado de 4 jogadores equipados com armas de corte: 1 Nidus, 1 Khora, 2 Nekros (e se possível que o máximo de jogadores possua o booster citado acima).\nResumo do método ➙ Nidus (build de alcance alto) puxa os inimigos até o domo de Khora (build de curto alcance, alta duração e com pilfering strangledome) com ambos os Nekros sempre com desecrate ativo (pois desecrate tem 54% de garantia de loot extra), o time inteiro se une para retalhar os inimigos presos no mini-domo com armas de corte (ripkas é a melhor para o serviço por causa de seu mod amalgam, mas qualquer outra melee de corte alto também serve), pois os corpos mutilados gerarão mais drop via desecrate..",
+    "color": "18175"
+  },
+  {
+    "description":"- **Missões de Arbitragem**: são missões especiais (e temporárias) destravadas após completar todo o mapa estelar, trata de uma forma interessante de conseguir endo (especialmente arbitragens de interferência e escavação) enquanto se farma essência vitus.\nDependendo da missão e da sua sorte esse modo pode garantir até 12K de endo por hora, já que as rodadas podem te recompensar com grandes quantidades de endo e toneladas de estátuas ayatan, além do que os próprios inimigos dropam durante a missão.\n\n- **Missões de Escavação**: método não muito eficaz já que depende muito da sorte (eu particularmente NÃO recomendo), consiste em completar APENAS as duas primeiras escavadoras (rotação A), por ser mais rápido, o que geralmente te garante uma quantidade decente de endo em pouco tempo.\nA exemplo de locais temos: Hieracon (Plutão) e Cholistan (Europa) (se você for um jogador mais novato, dá pra farmar aqui um pouco de endo, e de quebra créditos e alguns mods básicos que lhe serão úteis.",
+    "color":"18175"
+  },
+  {
+    "title":"Outros Meios",
+    "description":"- **Incursão diária**: (para destravar incursões é necessário completar a jornada 'A Guerra Interior') fonte que depende da 'sorte' do jogador (se é que ganhar ayatan como recompensa de incursão é sorte lol), as recompensas voltadas para Endo são as seguintes: Escultura Ayatan (1.425-3.450 Endo dependendo do tipo), 4.000 Endo ou o mais raro de todos: Núcleo Lendário (maximiza um mod para o nível máximo sem custo de Endo ou Créditos).\n\n- **Caçada Semanal da Maroo**: toda segunda-feira, Maroo disponibilizará uma missão que recompensa o jogador com uma escultura ayatan cujo valor em Endo oscila entre 1.425 e 3.450 quando preenchida com estrelas. Mesmo que em pequena quantidade esse método é uma forma garantida e certa de conseguir Endo.",
+    "color":"2067276"
+  },
+  {
+    "description":"- **Síntese de Alvos do Simaris**: basta falar com o Cephalon Simaris em qualquer relay, todo dia ele terá um novo alvo de síntese disponível para o jogador, dependendo da dificuldade e quantidade de sínteses a serem feitas as recompensas podem variar de 400-800 Endo. Para saber os melhores locais para caçar cada alvo recomendo esse [guia incrível](https://steamcommunity.com/sharedfiles/filedetails/?id=666483447).\n\n- Sucateando destroços de componentes de railjack: com a remoção do Dirac do jogo agora sucatear peças sobressalentes de railjack te dá endo (até 225 por uma peça de classe MKIII), não é muito mas como você sempre receberá toneladas de peças que não vai utilizar vale a pena dar um fim mais útil a elas.\n\n- Dissolver mods: ao longo de sua jornada no warframe você conseguirá toneladas de mods repetidos (principalmente mods de bronze) então uma ótima alternativa é dissolver essas duplicatas para receber Endo em troca. O valor recebido é diretamente proporcional a raridade e nível do mod, eis uma tabela para ilustrar:",
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/1790767795602009535/AF4632AB7C7A424F3A12179CD82A1ADA94F2A167/"
+    },
+    "color":"2067276"
+  }
+]

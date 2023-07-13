@@ -1,0 +1,13 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " FARM DE COROAS GRANUM ",
+    "description": "Com o 'O Protocolo Deadlock' foram adicionadas as coroas de granum, moedas necessárias para acessar o Void de Granum (modo de jogo) através dos altares da mão dourada espalhados pelas missões do novo cenário da facção corpus. Existem 3 tipos de moedas e todas elas são drops do 'Tesoureiro', um inimigo que surge temporariamente (será marcado no mapa quando spawnar) transcorridos 2-5 minutos de missão.\n\n- OBS: É necessário ter concluído a jornada 'O Protocolo Deadlock' para poder dropar as coroas, caso contrário quando você matar o tesoureiro ele não dropará nada.\n\n- OBS: O tesoureiro só spawna em missões corpus que se passam no novo cenário(MAPA DA MÃOZINHA DE OURO), tentar caçá-los em missões no cenário antigo é perda de tempo.\n\nFARM DE MOEDAS:\n- Coroa de Granum = Skyresh-Fobos (Captura), Fossa-Vênus (Assassinato), Ishtar-Vênus (Sabotagem)\n- Coroa de Granum (Exemplar) = Triton-Netuno (Resgate), Adrastea-Júpiter (Sabotagem)\n- Coroa de Granum (Zênite) = Hydra-Plutão (Captura)",
+    "thumbnail":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2020460437173009777/AFA603C6540DC4A7B2FF8DC95318855E96ED7534/"
+    },
+    "color": "18175"
+  }
+]

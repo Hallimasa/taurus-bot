@@ -1,0 +1,26 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " FARMING DE FOCO ",
+    "description": "Com o advento dos operadores no jogo fomos familiarizados com as escolas tenno de foco cada uma com sua respectiva árvore de habilidades e características únicas, contudo todo poder tem um preço e dessa vez não poderia ser diferente, aprimorar e destravar habilidades nas respectivas árvores custa pontos de foco por isso tornou-se essencial um método eficiente de adquiri-los.\nPrimeiramente, para ser capaz de ganhar pontos de foco é necessário instalar um lente de foco no warframe/arma/sentinela/etc que esteja no nível máximo, essa lente irá canalizar uma certa porcentagem de todo aquele excesso de afinidade (XP) que seria adquirido, em pontos de foco que posteriormente serão gastos na árvore do operador.\nOBS: vale ressaltar a quantidade de foco adquirida pode ser afetada por booster de afinidade (assim como buff do kavat, benção de XP, affinity spike da escola Naramon, etc).",
+    "imgae":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/1796397220162522806/7F26D7C90D9DD4EA03F59C4E635C2DA03A7DE137/"
+    },
+    "color": "18175"
+  },
+  {
+    "title":"Terminada a introdução ao sistema vamos aos métodos:",
+    "description":"- **Extermínio Furtivo**: recomenda-se a missão de extermínio em Adaro (Sedna) – nível 32-36 – para extrair o melhor desse método, visto que os grineers possuem o melhor valor de XP por abate dentre todas as facções e o nível mediano para alto garante um ótimo total de afinidade e relativa facilidade para matar os inimigos.\nO objetivo desse método é manter ao máximo o bônus de 500% de afinidade por morte furtiva ativo até o momento da extração, para tanto recomenda-se equipar somente uma arma corpo-a-corpo (recomendo armas com bom alcance e dano) assim a afinidade será canalizada somente a ela, além de um warframe com alta capacidade de matar sem chamar atenção (recomendo fortemente Equinox Sleep ou Banshee Silence, mas também vale Ivara, Loki ou Ash).\nLembrando que seu warframe e a arma deverão estar equipados com lentes de foco (coloque a melhor que você tiver), se feito corretamente este método te garante desde 30K (com a lente mais mixuruca) até 300K (com lentes de eidolon) tranquilamente.",
+    "color":"11027200"
+  },
+  {
+    "description":"- **Sobrevivência no modo Percurso de Aço**: A escolha da missão fica a critério do jogador. Esse meio é para aqueles que podem jogar no endgame sem problemas, equipe a lente em um frame com dano massivo ou escalável para o percurso de aço, recomendo Octavia ou Khora, e simplesmente mate os inimigos com as habilidades sempre coletando os multiplicadores de foco que aparecem pelo mapa. Eu particularmente acho mais fácil e preguiçoso com a Octavia, e se você estiver com booster de afinidade alcança tranquilo o limite de foco diário em torno de 1 hora até com a lente mais ruinzinha (com lentes melhores ou booster dá pra fazer em 15-30 minutos) e de quebra ainda farma recursos diversos, essência de aço e arcanos para armas.\nOBS: Não esqueça de levar seu kavat smeeta pois o ocasional buff de XP que ele produz ajuda bastante no multiplicador de foco.",
+    "color":"11027200"
+  },
+  {
+    "description":"- **O Circuito (Duviri)**: um dos melhores jeitos de conseguir foco rápido atualmente, o Circuito tem inúmeros inimigos do tipo Thrax, que dão de 2.5K a 5K de foco ao esquadrão inteiro por morte, só lembre de ATIVAR a escola de foco que você deseja upar pois todo o foco dos Thrax será canalizado para ela. Você atinge o limite diário de foco em pouco mais de 1 hora.\nOBS: Uma vantagem do método Thrax é que você sequer precisa de lentes para ganhar muito foco!\n\n- **Missões na Zariman**: assim como o Circuito, aqui temos inimigos Thrax que recompensam com foco ao matá-los, o diferencial daqui são os Anjos Adormecidos que dão 15K (já os anjos que spawnam periodicamente no modo Armagedom do Void só darão 7.5K). É um bom meio de conseguir foco enquanto farma os recursos e itens da Zariman.\n\n- **Fragmentos de Eidolon**: para aqueles que fazem muitas caçadas do trio eidolon, consiste basicamente em capturá-los (matar não lhe dará o fragmento) e converter os fragmentos em pontos de foco na árvore de habilidades. Vale ressaltar que os pontos de foco adquiridos através de conversão podem extrapolar a capacidade diária sem risco de serem perdidos pois não contam para o limite diário. Eis a tabela indicativa:",
+    "color":"11027200"
+  }
+]

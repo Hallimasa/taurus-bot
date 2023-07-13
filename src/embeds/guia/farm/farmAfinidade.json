@@ -1,0 +1,36 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " 💲 FARM DE AFINIDADE  💲 ",
+    "description": "- **Hydron (Sedna)** = missão de defesa. Método em grupo mais popular e conhecido pois sempre há um esquadrão jogando, oferece uma quantia generosa de XP por ficar no máximo até a horda 10-15 e é uma missão relativamente tranquila sem muita dificuldade.\n\n- **Helene (Saturno)** = missão de defesa. Uma alternativa a Hydron, apesar de não tão popular quanto, ainda oferece um ótimo XP, além de que pelo fato de se passar em saturno os drops de recursos são mais interessantes (células orokin e plastídeos) que em Hydron, tornando a missão um local ideal para matar dois coelhos com uma cajadada só.\n\n- **Adaro (Sedna)** = missão de extermínio. Método solo (ou com 1 parceiro) se utilizando do bônus de morte furtiva (cumula até 500%) e mantendo ele o máximo possível enquanto mata os inimigos ao longo da missão e só então ao fim, extrair e receber a recompensa. Pode ser replicado em outras missões também (a exemplo, Telesto em Saturno). Se quiser upar seu warframe aqui recomendo vir com outro jogador de Equinox/Banshee, e enquanto você se mantem na área de afinidade seu parceiro mata os inimigos furtivamente, ou se possível use o helminte para infundir a habilidade do equinox para o frame que você deseja upar.",
+    "color": "18175"
+  },
+  {
+    "description":"- **Massacre do Santuário de Elite** = esse modo de jogo também é incrível para farmar exclusivamente afinidade visto que a quantidade de inimigos é ilimitada e o nível deles é suficientemente alto, contudo possui algumas limitações pois só permite a entrada de warframes no nível 30 (ou que já tenham recebido ao menos 1 forma). Lembrando que para ter acesso é necessário ter completado a jornada 'O Novo Estranho'.\n\n- **Massacre do Santuário - Normal** = ao contrário do Elite essa modalidade pode ser acessada sem restrições e o XP é decente, contudo também vai depender da rotação de facção de inimigos caso sejam grineers você deu a sorte grande, infestados tsc tsc perda de tempo. Upar aqui pode ser uma alternativa caso você esteja farto de Hydron e queira upar seu warframe e ainda farmar a khora e umas relíquias.\n(lembrando que se for upar sua amp em qualquer desses modos tenha certeza de estar na forma de operador para devidamente receber o XP!!!)",
+    "color":"18175"
+  },
+  {
+    "title":"Upando Archwings e Arch Armas",
+    "description":"- **Salacia (Netuno)** = missão de defesa móvel archwing (nível 27-32). Esse é o nodo ideal para upar suas archwings e arch-armas, missão relativamente tranquila e com bastante inimigos que ofertam uma boa quantidade de XP e por ser defesa móvel é bem direta não exigindo que você precise correr para capturar pontos nem nada estressante.\nE se você acha que dá conta recomendo ir na dificuldade percurso de aço pelo XP e recursos extras.",
+    "color":"15105570"
+  },
+  {
+    "title":"Upando K-drive ( Ventkids )",
+    "description":"- **Corridas no Vallis das Orbes** = o melhor jeito na minha opinião de upar seus K-Drives, quanto mais arcos a corrida tiver mais experiência você receberá no fim, o XP pode variar de 7.000 até mais de 14.500 sem booster. Então recomendo que opte pelas corridas longas que dão mais XP (lembrando que as corridas disponíveis se alteram diariamente).\nEis o mapa dos locais das corridas com a tabela de valores:",
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/1820027891425890069/827E0E69C18AFDE420FE062F98B61B6F45E03BD2/"
+    },
+    "color":"11342935"
+  },
+  {
+    "title":"Upando Necramech",
+    "description":"- **Missões de Sobrevivência (Railjack)** = após seu lançamento esse virou o método principal para upar necramechs pois é possível utilizá-los em missões railjack, desta forma escolha o nodo que mais lhe convier e massacre os inimigos, eu pessoalmente recomendo Lu-Yan (Próxima do Véu) - se você cumpre o requisito de nível de intrínseco para entrar - pois além de upar você terá uma chance melhor de conseguir o diagrama do rifle Ambassador.\n\n- **Evento Fraturas Térmicas (Vallis das Orbes)** = fraturas térmicas são eventos recorrentes assim como as caçadas de ghouls de Cetus. É um dos melhores métodos (quando disponível) de maximizar seu necramech, o spawn de inimigos é bem grande (especialmente ao colocar os 4 frascos na fissura) e localizado o que provê bastante XP enquanto você completa o evento (caso não tenha feito) e junta térmia diluída para caçar a Orbe Usurpadora (Exploiter Orb).",
+    "color":"3426654"
+  },
+  {
+    "description":"- **Templo do Lucro (Vallis das Orbes)** = se você planeja farmar toróides e ainda não maximizou seu mech é uma boa fazer os dois ao mesmo tempo, faça o procedimento costumeiro de aumentar o nível de alerta e provocar o spawn de inimigos, mate-os e ganhe XP.\n\n- **Sobrevivência Conjuncional (Yuvarium / Circulus - Lua)** = novo tipo de sobrevivência, é uma opção interessante já que em algum momento você terá que fazer essas missões, o ponto negativo é que só se pode usar o necramech por 2 minutos tendo que aguardar um intervalo para poder usá-lo novamente.",
+    "color":"3426654"
+  }
+]

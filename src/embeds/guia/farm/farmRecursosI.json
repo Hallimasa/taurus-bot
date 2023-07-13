@@ -1,0 +1,28 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " RECURSOS DE CLASSE COMUM ",
+    "description": "- **Chapa Metálica (Alloy Plate)** = Disponível em missões de Vênus, Júpiter, Sedna, Ceres, Phobos e Plutão.\n\n- **Ferrite** = Disponível em missões de Mercúrio, Terra, Netuno e Void.\n\n- **Nano Esporos (Nano Spores)** = Disponível em missões de Deimos, Saturno, Netuno e Eris.\n\n- **Restos (Salvage)** = Disponível em missões de Marte, Júpiter e Sedna.",
+    "color": "18175"
+  },
+  {
+    "title":"RECURSOS DE CLASSE COMUM",
+    "description":"- **Crióticos (Cryotics)** = Disponível em qualquer missão de escavação de qualquer planeta, a recompensa que vem das escavadeiras é sempre a mesma então vá na missão que mais lhe for conveniente. Recomendo aproveitar quando há uma fenda do void numa missão de escavação assim além de farmar partes prime de quebra você sai com crióticos.\n\n- **Circuitos (Circuits)** = Disponível em missões de Vênus, Ceres e Fortaleza Kuva. Recomendo Malva (Vênus), Seimeni (Ceres) ou Taveuni (Fortaleza Kuva).\n\n- **Pacote de Polímeros (Polymer Bundle)** = Disponível em missões de Mercúrio, Vênus e Urano. Recomendo Assur ou Ophelia (ambos em Urano).\n\n- **Plastídeos (Plastids)** = Disponível em missões de Saturno, Urano, Phobos, Plutão e Eris. Recomendo Ophelia (Urano) ou Piscinas (Saturno).\n\n- **Rubedo** = Disponível em missões de Phobos, Terra, Plutão, Europa, Sedna e Void. Recomendo Zeugma e Stickney (ambos em Phobos).\n\n",
+    "color":"12745742"
+  },
+  {
+    "description":"- **Óxio (Oxium)** = Disponível em missões da facção corpus, esse recurso pode ser encontrado em certos contêineres mas no geral ele é drop garantido de um drone inimigo chamado falcão de óxio (ou oxium osprey), se você conseguir matá-lo antes que ele se autodestrua receberá o recurso. O local de farm mais popular é Io (Júpiter).\n\n- **Hexeno (Hexenon)** = Disponível somente em missões de Júpiter. Esse é meio irritante então recomendo Ganymede ou Cameria (ambos em Júpiter), é particularmente vantajoso pegá-lo como recompensa de rodada em missões de interferência, como é o caso de Ganymede.\n\n- **Orb de Gel do Void (Voidgel Orb)** = possível drop de inimigos e contêineres de recurso nas missões da Zariman. Qualquer missão serve então missões rápidas e com muitos inimigos são mais interessantes (ex: extermínio em Perímetro Halako, defesa móvel em A Ecovia).\n\n- **Plasma Thrax (Thrax Plasm)** = drop garantido ao destruir a forma espectral dos inimigos: Legatus Thrax e Centurião Thrax, nas missões da Zariman. Recomendo farmar em missões de Cascata do Void (ex: Comunas Tuvul) pois esses inimigos spawnam com muita frequência.",
+    "color":"12745742"
+  },
+  {
+    "title":"RECURSOS DE CLASSE RARA",
+    "description":"- **Módulo de Controle (Control Module)** = Disponível em missões de Netuno, Europa e Void. Recomendo Teshub ou Hepit (Void), apesar de ser classificado como raro cai fácil até demais, então meio que tanto faz a missão que você for contanto que seja nesses planetas.\n\n- **Gálio (Gallium)** = Disponível em missões de Marte e Urano. Recomendo Gradivus (Marte), Ophelia (Urano) ou rushar o boss em Titania (Urano).\n\n- **Mórficos (Morphics)** = Disponível em missões de Mercúrio, Marte, Europa e Plutão. Recomendo Wahiba (Marte), Zeugma (Phobos) ou rushando os bosses em Iliad (Phobos) ou War (Marte).\n\n- **Sensores Neurais (Neural Sensors)** = Disponível em missões de Júpiter e Fortaleza Kuva. Recomendo Cameria (Júpiter), Taveuni (Fortaleza Kuva) ou rushando o boss em Themisto (Júpiter).\n\n- **Neurodes** = Disponível em missões de Terra, Deimos, Eris e Lua. Recomendo Tycho (Lua), Tikal (Terra) ou rushar o boss em Magnacidium (Deimos).\n\n- **Célula Orokin (Orokin Cell)** = Disponível em missões de Saturno, Ceres e Deimos. Recomendo Piscinas (Saturno), Gabii (Ceres) ou rushar o boss em Exta (Ceres).",
+    "color":"1146986"
+  },
+  {
+    "description":"- **Cristal Argon (Argon Crystal)** = Disponível exclusivamente em missões do Void. Esse recurso se decai em 24 horas após você adquiri-lo então farme com sabedoria. Recomendo rushar uma missão de captura e destruir todos os contêineres (usando saryn, limbo ou equinox) atrás de argon, no caso Ukko ou Hepit. Claro que também há a opção de ir sobrevivência (Mot) mas aí vai da sua paciência.\n\n- **Telúrio (Tellurium)** = Disponível exclusivamente em missões com selo archwing ou archwing subaquática. Nesse caso recomendo Ophelia (Urano), muitos ótimos farms situam-se nesse mesmo local então é uma boa chance de estocar vários recursos importantes de uma só vez.\n\n- **Farol Entrati (Entrati Lanthorn)** = Disponível nas missões da Zariman, seja como recompensa de caçada ou drop raro de inimigos/contêineres. Recurso um tanto chatinho de farmar então se prepare, a ideia é fazer caçadas em missões rápidas para tentar conseguir desses dois jeitos.",
+    "color":"1146986"
+  }
+]
