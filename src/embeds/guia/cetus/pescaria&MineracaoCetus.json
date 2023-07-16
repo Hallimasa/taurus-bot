@@ -1,0 +1,21 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " Pescaria ",
+    "description": "Antes de começar visite a **Pescadora Hai-Luk (Cetus)** pois ela **vende todo o equipamento** que você precisará: lanças de pesca, iscas e pigmentos. E também **corta seus peixes** (transformando peixe em recursos para forja).\n**Dica Pedrada**\n_Utilize o Warframe volt para pescar, pois sua passiva aumenta o dano da lança conforme voce se movimenta, fazendo com que a mesma lança dê 1hit e cada peixe, eliminando a necessidade de trocar de lanças pra cada tipo de peixe diferente 😅_\nÉ preciso ficar atento pois **peixes tem diferentes níveis de raridade, ciclos, locais e lanças** exigidas para uma captura instantânea. Por isso segue o mapa legendado abaixo com todas as informações que você precisa saber:",
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2040736598569818595/F05525AFAFFB91BE776B7D8B9C758D7326AB84BF/"
+    },
+    "color": "18175"
+  },
+  {
+    "title":" Mineração ",
+    "description":"Visite o **Velho Suumbaat (Cetus)** para comprar **Cortadores Nosam** para extrair minérios e **Diagramas para refinar** seus metais/gemas.\nMire e segure seu cortador de plasma nos pontos marcados e **conclua o minigame com sucesso** para incrementar suas chances e quantidade, o drop varia **conforme a cor do veio** mineral e sua raridade:\n\n- **Vermelhos ⇨** apenas metais: **CÓPRUM** (refinado em liga cóprica), **PIROL** (liga pirótica), **FERRO** (liga ferrítica), **AURÔNIO** (liga auróxica).\n\n- **Azuis ⇨** apenas gemas: **AZURITE** (refinada em azurite gotejada), **DEVAR** (devar esher), **VERIDOS** (veridos marquesada), **CRIMIZIANA** (crimiziana estrelada), **SENTIRUM** (Sentirum Radiano) e **Nyth** (Nyth Coração).\n_**OBS:** Crimiziana, Sentirum e Nyth são gemas raras das Planícies então só podem ser conseguidas com um Cortador Nosam Avançado (ou Broca de Plasma Solar)._",
+    "thumbnail":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2024979660809485079/9FD5D599576267857FC4A44E2FCF9DA3219F41E6/"
+    },
+    "color":"18175"
+  }
+]

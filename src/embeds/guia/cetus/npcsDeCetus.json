@@ -1,0 +1,18 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " NPCs de Cetus",
+    "description": "Um breve resumo sobre o que cada NPC oferece:\n\n> **KONZU** : um idoso que oferece [Caçadas](https://warframe.fandom.com/pt-br/wiki/Ca%C3%A7ada) aos jogadores, missões de tempo limitado em várias partes nas Planícies que os jogadores podem realizar para ganhar Reputação e outras recompensas. Conversar com ele permitirá que os jogadores atualizem seu título para o próximo nível. Ele também começa a jornada [Vigília de Saya](https://warframe.fandom.com/pt-br/wiki/Vig%C3%ADlia_de_Saya) depois que você completar pelo menos **uma caçada**.\n\n> **HOK** : é um ferreiro e vendedor em Cetus cujo comércio gira em torno de armas brancas. Em particular, o Anvil de Hok fornece aos jogadores a capacidade de criar [Zaws](https://warframe.fandom.com/pt-br/wiki/Zaw), armas de luta corpo-a-corpo modulares que os jogadores podem criar com diferentes partes e atributos conforme desejarem. Ele também **doura Zaws** e as aceita por reputação.",
+    "color": "18175"
+  },
+  {
+   "description":" > **O ANCIÃO SUUMBAAT** : vende equipamentos de [mineração](https://warframe.fandom.com/pt-br/wiki/Minera%C3%A7%C3%A3o), diagramas de cortadores de gemas, ligas metálicas e permite que você negocie com pedras preciosas.**NÃO compre os mineradores dele!!!** Com o update de Fortuna, o NPC minerador de lá oferece uma mineradora **muito superior** ( com radar de minérios e maior chance de se obter minérios raros ) e vc consegue ela de maneira muito fácil.\n\n> **MESTRE TEASONAI** : comercializa a vida selvagem usada como decorações da orbital e cosméticos de companheiros por recursos de Eidolon. Suas ofertas diárias consistem sempre em três itens, e os recursos necessários para comprar suas ofertas mudam diariamente.\n\n> **PESCADORA HAI-LUK** : é uma peixeira de Ostron que vende vários equipamentos de pesca, iscas e pacotes de peças especiais de peixe por um pouco de platina, que mudam diariamente. Ela também permite que você troque suas capturas por reputação ou para cortá-las para que o player consiga os  recursos dos peixes.",
+    "color": "18175"
+  },
+  {
+    "description":" > **NAKAK** : O jovem e empreendedor Nakak vende chamas [Grineer](https://warframe.fandom.com/pt-br/wiki/Grineer) que aumentam temporariamente a faixa de [afinidade](https://warframe.fandom.com/pt-br/wiki/Afinidade), e esculpem máscaras de Warframe usadas como cosméticos para o [Operador](https://warframe.fandom.com/pt-br/wiki/Operador). Assim como Mestre Teasonai, ela aceita os recursos das Planícies em vez de reputação e os recursos necessários para comprar os itens mudam diariamente, embora seu estoque permaneça o mesmo. Além disso, ela fornece algumas informações diversas sobre Cetus e as planícies.\n\n> **ONKKO** : É um ex Ostron historiador e paleontólogo responsável pela manutenção da tradição e o atual representante do Sindicato Secundário [Os Quills](https://warframe.fandom.com/wiki/The_Quills). Se o jogador tiver completado tanto a Jornada Vigília de Saya quanto o [A Guerra Interior](https://warframe.fandom.com/pt-br/wiki/A_Guerra_Interior), trazer seu [operador](https://warframe.fandom.com/pt-br/wiki/Operador) para a parte nordeste de Cetus permitirá que eles acessem o esconderijo dos Quills.",
+    "color": "18175"
+  }
+]

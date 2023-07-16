@@ -1,0 +1,43 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " ZAWs ",
+    "description": "Zaws são armas de corpo a corpo modulares criadas e montadas na Anvil de Hok em [Cetus](https://warframe.fandom.com/pt-br/wiki/Cetus). Ao contrário das armas tradicionais, as Zaws utilizam um sistema de componentes modulares com partes intercambiáveis na elaboração. Diferentes peças concedem diferentes estatísticas e habilidades quando usadas na criação de uma **Zaw**, e os jogadores são capazes de misturar e combinar diferentes combinações de peças, resultando em uma variedade muito maior de personalização de estatísticas básicas para as armas. Os jogadores também são livres para dar um nome de sua escolha para melhorar ainda mais a personalização.",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/0/06/ZawWall.png/revision/latest?cb=20171106013149"
+    },
+    "color": "18175"
+  },
+  {
+    "title":"Peça 1 - Golpeador",
+    "description":"Os Golpeadores são a cabeça da arma, o que determina o tipo de dano primário da arma. Estes são os componentes que ganham pontos de maestria para a arma. Também determina qual imagem é mostrada no arsenal.",
+    "color":"18175"
+  },
+  {
+    "title":"Peça 2 - Punho",
+    "description":"Os Punhos referem-se ao identificador da arma e determinam o tipo de arma que será construída e as posições que eles usarão.",
+    "color":"18175"
+  },
+  {
+    "title":"Peça 3 - Conexão",
+    "description":"As conexões são os vários pesos e decorações anexados ao punho da alça da arma, que concedem uma variedade de bônus estatísticos à arma com penalidades correspondentes.\nOs nomes das Conexões são indicativos das estatísticas que eles alteram e do grau em que mudaram as estatísticas citadas.\n- Ruhang aumentam o dano ao custo da velocidade.\n- Jai aumenta a velocidade ao custo de danos.\n- O Vargeet aumenta a chance crítica ao custo da chance de status.\n- Ekwana aumenta a chance de status ao custo da chance crítica.\n- As combinações dos tipos de Conexão determinam o bônus e as penalidades que eles fornecem.",
+    "color":"18175"
+  },
+  {
+    "title":"Forjando",
+    "description":"Antes que os jogadores possam criar uma Zaw, eles devem primeiro comprar os diagramas para as peças que eles desejam, que está disponível por reputação, após o que essas peças devem ser construídas na forja.\nUma vez que os componentes foram criados, os jogadores devem retornar ao Anvil de Hok e selecionar a opção Forjar a Zaw. Aqui, os jogadores devem escolher os componentes criados que possuem para formar a arma. Uma vez que um Golpeador, Punho e Conexão são selecionados, o jogador terá uma visualização da aparência da arma, juntamente com as estatísticas da arma. Se a arma for satisfatória, os jogadores podem então prosseguir com a ação Construir Arma, que instantaneamente criará a arma por 44.000 créditos.",
+    "color":"18175"
+  },
+  {
+    "title":"Dourando",
+    "description":"Para desbloquear completamente todos os recursos de uma Zaw, os jogadores devem dourar sua arma. Para dourar uma arma, os jogadores devem ter uma classificação de reputação de pelo menos confiável com os Ostrons, e a Zaw desejada deve primeiro ser nivelada até o Nível 30. Depois, os jogadores devem retornar ao Anvil de Hok e selecionar a opção Gild em Outros serviços, que custará 2 [Cetus Wisps](https://warframe.fandom.com/pt-br/wiki/Cetus_Wisp) e 5.000. Ao dourar a arma, os jogadores serão convidados a adicionar uma Polaridade à arma e, finalmente, dar-lhe um nome personalizado. Este processo irá redefinir o nível da arma de volta ao nível 0",
+    "color":"18175"
+  },
+  {
+    "title":"Arcanos Exodia",
+    "description":"Zaws douradas podem ser melhoradas através da instalação dos Arcanos Exodia, que concede habilidades especiais condicionais. Estes podem ser comprados no Anvil de Hok, uma vez que um jogador alcançou o grau de Kin com os Ostrons.\nInstalar um Arcano Exodia em uma Zaw irá adicionar visualmente luzes de energia nas conexões da arma. Ele também anexará o prefixo 'Arcano' ao nome da arma no Arsenal, embora o nome da arma não tenha o prefixo durante as missões.",
+    "color":"18175"
+  }
+]

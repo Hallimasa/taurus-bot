@@ -1,0 +1,26 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "title": " Dica Pedrada ",
+    "description": "Recursos no mapa são calculados de acordo com o nível dos inimigos, então regiões do mapa onde o nível dos inimigos é maior ( geralmente longe do portão ) dropam até x3 mais recursos.\nExiste uma tática para abusar dessa mecânica, se você colocar uma caçada de nível alto, com o NPC **KONZU** o Mapa Inteiro terá inimigos lvl alto, então... o **mapa inteiro terá recursos x3** 😎",
+    "color": "18175"
+  },
+  {
+    "title":"Recursos Comuns",
+    "description":"- **Grokdrul =** o melhor meio é destruindo **'tambores de grokdrul'** comumente encontrados em **Acampamentos Grineer** (símbolos vermelhos no mapa marcam os locais).\n\n- **Maprico =** o melhor meio é destruindo **'árvores de maprico'**, essas plantas rasteiras são encontradas em **qualquer região**.\n\n- **Nistlepod =** o melhor meio é destruindo **'nistlebrush'** comumente encontrados em áreas montanhosas do **Monte Nang e Percurso de Ostwan**.\n\n- **Iradite =** o melhor meio é destruindo **'formações de iradite'** comumente encontradas em áreas pouco elevadas em **Chifres Gêmeos, Ruínas do Litoral, Stiletto de Hek, Vigília de Er-Phryah, Nascente Renthi e A Calidez**.\n\n- **Asa de Condroc =** conseguido ao matar um Condroc de qualquer espécie, esses pássaros são comuns e voam por todo canto.\n\n- **Garra Espinhal de Kuaka =** conseguido ao matar um Kuaka de qualquer espécie, são uns pequenos roedores comuns.\n_**OBS:** Você pode usar o 'rifle tranquilizante' ou a 'eco-isca' para rastrear os locais desses animais se estiver com dificuldades._\n_**OBS:** destruir depósitos não é o único meio (caçadas e pistões marfim também ofertam), mas sem dúvidas é o melhor!_",
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2040736598567340189/9F2D69D279EDE62A1B9AC60CE9E7FC99165CC3B5/"
+    },
+    "color":"18175"
+  },
+  {
+    "title":"Recursos Raros / Específicos",
+    "description":"\n- **Bafo de Eidolon =** recompensa exclusiva das caçadas normais e as Expurgações Carniçais.\n\n- **Isoplasto Narmeriano =** recompensa exclusiva das caçadas de Narmer, disponíveis nas Planícies apenas no ciclo diurno após conclusão da jornada 'A Nova Guerra'.\n\n- **Núcleos de Sentient =** dropam dos sentients que vagam à noite pelas Planícies, núcleos intactos dropam dos vomvalistas, já os de qualidade excepcional ou superior apenas no Trio Eidolon.\n- **Espírito de Cetus =** Espírito de Cetus (ou cetus wisp) são criaturas que só spawnam à beira de rios e lagos e SEMPRE em locais fixos determinados e em um número limitado (3-4 pelo dia e 6-8 pela noite). Apesar de serem avistados tanto de dia quanto de noite, por questões óbvias é mais fácil procurá-los pelo dia.\nAo encontrá-lo você deve capturá-lo rapidamente (basta se mover em direção a ele, não precisa pressionar botão algum) caso contrário ele fugirá.\nMapa onde os Espíritos Spawnam, e uma Sugestão de Rota de Farm:",
+    "image":{
+      "url":"https://i.imgur.com/4itLWgn.png"
+    },
+    "color":"18175"
+  }
+]

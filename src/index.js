@@ -377,6 +377,36 @@ client.on('messageCreate', (m) =>{
             }],
             components: [guiaFarm]
             })
+    }  else if (m.content === "config.guiacetus.channel"){   // MENU GUIA CETUS
+        if (!(m.channel.id === process.env.CHAT_GUIA_CETUS_ID)) return;
+        const guiaCetus =  new ActionRowBuilder().addComponents(
+            new StringSelectMenuBuilder()
+            .setCustomId('guiaCetus')
+            .setPlaceholder('Selecione um item')
+            .setMaxValues(1)
+            .setMinValues(1)
+            .setOptions ([
+                {label:'1. Npcs',value:'npcsDeCetus',description:'Um breve resumo sobre o que cada NPC oferece'},
+                {label:'2. Farm de Reputação',value:'farmDeReputacaoCetus',description:'Maneiras mais eficientes de farmar Reputação'},
+                {label:'3. Farm de Recursos',value:'farmRecursosCetus',description:'Maneiras mais eficientes de farmar Foco'},
+                {label:'4. Pescaria & Mineração',value:'pescaria&MineracaoCetus',description:'Informações básicas sobre pescaria e mineração'},
+                {label:'5. Zaws - Armas Modulares',value:'zaws',description:'Guia dessas armas de corpo a corpo modulares'},
+                {label:'6. Eidolon',value:'eidolon',description:'Como matar o boss que spawna durante a noite?'},
+                {label:'7. Thusk Domas',value:'thuskDomas',description:'Mini boss que spawna durante o dia'}
+            ]),
+        );
+    
+        m.channel.send({
+            embeds:[{
+                title:'GUIA CETUS',
+                description:`Cetus é o primeiro mapa aberto que foi implementado ao game, chegando em 2017, deixou a comunidade muito empolgada. Nele vemos 5 moldes que se repetiram nos próximos mapas abertos lançados nos anos seguintes, são eles: \n\n- Mapa Aberto - **Planície de Eidolon**-  ( Local gigante onde o player faz as missões )\n- HUB de NPCS - **Cetus** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Local entre os 2 portões Brancos** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Jornada Vigília de Saya** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Ostron** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundário - **Os Plumas** - ( Sindicato Secreto onde o player consegue itens para seu Operador , AMPS & NECRAMECH )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')}\n- Alterado por kenzouframe `,
+                color: '15844367',
+                thumbnail:{
+                    url:'https://i.imgur.com/0PlbSdS.png'
+                }
+            }],
+            components: [guiaCetus]
+            })
     }
 
 });
@@ -469,6 +499,45 @@ client.on('interactionCreate', async (inte) => {
     if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
 
         const embed = (new EmbedBuilder(require(`../src/embeds/guia/farm/${selectChoice}.json`))).data ;
+        const map = new Map(Object.entries(embed));
+
+        let embedcount = 0
+        for (let i=0;(i < map.size);i++){
+            embedcount = i
+        }
+
+        if (embedcount === 0){
+            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000));
+        } else if (embedcount === 1){
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000));
+        } else if (embedcount === 2){
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 3){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 4){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 5){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 6){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 7){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 8){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else if (embedcount === 9){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 360000)); 
+        } else { inte.reply({content:'esse guia possui mais de 9 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+    } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+
+    } else if (inte.customId === 'guiaCetus'){    // GUIA CETUS
+    
+        const selectChoice = inte.values[0];
+        const fs = require('fs');
+        const path = (`./src/embeds/guia/cetus/${selectChoice}.json`);
+
+    if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
+
+        const embed = (new EmbedBuilder(require(`../src/embeds/guia/cetus/${selectChoice}.json`))).data ;
         const map = new Map(Object.entries(embed));
 
         let embedcount = 0
