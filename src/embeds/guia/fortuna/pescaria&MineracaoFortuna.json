@@ -1,0 +1,19 @@
+[
+  {
+    "author": {
+      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
+    },
+    "description": "## 🎣 **Pescando no Vallis - Peixes-servos e seus recursos**\n\nVisite O Business (Fortuna) para comprar seu equipamento: lanças de pesca elétricas e iscas. Ele também desmonta seus peixes (transformando peixe-servo em recursos para forja).Vale ressaltar que peixes-servos SÓ PODEM ser capturados com uma Lança de Pesca Eletrizante (ou Atordoante, que é a versão melhorada), então esqueça as lanças de eidolon. Segue o mapa legendado com informações sobre os biomas, raridade e ciclos dos peixes:\n\n> OBS: Lembrando que atividades de mineração e pescaria SÃO afetadas por qualquer bônus multiplicador de recursos (**booster de recursos e smeeta kavat**).",
+    "image":{
+      "url":"https://i.imgur.com/6bHdyeC.png"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"## ⛏ **Minerando no Vallis - Metais, Gemas e diagramas para forja**\n\nVisite Smokefinger (Fortuna) para comprar Diagramas para refinar seus metais/gemas e também adquirir a Broca de Plasma Solar (quando aprimorada torna-se bem superior ao melhor cortador Nosam).Para começar a extrair procure pelos veios minerais azuis ou vermelhos na superfície de rochas a céu aberto ou mais comumente nas paredes e chão de cavernas (conferir o mapa acima). Mire e segure seu cortador de plasma nos pontos marcados e conclua o minigame com sucesso para incrementar suas chances e quantidade, o drop varia conforme a cor do veio mineral e sua raridade:\n- **Vermelhos** ⇨ apenas metais: AXIDITE (refinado em liga axídica), TRAVORIDE (liga travorídica), VENEROL (liga venerólica) e HESPERO (liga hespérica).\n- **Azuis** ⇨ apenas gemas: PHASMIN (refinada em phasmin suave), NOCTRUL (noctrul coração), GOBLITE (goblite gotejada), AMARASTA (amarasta estrelada), ZODIANA (zodiana radiante) e THYST (thyst marquesada).\n\n### Boas cavernas para locais de mineração:",
+    "image":{
+      "url":"https://i.imgur.com/El6k4fy.png"
+    },
+    "color":"18175"
+  }
+]

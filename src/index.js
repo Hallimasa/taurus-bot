@@ -77,7 +77,7 @@ client.on('interactionCreate', (interaction) => {
                 let hours = 0;
                 let thumbstatus = "";
                 let embedcolor = '';
-                let currentDate = new Date();
+                let currentDate = new Date().setUTCHours(0);
 
                 const timestamp = moment(currentDate).add(1,'minutes').toDate();
                 const timeRegex1 = /(\d+)h (\d+)m (\d+)/;
@@ -440,7 +440,7 @@ client.on('messageCreate', (m) =>{
                 {label:'Pescaria & Mineração',value:'pescaria&MineracaoFortuna',description:'Informações básicas sobre pescaria e mineração',emoji:'🔹'},
                 {label:'Kitguns - Armas Modulares',value:'kitguns',description:'Guia dessas armas secundárias modulares',emoji:'🔸'},
                 {label:'Orb Beneficiária ( Profit Taker )',value:'orbBeneficiaria',description:'Como matar o boss?',emoji:'🔹'},
-                {label:'Orb Exploradora',value:'orbExploradora',description:'Como matar esse boss?',emoji:'🔸'},
+                {label:'Orb Usurpadora',value:'orbUsurpadora',description:'Como matar esse boss?',emoji:'🔸'},
                 {label:'K-drive',value:'kdrive',description:'Como upar meu k-drive?',emoji:'🔹'},
                 {label:'Eventos de Fortuna',value:'eventosDeFortuna',description:'Como fazer os eventos de Fortuna?',emoji:'🔸'}
             ]),

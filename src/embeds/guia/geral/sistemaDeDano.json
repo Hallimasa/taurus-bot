@@ -12,38 +12,47 @@
           },
           {
             "title": " 🔸 Tipos de dano 🔸 ",
-            "description": "**Impacto**  | Dano físico\n**Perfuração** | Dano físico\n**Corte** | Dano físico\n\n**Frio** | Dano elemental\n**Calor** | Dano elmental\n**Elétrico** | Dano elemental \n**Toxina** | Dano elemental\n\n** Explosão** |Dano elemental combinado ( Calor + Frio )\n**Corrosivo**| Dano elemental combinado ( Toxina + Elétrico )\n** Gás** | Dano elemental combinado ( Calor + Toxina )\n**Magnético** | Dano elemental combinado ( Elétrico + Frio )\n** Radiação**| Dano elemental combinado ( Calor + Eletricidade)\n**Viral**| Dano elemental combinado ( Frio + Toxina)\n\n**Dano Puro** | Tipo exclusivo de dano, ignora todas as resistências do inimigo.\n**Void** | Spoiler*||Dano causado pelo seu Tenno, usando AMPs, e pelo warframe Xaku||"
+            "description": "**Impacto**  | Dano físico\n**Perfuração** | Dano físico\n**Corte** | Dano físico\n\n**Frio** | Dano elemental\n**Calor** | Dano elmental\n**Elétrico** | Dano elemental \n**Toxina** | Dano elemental\n\n** Explosão** |Dano elemental combinado ( Calor + Frio )\n**Corrosivo**| Dano elemental combinado ( Toxina + Elétrico )\n** Gás** | Dano elemental combinado ( Calor + Toxina )\n**Magnético** | Dano elemental combinado ( Elétrico + Frio )\n** Radiação**| Dano elemental combinado ( Calor + Eletricidade)\n**Viral**| Dano elemental combinado ( Frio + Toxina)\n\n**Dano Puro** | Tipo exclusivo de dano, ignora todas as resistências do inimigo.\n**Void** | Spoiler*||Dano causado pelo seu Tenno, usando AMPs, e pelo warframe Xaku||",
+            "image":{
+              "url":"https://i.imgur.com/KLbODyX.png"
+            },
+            "color":59901
           },
           {
             "title": "Ordem de Mods",
             "description": "Isso é muito importante de se aprender pra que você possa combinar os mods sem ter dor de cabeça.\n\nO jogo sempre vai combinar os elementos obedecendo esta ordem, se você colocar um mod de calor no slot 1, frio no slot 8, a arma terá dano de Explosão ( Calor + Frio ) ... Mas se você colocar um mod de toxina no campo 4, a arma terá o dano de Gás ( Calor + Toxina) junto com o dano de Frio. Obedecendo assim a ordem abaixo.",
             "image": {
               "url": "https://i.imgur.com/KZa3GjU.png"
-            }
+            },
+            "color":59901
           },
           {
             "title": "Tipos de Armaduras",
             "image": {
               "url": "https://i.imgur.com/nQNUtgm.png"
-            }
+            },
+            "color":59901
           },
           {
-            "title": "Fraquezas de cada tipo",
-            "description": "**Ferrite**",
+            "title": "**Fraquezas de cada tipo**",
+            "description": "**Ferrite ( Armadura dos Grinners )**",
             "image": {
               "url": "https://i.imgur.com/qrXX3BP.png"
-            }
+            },
+            "color":59901
           },
           {
-            "description": "Alloy",
+            "description": "Alloy ( Armadura de alguns Grinners e todos os Corpus )",
             "image": {
               "url": "https://i.imgur.com/F6v30dh.png"
-            }
+            },
+            "color":59901
           },
           {
-            "description": "Infested Sinew",
+            "description": "**Infested Sinew ( Armadura dos Infestados )**",
             "image": {
               "url": "https://i.imgur.com/Gf7m4C8.png"
-            }
+            },
+            "color":59901
           }
 ]
