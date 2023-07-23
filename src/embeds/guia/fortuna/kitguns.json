@@ -3,8 +3,183 @@
     "author": {
       "name": "📌 Essa mensagem será DELETADA em 6 minutos"
     },
-    "title": " kitguns ",
-    "description": "",
+    "description": "# 🔫 KITGUNS\n\nKitguns são armas de fogo primárias e secundárias modulares. Como armas modulares, as Kitguns são formadas a partir de três componentes diferentes que podem ser misturados e combinados antes da montagem, permitindo que os jogadores criem diferentes combinações de peças com as estatísticas e habilidades que desejam. Além disso, o Kitguns pode receber nomes personalizados quando criado para personalizar ainda mais a arma. Como Zaws, Kitguns douradas podem ser equipadas com arcanos únicos. [Rude Zuud](https://warframe.fandom.com/pt-br/wiki/Rude_Zuud) de Solaris United vende Corpus-como peças de Kitgun, enquanto [Pai](https://warframe.fandom.com/wiki/Father) do Entrati tem peças infestadas de Kitgun.",
+    "color": "18175"
+  },
+  {
+    "description":"# COMPONENTES\n\nUma Kitgun consiste em três componentes diferentes, o **Tambor**, o **Punho** e o **Carregador**. Cada componente é centrado em torno de um aspecto particular da arma. O componente Tambor dá pontos de maestria após o nivelamento uma vez que a Kitgun tenha sida dourada.\n\n## TAMBOR\n- O Tambor representa o componente primário da Kitgun que forma seu cano, que determina a forma e as propriedades de dano exclusivas da arma, que vão desde grandes projéteis de energia até feixes, bem como seu tipo de disparo, Rudd Zuud vende 4 tipos de Tambores: **CATHMOON**,**GAZE**,**RATTLEGUTS**,**TOMBFINGER**. Enquanto o npc PAI do Entrati vende esses 2: **SPORELANCER** e **VERMISPLICER**.",
+    "image":{
+      "url":"https://i.imgur.com/wCPmAGP.png"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"## PUNHO\nO Punho é um componente Kitgun que forma a alça principal, que determina se a arma é uma arma do tipo primária ou secundária, bem como o equilíbrio entre a base da arma dano, taxa de tiro, e a quantidade de recuo, geralmente resultando em uma troca entre essas estatísticas. Para Tambores do tipo feixe, como a GAZE, o aperto determinará apenas o dano base da arma e o máximo alcance, e não a taxa de tiro ou recuo.",
+    "fields":[
+      {
+        "name":"BATER",
+        "value":"--Dano\n++Taxa de Tiro\n++Alcance\nArma Primária",
+        "inline": true
+      },
+      {
+        "name":"GIBBER",
+        "value":"-Dano\n++Taxa de Tiro\n++Alcance\nArma Secundária",
+        "inline": true
+      },
+      {
+        "name":"HAYMAKER✅",
+        "value":"++Dano\n--Taxa de Tiro\n-Alcance\nArma Secundária",
+        "inline": true
+      },
+      {
+        "name":"LOVETAP✅",
+        "value":"+Dano\n-Taxa de Tiro\n-Alcance\nArma Secundária",
+        "inline": true
+      },
+      {
+        "name":"PALMARIS",
+        "value":"-Dano\n+Taxa de Tiro\n+Alcance\nArma Primária",
+        "inline": true
+      },
+      {
+        "name":"RAMBLE",
+        "value":"-Dano\n+Taxa de Tiro\n+Alcance\nArma Secundária",
+        "inline": true
+      },
+      {
+        "name":"SHREWD",
+        "value":"-Dano\n+Taxa de Tiro\n+Alcance\nArma Primária",
+        "inline": true
+      },
+      {
+        "name":"STEADYSLAM",
+        "value":"+Dano\n-Taxa de Tiro\n-Alcance\nArma Primária",
+        "inline": true
+      },
+      {
+        "name":"TREMOR✅",
+        "value":"++Dano\n--Taxa de Tiro\n--Alcance\nArma Primária",
+        "inline": true
+      },
+      {
+        "name":"ULNARIS",
+        "value":"-Dano\n++Taxa de Tiro\n+Alcance\nArma Secundária",
+        "inline": true
+      }
+    ],
+    "color": "18175"
+  },
+  {
+    "description":"## CARREGADOR\nCarregadores são componentes terciários que representam o receptor e a montagem do carregador da Kitgun e são responsáveis pelo equilíbrio das estatísticas secundárias da arma, incluindo **Acerto Crítico** e **Efeito de status** estatísticas, bem como tamanho do carregador e velocidade de recarga.",
+    "fields":[
+      {
+        "name":"ARCROID",
+        "value":"+Chance Crítica\n+Chance Status\n--Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"BASHRACK",
+        "value":"+Chance Crítica\n-Chance Status\n-Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"BELLOWS",
+        "value":"--Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"DEEPBREATH",
+        "value":"-Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"FLUTTERFIRE",
+        "value":"--Chance Crítica\n++Chance Status\n+Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"KILLSTREAM✅",
+        "value":"++Chance Crítica\n--Chance Status\n+Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"MACRO ARCROID",
+        "value":"---Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"MACRO THYMOID",
+        "value":"+Chance Crítica\n+Chance Status\n---Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"RAMFLARE",
+        "value":"--Chance Crítica\n++Chance Status\n-Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"SLAP",
+        "value":"+Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"SLAPNEEDLE",
+        "value":"+Chance Crítica\n-Chance Status\n+Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"SPARKFIRE",
+        "value":"-Chance Crítica\n+Chance Status\n-Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"SPLAT✅",
+        "value":"++Chance Crítica\n--Chance Status\n-Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"STITCH",
+        "value":"+Chance Crítica\n-Chance Status\n--Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"SWIFTFIRE",
+        "value":"-Chance Crítica\n+Chance Status\n-Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"THUNDERDRUM",
+        "value":"-Chance Crítica\n+Chance Status\n--Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"THYMOID",
+        "value":"-Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"ZIP",
+        "value":"++Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"ZIPFIRE",
+        "value":"-Chance Crítica\n+Chance Status\n++Velocidade de Recarga",
+        "inline": true
+      },
+      {
+        "name":"ZIPNEEDLE",
+        "value":"+Chance Crítica\n-Chance Status\n++Velocidade de Recarga",
+        "inline": true
+      }
+    ],
+    "color": "18175"
+  },
+  {
+    "description":"### DICAS\n\n- Melhores Peças estão marcadas com ✅\n- Aqui vai algumas combinações de kitguns primárias e secundárias dahora de se usar:",
+    "image":{
+      "url":"https://i.imgur.com/0hq89UO.png"
+    },
     "color": "18175"
   }
 ]
