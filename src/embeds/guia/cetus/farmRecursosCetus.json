@@ -1,8 +1,5 @@
 [
   {
-    "author": {
-      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
-    },
     "title": " Dica Pedrada ",
     "description": "Recursos no mapa são calculados de acordo com o nível dos inimigos, então regiões do mapa onde o nível dos inimigos é maior ( geralmente longe do portão ) dropam até x3 mais recursos.\nExiste uma tática para abusar dessa mecânica, se você colocar uma caçada de nível alto, com o NPC **KONZU** o Mapa Inteiro terá inimigos lvl alto, então... o **mapa inteiro terá recursos x3** 😎",
     "color": "18175"

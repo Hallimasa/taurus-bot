@@ -1,8 +1,5 @@
 [
   {
-    "author": {
-      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
-    },
     "title": " 🔸 Combo Counter  🔸 ",
             "description": "Esta mecânica funciona para armas melee e Snipers, consiste em  multiplicar seu dano , conforme você vai batendo ou atirando nos inimigos sem pausas, é contabilizado cada golpe dado por você nos inimigos e aparece no canto inferior direito.\n\nExiste um limite do multiplicador, que é de 12x, e para alcançá-lo você precisa dar 220 golpes nos inimigos sem tem um tempo entre eles superior há 5 segundos.\n\nExistem mods que aumentam este tempo, de 5 segundo, para que fique mais fácil pro jogador consiga subir seu combo.\n\nA escola de Foco Narramon, também oferece uma habilidade que muda o decaimento do combo, que ao invés de acabar em 5 segundos, ele apenas diminui 5  se você ficar 5 segundos sem bater em algum inimigo. Esta habilidade é essencial em diversas builds que envolvam armas melees.\n\nExistem mods também, que adicionam Chance de Crítico ou Chance de Status, adicionais , pra cada multiplicador de combo recebido, fazendo com que sua arma, quando estiver com 12x , mate qualquer inimigo que encostar... literalmente MUITO OP, são eles:\n\nBlood Rush\nGladiator Set\nWeeping Wounds",
             "color": 130888

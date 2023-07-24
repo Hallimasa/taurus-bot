@@ -1,8 +1,5 @@
 [
   {
-    "author": {
-      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
-    },
     "title": " 🔸 Missões Pesadelo 🔸 ",
             "description": "São modificadores das missões normais, que bonificam o player após completá-las com mods únicos.\n\nCada planeta terá 1 missão pesadelo e ela será random.",
             "color": 13087519,

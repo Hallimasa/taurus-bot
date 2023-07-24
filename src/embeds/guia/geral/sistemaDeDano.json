@@ -1,8 +1,5 @@
 [
   {
-    "author": {
-      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
-    },
     "title": " 🔸 Sistema de Dano 🔸 ",
             "description": " É um sistema que determina o dano causado a um determinado alvo por um determinado atacante. Os resultados dos danos são modificados por várias mecânicas - modificadores de tipo (conteúdo principal deste post),** armadura, bônus de acerto crítico, bônus de furtividade, debuffs de habilidade de Warframe, modificadores de partes do corpo, modificadores de facção** - que são discutidos abaixo e em suas respectivas páginas.\n\nTodo dano causado por qualquer arma ou habilidade pertence a um certo tipo de dano, e cada alvo tem resistências e vulnerabilidades específicas a diferentes tipos de dano. Explorar as vulnerabilidades do inimigo e evitar resistências por meio da seleção de armas e instalação de mod pode melhorar significativamente a produção de dano dos jogadores. Então vamos começar....",
             "color": 59901,

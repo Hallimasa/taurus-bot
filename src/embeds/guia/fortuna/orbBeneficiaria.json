@@ -1,0 +1,37 @@
+[
+  {
+    "description": "# ⚜ **ORB BENEFICIÁRIA ( PROFIT TAKER )**\n\nProfit-Taker é um boss em Orb Vallis que é desbloqueado quando você atinge o rank máximo com o sindicato Solaris United em Fortuna. A luta tem três grandes fases repetidas e tem um limite de tempo de 5 minutos na útima fase.\n\nAs três fases principais da luta são as seguintes:\n\n## 🛡 **FASE DE ESCUDO**\nA primeira fase da luta é a Fase do Escudo. Durante esta fase, há um símbolo de tipo de dano (elemento) brilhante acima da testa do boss. Você só pode danificar os escudos com o elemento correspondente. Depois de causar dano suficiente ao escudo, ele mudará (ciclo) seu elemento vulnerável para outro. Se você não causar dano suficiente, o escudo irá girar automaticamente após 25 segundos. Como alternativa, se 5 segundos se passaram desde a última troca do escudo, você pode reciclar manualmente usando dano do void ( Dano do operador ).",
+    "thumbnail":{
+      "url":"https://i.imgur.com/mcYeRrX.png"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"## 🦿 **FASE DE ARMADURA**\nApós cada Fase de Escudo, o boss entra na Fase de Armadura. Nesta fase, você quebra os membros da Orb Beneficiária, espera por uma animação de 2 segundos e danifica seu corpo. Apenas Arch-guns ( Tanto archguns invocadas quanto armas de necramechs ) podem danificá-la durante este tempo.\n\n## 🚩 **FASE DE PYLON**\nDurante esta fase, a Profit-Taker envia 4 ou 6 Pylons que devem ser destruídos antes de passar para a próxima fase. Os Pylons vão pousar em lugares aleatórios ao redor da Profit-Taker e eles têm bolhas de escudo que você não pode atirar nelas pelo lado de fora. A maneira tradicional de quebrá-los é passando pelos escudos, ponto em que você pode destruir os 'Pilões' normalmente.",
+    "color": "18175"
+  },
+  {
+    "description":"## **ORDEM DAS FASES**\n\n**ESCUDO → ARMADURA → PYLON → ARMADURA → ESCUDO → ARMADURA → PYLON → ESCUDO → ARMADURA → MORRE**\n\nLembrando que nas últimas 3 fases dela se inicia um cronômetro de 5 minutos de tempo limite para você possa derrotar, caso o tempo se esgote você fracassa a missão\n\n## **COMO SE PREPARAR ?**\nMesmo se você quiser apenas **copiar uma build** e seguir seu caminho, é importante entender por que as builds são do jeito que são. Saber como sua build funciona o torna mais eficaz com ela e permite que você a ajuste de acordo com sua preferência ou para compensar a falta de equipamento.\n Uma boa build para Orb Beneficiária sempre seguirá os seguintes princípios:",
+    "color": "18175"
+  },
+  {
+    "description":"## **Lidando com Derrubadas ( knockdown )**\nPor muito tempo, a principal reclamação das pessoas sobre a luta contra a Orb Beneficiária era o número excessivo de knockdowns nela. Hoje em dia, boas builds lidam com knockdowns utilizando uma dessas quatro maneiras:\n- 1. Eles encaixam Mods de imunidade knockdown - Primed Sure Footed (100% imune) ou Sure Footed + Power Drift (90% imune)\n-  2. Eles usam o nodo Poise da Escola de Foco Unairu por 40 segundos de status e imunidade a knockdown após a transferência entre o Warframe e o Operador.\n- 3. Eles infundem o Spelbind da Titania para status e imunidade a knockdown.\n- 4. Eles são feitos para warframes que têm suas próprias maneiras de fornecer imunidade a quedas.\n\n## **Sobrevivência**\nCaso você ainda não tenha notado, você causa mais dano vivo do que morto 💀. As builds devem ser tanques e capazes de recuperar a saúde.\nGeralmente, essa build é atingida através de uma combinação de uso do mod [ ADAPTATION ], [ UMBRAL VITALITY ], Guardião Arcano, Pads de Escudo, a aura do Espectro Ancient Curador e habilidades de warframes.\nA cura é feita principalmente pelo arcano de operador Magus Elevate ou Magus Repair, nodo da escola Vazarin Protective Sling , Tripulante de Elite de Railjack com a skill de 'curar 500 de vida de aliados ao matar inimigos'.",
+    "color":"18175"
+  },
+  {
+    "description":"## **Abranger todos os elementos**\nSe você trouxer apenas 7 elementos para a luta, você gasta mais tempo esperando o cooldown do ciclo do que algumas pessoas levam para terminar a luta inteira.\nPara maximizar o dano, é preferível que o único elemento estatístico de uma arma (Calor, Frio, Eletricidade, Toxina) corresponda ao elemental prime de cada arma, como por exemplo [ Primed Cyro Rounds ] para armas primárias. Sugestões de elementos para vc buildar sua armas:\n- primária: **Corrosivo** (tóxico+elétrico) + **Frio**\n- secundária: **Viral**(frio+tóxico) + Calor, obs: se for arma kuva/tenet + **Radiação** ou **Magnético**\n- Zaw Contagion Melee: **Gás**(toxina+calor) + **elétrico** obs: zaw com arcano exodia contagion possuem dano de **Explosão** nos projéteis",
+    "color":"18175"
+  },
+  {
+    "description":"## ALGUMAS SUGESTÕES DE BUILDS:\n- [warframe - chroma com skill nourish, ela dá dano Viral aos ataques](https://overframe.gg/build/453465/chroma-prime/profit-taker/)\n- [primária - zenith buildada pra ser utilizada com chroma](https://overframe.gg/build/292751/)\n- [primária - Opticor Vandar, dê 1 tiro nos pylons](https://overframe.gg/build/292753/)\n- [Secundária - Tenet Detron, dano radioativo e magnético inatos](https://overframe.gg/build/292747/tenet-detron/pt-chroma-vex-armor-detron/)\n- [Melee - Zaw Exodia Contagion](https://overframe.gg/build/318741/)\n- [archarma - mausolon](https://overframe.gg/build/328827/)",
+    "color":"18175"
+  },
+  {
+    "description":"## <:creditos:1128440914117939283> Farmando Créditos de forma Eficiente\n\nEla dropa 125k de créditos que podem ser multiplicados com:\n- 2x - habilidade 4 do chroma\n- 2x - boost de créditos\n- 2x - buff de recursos do **Smeeta Kavat**\n- 1,25x - benção de créditos\n- 2x - Final de semana com evento de dobro de créditos\n\nLembrando que todos essse buffs são multiplicativos entre si, caso vc consiga todos, vc irá receber 125k x 20 = 2.5kk por run",
+    "color":"18175"
+  },
+  {
+    "description":"## IFORMAÇÕES ADICIONAIS\nEsse guia está com informações faltando, peço desculpas, é que devido ao limite de caracteres da API do discord, não posso colocar tudo o que desejava, caso queria ver o guia original e completo, segue o [link](https://docs.google.com/document/d/1DWY-ZNv7cUA6egxDZKYu0e8qz7z-yHT2KncyYAo5NHU/edit). Obs: o guia original está em inglês  ",
+    "color":"18175"
+  }
+]

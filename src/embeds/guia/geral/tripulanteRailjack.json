@@ -1,8 +1,5 @@
 [
   {
-    "author": {
-      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
-    },
     "title": " 🔹 Tripulantes de Railjack 🔹 ",
             "description":"Os membros da tripulação do NPC podem ser contratados para servir ao Railjack do jogador se não tiverem um esquadrão de jogadores completo. Eles são desbloqueados nos Intrínsecos de Comando Rank 1.\n\nA tripulação do anfitrião é usada em missões. Se os jogadores entrarem na fila do esquadrão, eles substituirão a tripulação NPC, começando com a do slot C, depois B e depois A.\n\nExistem duas maneiras de obter membros da tripulação:\n\n- Contratação de Agentes do Sindicato do Ticker em Fortuna em Vênus usando créditos ou recursos do Railjack. Os preços variam em até um fator de dois em qualquer direção com base na posição do jogador (aliado ou oposto por um desconto ou goivagem de preço, respectivamente) com o Sindicato do NPC.\n\n- Kuva Liches e Sisters of Parvos convertidos podem ser usados como tripulantes no nível de comando 8.\n\nOs jogadores começam com 3 slots de tripulantes e slots adicionais podem ser adquiridos com 20 até um máximo de 33 slots de tripulantes. Como alternativa, os jogadores podem encerrar seus contratos com sua equipe para liberar slots, o que solicitará que o jogador digite RELEASE para confirmar.\n\n**CHAMAR TRIPULANTE NO MEIO DE UMA MISSÃO**\n\n-> Ao completar os intrínsecos de comando nível 9, você recebe um comsumível onde você poderá convocar seu tripulante no meio de qualquer missão, isso é muito útil pra quem não consegue matar algum boss, apenas invoke seu tripulante e deixe ele fazer o trabalho pra ti **STONKS**.",
             "image": {

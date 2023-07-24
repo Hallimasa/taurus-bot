@@ -1,8 +1,5 @@
 [
   {
-    "author": {
-      "name": "📌 Essa mensagem será DELETADA em 10 minutos"
-    },
     "title": " 🔸 Sistema de Status 🔸 ",
             "description": "Esta é a parte que mais confunde os players novos, vou tentar ser o mais lógico possível, resumindo somente o essencial de cada aspecto, partiu...\n\nStatus é o efeito especial causado no inimigo de cada tipo de dano que existe no jogo, cada arma possui seu dano, vamos levar como exemplo uma arma qualquer:\n\n**Arma de Exemplo**\nDano de Impacto: 25\nDano de perfuração: 25\nDano de Corte 70:\nDano de Calor: 5\nDano total: 100\nChance de Status: 22%\n\n\nAnalisando esta arma podemos concluir que, de 100 tiros que você der no inimigo, em média, 22 causarão o efeito de status.\n\nMas qual efeito? bom isso é um cálculo bem simples, pega o dano total da arma, e subtrai por todos os tipos de dano, como:\n\nChance da arma causar o Efeito de Impacto : **25%** \nChance da arma causar o Efeito de Perfuração :** 25%**\nChance da arma causar o Efeito de Corte :** 70%**\nChance da arma causar o Efeito de Calor : **5%**\n\nEntão será mais provável que o inimigo sofra o efeito de Corte, pois a arma tem muito dano de corte, então sua chance de causar é maior.\n\nObs: os players chamam esse efeito de status geralmente de Proc de Status.",
             "color": 734865

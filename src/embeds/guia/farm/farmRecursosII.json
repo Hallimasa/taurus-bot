@@ -1,8 +1,5 @@
 [
   {
-    "author": {
-      "name": "📌 Essa mensagem será DELETADA em 6 minutos"
-    },
       "title":"RECURSOS DE CLASSE DE NAVEGAÇÃO",
       "description":"- **Coordenadas Nav (Nav Coordinate)** = Disponíveis em qualquer missão do jogo.\n\n- **Sinalizador de Navegação Animo (Animo Nav Beacon)** = Esse recurso pode ser adquirido ao matar e hackear os ambulas trazidos pelas naves de pouso condor em certas missões corpus em Plutão.\n\n- **Pontos de Julgamento** = Esse recurso pode ser adquirido como recompensa de vitória nas arenas de Sedna: (Nakki - entrada gratuita, 10 pontos ao vencer); (Yam - entrada custa 10 pontos, 15 ao vencer); (Vodyanoi - entrada custa 15 pontos, 25 ao vencer). Esse recurso é necessário para desafiar Kela de Thaym em Merrow (Sedna), a entrada custa 25 pontos e reembolsa 13 ao completar.\n\n- **ULA Criptográfica (Cryptographic ALU)** = Esse recurso só está disponível para drop durante o evento recorrente 'Armada Razorback' e dropa dos inimigos em missões archwing de Júpiter e Netuno.\n\n- **Isótopo Ômega (Omega Isotope)** = Esse recurso só está disponível para drop durante o evento recorrente 'Ameaça Fomoriana' e dropa de inimigos normais (não-archwing) em qualquer missão do planeta em que o Balor Fomorian está instalado na ocasião.",
       "color":"4298320"
