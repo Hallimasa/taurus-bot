@@ -1,11 +1,11 @@
 [
   {
     "title": " RECURSOS DE CLASSE COMUM ",
-    "description": "- **Chapa Metálica (Alloy Plate)** = Disponível em missões de Vênus, Júpiter, Sedna, Ceres, Phobos e Plutão.\n\n- **Ferrite** = Disponível em missões de Mercúrio, Terra, Netuno e Void.\n\n- **Nano Esporos (Nano Spores)** = Disponível em missões de Deimos, Saturno, Netuno e Eris.\n\n- **Restos (Salvage)** = Disponível em missões de Marte, Júpiter e Sedna.",
+    "description": "- **Chapa Metálica (Alloy Plate)** = Disponível em missões de Vênus, Júpiter, Sedna, Ceres, Phobos e Plutão. **melhores lugares: Gabii Ceres**\n\n- **Ferrite** = Disponível em missões de Mercúrio, Terra, Netuno e Void. **melhores lugares: Apollodorus Mercúrio, Ani Void**\n\n- **Nano Esporos (Nano Spores)** = Disponível em missões de Deimos, Saturno, Netuno e Eris. **melhores lugares Zabala Eris, Oestrus Eris e Kelashin Netuno\n\n- **Restos (Salvage)** = Disponível em missões de Marte, Júpiter e Sedna. **melhores lugares: Wahiba Marte, Cameria Jupiter e Amarna Sedna**",
     "color": "18175"
   },
   {
-    "title":"RECURSOS DE CLASSE COMUM",
+    "title":"RECURSOS DE CLASSE INCOMUM",
     "description":"- **Crióticos (Cryotics)** = Disponível em qualquer missão de escavação de qualquer planeta, a recompensa que vem das escavadeiras é sempre a mesma então vá na missão que mais lhe for conveniente. Recomendo aproveitar quando há uma fenda do void numa missão de escavação assim além de farmar partes prime de quebra você sai com crióticos.\n\n- **Circuitos (Circuits)** = Disponível em missões de Vênus, Ceres e Fortaleza Kuva. Recomendo Malva (Vênus), Seimeni (Ceres) ou Taveuni (Fortaleza Kuva).\n\n- **Pacote de Polímeros (Polymer Bundle)** = Disponível em missões de Mercúrio, Vênus e Urano. Recomendo Assur ou Ophelia (ambos em Urano).\n\n- **Plastídeos (Plastids)** = Disponível em missões de Saturno, Urano, Phobos, Plutão e Eris. Recomendo Ophelia (Urano) ou Piscinas (Saturno).\n\n- **Rubedo** = Disponível em missões de Phobos, Terra, Plutão, Europa, Sedna e Void. Recomendo Zeugma e Stickney (ambos em Phobos).\n\n",
     "color":"12745742"
   },
