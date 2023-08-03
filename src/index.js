@@ -3,7 +3,6 @@ const moment = require('moment');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
 
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
-const { channel } = require('diagnostics_channel');
 const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
@@ -77,9 +76,8 @@ client.on('interactionCreate', (interaction) => {
                 let hours = 0;
                 let thumbstatus = "";
                 let embedcolor = '';
-                let currentDate = new Date().setUTCHours(0);
+                let currentDate = new Date();
 
-                const timestamp = moment(currentDate).add(1,'minutes').toDate();
                 const timeRegex1 = /(\d+)h (\d+)m (\d+)/;
                 const timeRegex2 = /(\d+)m (\d+)/;
 
@@ -154,7 +152,7 @@ client.on('interactionCreate', (interaction) => {
                 interaction.reply({embeds: [{
                     "title": `CETUS ESTÁ DE ${daystatusON}`,
                     "url": "https://api.warframestat.us/pc/cetusCycle/",
-                    "description": `Faltam ${data.timeLeft} para ficar de ${daystatusOFF}\n\n**PROXIMAS NOITES** ⏰\n( horário de Brasília GMT -3 )\n\n- 1º --- ${moment(timenextNightONE).utcOffset(-180).format('HH:mm')}\n\n- 2º --- ${moment(timenextNightTWO).utcOffset(-180).format('HH:mm')}\n\n- 3º --- ${moment(timenextNightTHREE).utcOffset(-180).format('HH:mm')}\n\n- 4º --- ${moment(timenextNightFOUR).utcOffset(-180).format('HH:mm')}\n\n📌\n*Essa mensagem será \nDELETADA ${time(timestamp,"R")}*`,
+                    "description": `Faltam ${data.timeLeft} para ficar de ${daystatusOFF}\n\n**PROXIMAS NOITES** ⏰\n( horário de Brasília GMT -3 )\n\n- 1º --- ${moment(timenextNightONE).utcOffset(-180).format('HH:mm')}\n\n- 2º --- ${moment(timenextNightTWO).utcOffset(-180).format('HH:mm')}\n\n- 3º --- ${moment(timenextNightTHREE).utcOffset(-180).format('HH:mm')}\n\n- 4º --- ${moment(timenextNightFOUR).utcOffset(-180).format('HH:mm')}`,
                     "image": {
                       "url": ""
                     },
