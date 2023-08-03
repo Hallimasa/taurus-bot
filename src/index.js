@@ -161,7 +161,7 @@ client.on('interactionCreate', (interaction) => {
                       "url": thumbstatus
                     },
                     "color": embedcolor
-                }]}).then(msg => setTimeout(() => msg.delete(), 180000));
+                }]}).then(msg => setTimeout(() => msg.delete(), 60000));
             })
                 .catch(error => console.log(error));
     } else {
@@ -174,7 +174,6 @@ client.on('messageCreate', (m) =>{
     if (m.author.bot) return;
     if (m.author.id !== process.env.OWNER_ID) return;
   
-    
     if (m.content === "config.guiageral.channel"){   // MENU GUIA GERAL
         if (!(m.channel.id === process.env.CHAT_GUIA_GERAL_ID)) return;
     const guiaGeralBasico =  new ActionRowBuilder().addComponents(
@@ -250,7 +249,7 @@ client.on('messageCreate', (m) =>{
         .setOptions ([
             {label:'Apps para Celular',value:'appsParaCelular',description:'Apps que utilizo e recomendo',emoji:'🔸'},
             {label:'Arbitragem',value:'arbitragem',description:'Missões onde o player possui apenas 1 vida',emoji:'🔹'},
-            {label:'Como Buildar Armas',value:'comoBuildarArmas',description:'Dicas sobre como fazer suas próprias builds',emoji:'🔸'},
+            {label:'Como Buildar Armas',value:'comoBuildarArmas',description:'Dicas sobre como fazer suas próprias builds',emoji:'🏹'},
             {label:'Percuso de Aço',value:'percursoDeAco',description:'Modo Dicífil do jogo, inimigos lvl 120+',emoji:'🔹'},
             {label:'Simulacro',value:'simulacro',description:'Teste suas builds aqui',emoji:'🔸'},
             {label:'Tripulante Railjack',value:'tripulanteRailjack',description:'Invocáveis durante missões, ajudam bastante',emoji:'🔹'},
