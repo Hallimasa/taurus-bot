@@ -3,6 +3,7 @@ const moment = require('moment');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
 
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
+const { channel } = require('diagnostics_channel');
 const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
