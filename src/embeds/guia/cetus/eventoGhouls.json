@@ -1,0 +1,23 @@
+[
+  {
+    "description": "# Evento - Expurgação dos Ghouls\n\nExpurgação dos Ghoul é um evento recorrente que ocorre uma vez a cada poucas semanas, localizado nas Planícies de Eidolon, na Terra. Durante o evento, as planícies serão povoadas por uma quantidade crescente de Ghouls e assim permanecerão até que a população de Ghouls seja exterminada.\n\nQuando o evento começa, Konzu oferecerá mais duas recompensas com tema Ghoul em seus painéis de caçadas, e a conclusão dessas caçadas contribuirá para o extermínio geral da população Ghoul.\nEssas caçadas são muito semelhantes às básicas que podem ser obtidas em o quadro de recompensas em Cetus, com certos objetivos sendo mais focados nos próprios Ghouls do que o normal. A seguir está a lista de níveis de recompensa que aparecem, bem como as recompensas associadas a ela.",
+    "image":{
+      "url":"https://i.imgur.com/INx5NMg.png"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"## Caçadas lvl 15-25",
+    "image":{
+      "url":"https://i.imgur.com/vdpOySc.png"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"## Caçadas lvl 40-50",
+    "image":{
+      "url":"https://i.imgur.com/62BajKi.png"
+    },
+    "color":"18175"
+  }
+]

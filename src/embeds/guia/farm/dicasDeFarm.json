@@ -1,7 +1,6 @@
 [
   {
-    "title": " Dicas simples que podem ser úteis ",
-    "description": "- **Recomendo jogar em solo ou com grupo dedicado somente ao farm**, pois entrar em grupo com jogadores com objetivos diferentes só trará confusão especialmente no modo sobrevivência já que os inimigos acabarão se dispersando se o esquadrão ficar se dividindo em várias direções;\n\n- **Missões de Infestação spawnam inimigos com maior frequência**, ou seja, uma melhor taxa de drop e indo em determinadas missões dark sector ou no modo percurso de aço contribui ainda mais;\n\n- **Equipe seu companheiro com mods que sugam os drops até o usuário**, para as sentinelas/robóticos é o Vacuum, já para os animais se chama Fetch, no rank máximo ambos trazem um ótimo raio de sucção de pouco mais de 10m;",
+    "description": "## Dicas simples que podem ser úteis\n\n- Missões de Infestação spawnam inimigos com maior frequência**, ou seja, uma melhor taxa de drop e indo em determinadas missões dark sector ou no modo percurso de aço contribui ainda mais;\n\n- **Equipe seu companheiro com mods que sugam os drops até o usuário**, para as sentinelas/robóticos é o Vacuum, já para os animais se chama Fetch, no rank máximo ambos trazem um ótimo raio de sucção de pouco mais de 10m;",
     "color": "18175"
   },
   {
@@ -9,8 +8,11 @@
     "color":"18175"
   },
   {
-    "title":"Buildando warframes que maximizem o farm",
-    "description":"Quero esclarecer uma coisa antes de seguir: os inimigos geram loot extra em 3 momentos possíveis - Uma vez em vida (sendo furtados pela Ivara), uma vez na morte (afetados pelas habilidades da Khora, Hydroid ou Atlas) e uma vez depois da morte (via habilidade do Nekros).\nNo jogo alguns warframes tem um nicho de especialização que favorece o farm, então a ideia é usar suas capacidades inatas ou providas por mods para extrair seu potencial nessa categoria, dentre estes temos:",
+    "description":"## Companheiros que ajudam no farm:\n\n- **SMEETA KAVAT** com seu mod **CHARM** dê ao seu dono um buff de dobro de recursos e afinidade por 120 segundos\n\n- **CHESEA KUBROW** com seu mod **RETRIEVE** tenha chance de coletar loot adicional de corpos de inimigos ou contâiners, obs: não stacka com o 3 do nekros, são a mesma habilidade porém um pouco nerfada no caso do kubrow",
+    "color":"10181046"
+  },
+  {
+    "description":"## Buildando warframes que maximizem o farm\n\nQuero esclarecer uma coisa antes de seguir: os inimigos geram loot extra em 3 momentos possíveis - Uma vez em vida (sendo furtados pela Ivara), uma vez na morte (afetados pelas habilidades da Khora, Hydroid ou Atlas) e uma vez depois da morte (via habilidade do Nekros).\nNo jogo alguns warframes tem um nicho de especialização que favorece o farm, então a ideia é usar suas capacidades inatas ou providas por mods para extrair seu potencial nessa categoria, dentre estes temos:",
     "color":"12370112"
   },
   {
@@ -26,8 +28,7 @@
     "color":"12370112"
   },
   {
-    "title":"BÔNUS: Forma Alternativa de Farmar Recursos de Classe RARA",
-    "description":"A ideia é equipar o mod Spare Parts (45% de chance de sentinelas droparem recurso raro ao morrer) na sua sentinela e deixar que os inimigos a destruam e em seguida revivê-la usando um warframe infundido com o Dispensary da Protea (+ mod de ampliação Repair Dispensary).\nOBS: A sentinela Djinn (com Reawaken equipado) também serve se você não tem nada da Protea para usar!\n[LINK PARA O VÍDEO EXPLICATIVO](https://www.youtube.com/watch?v=4MbGvcxUlRc&t=1s)",
+    "description":"## BÔNUS: Forma Inusitada de Farmar Recursos de Classe RARA\n\nA ideia é equipar o mod **Spare Parts** (45% de chance de sentinelas droparem recurso raro ao morrer) na sua sentinela e deixar que os inimigos a destruam e em seguida revivê-la usando um warframe infundido com o Dispensary da Protea (+ mod de ampliação Repair Dispensary).\nOBS: A sentinela Djinn (com Reawaken equipado) também serve se você não tem nada da Protea para usar!\n[LINK PARA O VÍDEO EXPLICATIVO](https://www.youtube.com/watch?v=4MbGvcxUlRc&t=1s)",
     "color":"10181046"
   }
 ]

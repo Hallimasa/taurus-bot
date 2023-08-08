@@ -354,10 +354,11 @@ client.on('messageCreate', (m) =>{
             .setMaxValues(1)
             .setMinValues(1)
             .setOptions ([
-                {label:'Farm de Créditos',value:'farmCreditos',description:'Maneiras mais eficientes de farmar Créditos',emoji:'🔸'},
+                {label:'Farm de Créditos',value:'farmCreditos',description:'Maneiras mais eficientes de farmar Créditos',emoji:'<:creditos:1128440914117939283>'},
                 {label:'Farm de Afinidade(XP)',value:'farmAfinidade',description:'Maneiras mais eficientes de farmar Afinidade',emoji:'🔹'},
-                {label:'Farm Endo',value:'farmEndo',description:'Maneiras mais eficientes de farmar Endo',emoji:'🔸'},
-                {label:'Dicas de Farm',value:'dicasDeFarm',description:'dicas para se farmar de forma eficiente',emoji:'🔹'},
+                {label:'Farm Endo',value:'farmEndo',description:'Maneiras mais eficientes de farmar Endo',emoji:'<:endo:1128440928923816067>'},
+                {label:'Farm Platina',value:'farmPlatina',description:'Maneiras mais eficientes de farmar Platina',emoji:'<:platina:1128440939568967740>'},
+                {label:'Dicas de Farm',value:'dicasDeFarm',description:'dicas para se farmar de forma eficiente',emoji:'<:heheboy:1126621539685634128>'},
                 {label:'Farm Recursos I',value:'farmRecursosI',description:'Veja o melhor local de farm de cada recurso I',emoji:'🔸'},
                 {label:'Farm Recursos II',value:'farmRecursosII',description:'Veja o melhor local de farm de cada recurso II',emoji:'🔹'},
                 {label:'Farm de Foco',value:'farmFoco',description:'Maneiras mais eficientes de farmar Foco',emoji:'🔸'},
@@ -368,9 +369,9 @@ client.on('messageCreate', (m) =>{
                 {label:'Farm Mods Pesadelo',value:'farmModsPesadelo',description:'Maneiras mais eficientes de farma Mods Pesadelo',emoji:'🔹'},
                 {label:'Farm Aya',value:'farmAya',description:'Maneiras mais eficientes de farma Aya',emoji:'🔸'},
                 {label:'Farm de Coroas de Granum',value:'farmDeCoroasDeGranum',description:'Moedas que servem para entrar no Granum Void',emoji:'🔹'},
-                {label:'Farm de Warframes I',value:'farmDeWarframesI',description:'Locais de Farm para todos os warframes normais 1',emoji:'🔸'},
-                {label:'Farm de Warframes II',value:'farmDeWarframesII',description:'Locais de Farm para todos os warframes normais 2',emoji:'🔹'},
-                {label:'Farm de Warframes III',value:'farmDeWarframesIII',description:'Locais de Farm para todos os warframes normais 3',emoji:'🔸'}
+                {label:'Farm de Warframes I',value:'farmDeWarframesI',description:'Locais de Farm para todos os warframes normais 1',emoji:'<:jojocali:1128440930471514142>'},
+                {label:'Farm de Warframes II',value:'farmDeWarframesII',description:'Locais de Farm para todos os warframes normais 2',emoji:'<:jojoloki:1128440933214584832>'},
+                {label:'Farm de Warframes III',value:'farmDeWarframesIII',description:'Locais de Farm para todos os warframes normais 3',emoji:'<:jojonyx:1128440934875545691>'}
             ]),
         );
     
@@ -404,7 +405,8 @@ client.on('messageCreate', (m) =>{
                 {label:'Pescaria & Mineração',value:'pescaria&MineracaoCetus',description:'Informações básicas sobre pescaria e mineração',emoji:'🔹'},
                 {label:'Zaws - Armas Modulares',value:'zaws',description:'Guia dessas armas de corpo a corpo modulares',emoji:'🔸'},
                 {label:'Eidolon',value:'eidolon',description:'Como matar o boss que spawna durante a noite?',emoji:'🔹'},
-                {label:'Thusk Domas',value:'thuskDomas',description:'Mini boss que spawna durante o dia',emoji:'🔸'}
+                {label:'Thusk Domas',value:'thuskDomas',description:'Mini boss que spawna durante o dia',emoji:'🔸'},
+                {label:'Evento - Expurgação dos Ghouls',value:'eventoGhouls',description:'Ajude Konzu a expurgar as plnícies dos Ghouls',emoji:'🔹'}
             ]),
         );
     
