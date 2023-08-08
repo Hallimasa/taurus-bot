@@ -406,7 +406,8 @@ client.on('messageCreate', (m) =>{
                 {label:'Zaws - Armas Modulares',value:'zaws',description:'Guia dessas armas de corpo a corpo modulares',emoji:'🔸'},
                 {label:'Eidolon',value:'eidolon',description:'Como matar o boss que spawna durante a noite?',emoji:'🔹'},
                 {label:'Thusk Domas',value:'thuskDomas',description:'Mini boss que spawna durante o dia',emoji:'🔸'},
-                {label:'Evento - Expurgação dos Ghouls',value:'eventoGhouls',description:'Ajude Konzu a expurgar as plnícies dos Ghouls',emoji:'🔹'}
+                {label:'Evento - Expurgação dos Ghouls',value:'eventoGhouls',description:'Ajude Konzu a expurgar as plnícies dos Ghouls',emoji:'🔹'},
+                {label:'Evento - Praga Estrelar',value:'eventoPragaEstrelar',description:'Evento onde se consegue partes de Zaws infestadas',emoji:'🔸'}
             ]),
         );
     

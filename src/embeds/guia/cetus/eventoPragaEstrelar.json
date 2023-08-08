@@ -1,0 +1,13 @@
+[
+  {
+    "description": "# Evento - Operação: Praga Estrelar\n\n**Reúna seu esquadrão e defenda as Planícies de Eidolon!**\nUm misterioso meteoro se colidiu fora de [Cetus](https://warframe.fandom.com/pt-br/wiki/Cetus) revelando um terrível tumor. O tumor está crescendo e os [Ostrons](https://warframe.fandom.com/pt-br/wiki/Ostron) tem visto vida Infestada emergindo do meteoro. Nós precisamos agir agora antes que eles tomem rumo a Cetus.\nKonzu tem recebido relatos de que Vay Hek possui uma toxina que pode destruir o tumor. Mas Vay Hek não ajudou, ele vê o tumor infestado como um meio de se livrar as Planícies de Cetus e dos Ostrons.\nNós precisamos conseguir a toxina e destruir o turmo antes que se torne incontrolável. Visite Konzu em Cetus e leia seu plano para recuperar a toxina de Vay Hek.",
+    "image":{
+      "url":"https://i.imgur.com/2ihyJvM.png"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"## Como Fazer:\n\nA Caçada Praga Estelar inicia com inimigos de dificuldade média, mas você pode aumentar utilizando o Phylaxis de Eidolon e Catalisador Infestado na toxina de Vay Hek. Quanto mais caçadas você completa, mais reputação você ganha em direção a algo novo: Operação Sindicato. Nakak, o vendedor de esquisitices, representa o Sindicato de Suprimentos Operacionais para Operação: Praga Estelar. As recompensas de Nakak podem ser trocadas por reputação.\nOs catalisadores infestados irão conceder um Hemocyte por dose. O Eidolon Phylaxis aumentará a dificuldade de cada phylaxis utilizado. A reputação base da caçada é 1.000. Adicionando 4x Eidolon Phylaxis irá aumentar a reputação ganha em 1.000 e a mesma para o catalisador infestado, tornando isso possível de conceder 3.000 de reputação por caçada.\n\n## Recompensas\nVisite o npc de cetus Nakak, com reputação ganha para escolher sua Recompensa de Operação. Algumas recompensas que valem à pena o farm:\n- **Partes de Zaws Infestadas**\n- **Arcanos de Zaws Raros**\n- **<:forma:1128436956062302218> - Forma**",
+    "color":"18175"
+  }
+]
