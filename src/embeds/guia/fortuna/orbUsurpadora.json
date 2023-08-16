@@ -1,0 +1,45 @@
+[
+  {
+    "description": "# Orb Usurpadora\n\nEla é um boss que dropa a warframe **HILDRYN** junto com vários minérios e recursos de peixe do mapa de Orb Vallis\n\n## Requisitos para fazer o boss:\n- Alguém no seu squad ou você mesmo deverá ter uma **TÉRMIA DILUÍDA** para poder spawnar o boss, este item é farmado durante o evento das Fraturas Térmicas, veja o nosso guia sobre os eventos de fortuna se não o conhece.\n- Uma arma de com tiros de precisão, com alto dano de Corrosivo, durante as fases de dano da Orb Usurpadora, voce deverá atirar em partes da Orb Pegando Fogo, uma arma bem buildada com dano corrosivo te ajudará muito.\n\n## Onde Encontro o boss?\nEla fica andando ao redor do Templo do Lucro porém nesta ocasião se encontra invunerável a qualquer tipo de dano.\nPara começar o boss primeiramente você precisa ir no **DECK 12**, uma antiga e abandonada base dos habitantes de fortuna, ela fica nessa caverna aqui:",
+    "image":{
+      "url":"https://i.imgur.com/U0Raol6.png"
+    },
+    "color": "18175"
+
+  },
+  {
+    "description":"Dentro dessa caverna voce encontra o antigo **DECK 12**, você deve ir até esse computador aqui e usar '**X**' nele, ativando o assim o começo do boss, veja onde destou no Minimapa caso esteja perdido:",
+    "image":{
+      "url":"https://i.imgur.com/dg1fztN.png"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"## 🧊 FASE 1\n- Inicialmente ela entra no **Deck 12** e fica atirando em voce se apoiando em **pedras**, você deve atirar nas **pedras** de apoio dela, para que ela caia no chão\n- Agora ela irá soltar 4 **CHAMINÉS** em seu corpo, seu objetivo nessa fase será destruir essas 4 **CHAMINÉS**, atire nelas:",
+    "image":{
+      "url":"https://i.imgur.com/bdwmXWx.png"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"- Após a quebra da primeira **CHAMINÉ**, ela congela as outras 3, impossibilitando que você consiga dar dano nelas.\n- Irá spawnar pelo mapa do **Deck 12**, várias **cápsulas amarelas de Térmia Diluída**, com elas, você conseguirá derreter o gelo das **CHAMINÉS**, basta pegar elas com '**X**' e atirá-las com o **botão do meio do mouse**, na direção das **CHAMINÉS**, com 2 acertos da **cápsula de térmia diluída**, a **CHAMINÉ** volta a ficar vulnerável ao dano, repita esse processo para as todas as 3 **CHAMINÉS** congeladas:",
+    "image":{
+      "url":"https://i.imgur.com/y3IPniN.png"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"## 🔥 FASE 2\n- Nessa fase a batalha será fora da caverna, a **Orb Usurpadora** irá sair do **Deck 12**, saia também.\n- Seu objetivo agora é **impedir** que a **Orb Usurpadora diminúa sua temperatura**, seu foco agora está em deixar o corpo dela QUENTE 🥵\n- **Impeça** que as **aranhas menores** joguem **Líquidos Frios** nela, e perceba quando uma **RACKNOID** morre, ele dropa uma **cápsula vazia**, use essa **cápsula** para **fechar as fraturas**, jogue o líquido quente (**Térmia Diluída**) na **Orb Usurpadora** para aquecê-la ainda mais 🔥🔥",
+    "image":{
+      "url":"https://i.imgur.com/nK6V1Jj.png"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"- Quando sua temperatura chegar ao máximo, ela se torna vulnerável à uma **cinemática** onde você irá remover uma peça de sua cabeça, para ativar a **cinemática**, basta aproximar-se de seu corpo principal, durante a **temperatura máxima**.\n- Após a **cinemática**, o local onde a peça foi removida ficará **vulnerável** à dano, atire nessa parte com sua arma (**dano corroviso**), após a quebra total dessa parte, ela volta pro começo da **FASE 2**\n- **Repita esse processo 3 vezes**, no final do terceiro ela morre definitivamente\n- Seu loot cairá após alguns segundos, lembre-se de que ela **explode com 1 minuto após sua morte**, então pegue o loot rapidamente e saia correndo daí, caso queira TROLLAR algum amigo noob, fiquei quieto e deixe ele morrrer 👿\n\n## LOOT:\n- Aqui estão os possíveis loots do boss:",
+    "image":{
+      "url":"https://i.imgur.com/SFw7Ctg.png"
+    },
+    "color":"18175"
+  }
+]
