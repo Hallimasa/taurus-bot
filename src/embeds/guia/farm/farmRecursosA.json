@@ -1,11 +1,11 @@
 [
   {
-    "title": " RECURSOS DE CLASSE COMUM ",
+    "title": " 🔰 RECURSOS DE CLASSE COMUM 🔰 ",
     "description": "- **Chapa Metálica (Alloy Plate)** = Disponível em missões de Vênus, Júpiter, Sedna, Ceres, Phobos e Plutão. **melhores lugares: Gabii Ceres**\n\n- **Ferrite** = Disponível em missões de Mercúrio, Terra, Netuno e Void. **melhores lugares: Apollodorus Mercúrio, Ani Void**\n\n- **Nano Esporos (Nano Spores)** = Disponível em missões de Deimos, Saturno, Netuno e Eris. **melhores lugares Zabala Eris, Oestrus Eris e Kelashin Netuno**\n\n- **Restos (Salvage)** = Disponível em missões de Marte, Júpiter e Sedna. **melhores lugares: Wahiba Marte, Cameria Jupiter e Amarna Sedna**",
     "color": "18175"
   },
   {
-    "title":"RECURSOS DE CLASSE INCOMUM",
+    "title":"🔰 RECURSOS DE CLASSE INCOMUM 🔰",
     "description":"- **Crióticos (Cryotics)** = Disponível em qualquer missão de escavação de qualquer planeta, a recompensa que vem das escavadeiras é sempre a mesma então vá na missão que mais lhe for conveniente. Recomendo aproveitar quando há uma fenda do void numa missão de escavação assim além de farmar partes prime de quebra você sai com crióticos.\n\n- **Circuitos (Circuits)** = Disponível em missões de Vênus, Ceres e Fortaleza Kuva. Recomendo Malva (Vênus), Seimeni (Ceres) ou Taveuni (Fortaleza Kuva).\n\n- **Pacote de Polímeros (Polymer Bundle)** = Disponível em missões de Mercúrio, Vênus e Urano. Recomendo Assur ou Ophelia (ambos em Urano).\n\n- **Plastídeos (Plastids)** = Disponível em missões de Saturno, Urano, Phobos, Plutão e Eris. Recomendo Ophelia (Urano) ou Piscinas (Saturno).\n\n- **Rubedo** = Disponível em missões de Phobos, Terra, Plutão, Europa, Sedna e Void. Recomendo Zeugma e Stickney (ambos em Phobos).\n\n",
     "color":"12745742"
   },
@@ -14,7 +14,7 @@
     "color":"12745742"
   },
   {
-    "title":"RECURSOS DE CLASSE RARA",
+    "title":"🔰 RECURSOS DE CLASSE RARA 🔰",
     "description":"- **Módulo de Controle (Control Module)** = Disponível em missões de Netuno, Europa e Void. Recomendo Teshub ou Hepit (Void), apesar de ser classificado como raro cai fácil até demais, então meio que tanto faz a missão que você for contanto que seja nesses planetas.\n\n- **Gálio (Gallium)** = Disponível em missões de Marte e Urano. Recomendo Gradivus (Marte), Ophelia (Urano) ou rushar o boss em Titania (Urano).\n\n- **Mórficos (Morphics)** = Disponível em missões de Mercúrio, Marte, Europa e Plutão. Recomendo Wahiba (Marte), Zeugma (Phobos) ou rushando os bosses em Iliad (Phobos) ou War (Marte).\n\n- **Sensores Neurais (Neural Sensors)** = Disponível em missões de Júpiter e Fortaleza Kuva. Recomendo Cameria (Júpiter), Taveuni (Fortaleza Kuva) ou rushando o boss em Themisto (Júpiter).\n\n- **Neurodes** = Disponível em missões de Terra, Deimos, Eris e Lua. Recomendo Tycho (Lua), Tikal (Terra) ou rushar o boss em Magnacidium (Deimos).\n\n- **Célula Orokin (Orokin Cell)** = Disponível em missões de Saturno, Ceres e Deimos. Recomendo Piscinas (Saturno), Gabii (Ceres) ou rushar o boss em Exta (Ceres).",
     "color":"1146986"
   },

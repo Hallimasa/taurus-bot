@@ -39,26 +39,26 @@ client.on('interactionCreate', (interaction) => {
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') &&
                 ((embed[4]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral: true  });
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]], ephemeral: true  });
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]], ephemeral: true  });
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1]], ephemeral: true }).then(msg => setTimeout(() => msg.delete(), 600000));
+                    interaction.reply({ embeds: [embed[0],embed[1]], ephemeral: true });
                     
                     return
             } else if (((embed[0]).title != '') ){
-                    interaction.reply({ embeds: [embed[0]], ephemeral: true  }).then(msg => setTimeout(() => msg.delete(), 600000));
+                    interaction.reply({ embeds: [embed[0]], ephemeral: true  });
                     return
             };
         };
@@ -260,7 +260,7 @@ client.on('messageCreate', (m) =>{
 
     m.channel.send({
         embeds:[{
-            description:`Bem vindos ao nosso **Guia Geral**, aqui voce encontrará informações básicas, intermediárias e avançadas sobre o Warframe, caso encontre alguma informação errada/desatualizada mande um PM para o kenzouframe 🛠\n\n- Obs: Assuntos mais Complexos terão seu próprio canal de guia dedicado\n- Última Atualização desse guia ${time(new Date(),'R')}`,
+            description:`Bem vindos ao nosso **Guia Geral**, aqui voce encontrará informações básicas, intermediárias e avançadas sobre o Warframe, caso encontre alguma informação errada/desatualizada mande um PM para o kenzouframe 🛠\n\n- Obs: Assuntos mais Complexos terão seu próprio canal de guia dedicado\n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
             color: '14032414',
             image:{
                 url:'https://i.imgur.com/pykSyqF.png'
@@ -330,7 +330,7 @@ client.on('messageCreate', (m) =>{
     
         m.channel.send({
             embeds:[{
-                description:`Bem vindos ao nosso **Guia de Jornadas**, aqui voce encontrará informações sobre as **JORNADAS PRINCIPAIS** ( Essenciais para progessão no game e Desbloqueio do Modo **PERCURSO DE AÇO/ARBITRAGEM** ) e **JORNADAS SECUNDÁRIAS** ( Totalmente Opcionais ), bons estudos tenno: 📚🤓\n\n- As jornadas principais estão em ordem de completa, porém as secundárias não.\n- A jornada **O Paradoxo de Duviri** é opcional, porém está como principal pois o jogador pode escolher começar o game por ela, então coloquei na posição 1.\n- Última Atualização desse guia ${time(new Date(),'R')}`,
+                description:`Bem vindos ao nosso **Guia de Jornadas**, aqui voce encontrará informações sobre as **JORNADAS PRINCIPAIS** ( Essenciais para progessão no game e Desbloqueio do Modo **PERCURSO DE AÇO/ARBITRAGEM** ) e **JORNADAS SECUNDÁRIAS** ( Totalmente Opcionais ), bons estudos tenno: 📚🤓\n\n- As jornadas principais estão em ordem de completa, porém as secundárias não.\n- A jornada **O Paradoxo de Duviri** é opcional, porém está como principal pois o jogador pode escolher começar o game por ela, então coloquei na posição 1.\n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
                 color: '14032414',
                 image:{
                     url:'https://i.imgur.com/XZAb0Iy.png'
@@ -350,7 +350,7 @@ client.on('messageCreate', (m) =>{
         const guiaFarm =  new ActionRowBuilder().addComponents(
             new StringSelectMenuBuilder()
             .setCustomId('guiaFarm')
-            .setPlaceholder('Selecione um item ou categoria')
+            .setPlaceholder('Selecione um item para ver onde se farma')
             .setMaxValues(1)
             .setMinValues(1)
             .setOptions ([
@@ -359,25 +359,22 @@ client.on('messageCreate', (m) =>{
                 {label:'Farm Endo',value:'farmEndo',description:'Maneiras mais eficientes de farmar Endo',emoji:'<:endo:1128440928923816067>'},
                 {label:'Farm Platina',value:'farmPlatina',description:'Maneiras mais eficientes de farmar Platina',emoji:'<:platina:1128440939568967740>'},
                 {label:'Dicas de Farm',value:'dicasDeFarm',description:'dicas para se farmar de forma eficiente',emoji:'<:heheboy:1126621539685634128>'},
-                {label:'Farm Recursos I',value:'farmRecursosI',description:'Veja o melhor local de farm de cada recurso I',emoji:'🔸'},
-                {label:'Farm Recursos II',value:'farmRecursosII',description:'Veja o melhor local de farm de cada recurso II',emoji:'🔹'},
+                {label:'Farm Recursos',value:'farmRecursos',description:'Veja o melhor local de farm de cada recurso I',emoji:'<a:hutaomoney:1130607108455403681>'},
                 {label:'Farm de Foco',value:'farmFoco',description:'Maneiras mais eficientes de farmar Foco',emoji:'🔸'},
                 {label:'Farm Kuva',value:'farmKuva',description:'Maneiras mais eficientes de farmar Kuva',emoji:'🔹'},
-                {label:'Farm Relíquias',value:'farmReliquias',description:'Maneiras mais eficientes de farmar cada Relíquia',emoji:'🔸'},
+                {label:'Farm Relíquias',value:'farmReliquias',description:'Maneiras mais eficientes de farmar cada Relíquia',emoji:'<:axirelic:1128440906199085247> '},
                 {label:'Farm Traços do Void',value:'farmTracosDoVoid',description:'Onde conseguir Traços do Void?',emoji:'🔹'},
                 {label:'Farm Mods Corrompidos',value:'farmModsCorrompidos',description:'Onde e como conseguir Mods Corrompidos?',emoji:'🔸'},
                 {label:'Farm Mods Pesadelo',value:'farmModsPesadelo',description:'Maneiras mais eficientes de farma Mods Pesadelo',emoji:'🔹'},
                 {label:'Farm Aya',value:'farmAya',description:'Maneiras mais eficientes de farma Aya',emoji:'🔸'},
                 {label:'Farm de Coroas de Granum',value:'farmDeCoroasDeGranum',description:'Moedas que servem para entrar no Granum Void',emoji:'🔹'},
-                {label:'Farm de Warframes I',value:'farmDeWarframesI',description:'Locais de Farm para todos os warframes normais 1',emoji:'<:jojocali:1128440930471514142>'},
-                {label:'Farm de Warframes II',value:'farmDeWarframesII',description:'Locais de Farm para todos os warframes normais 2',emoji:'<:jojoloki:1128440933214584832>'},
-                {label:'Farm de Warframes III',value:'farmDeWarframesIII',description:'Locais de Farm para todos os warframes normais 3',emoji:'<:jojonyx:1128440934875545691>'}
+                {label:'Farm de Warframes',value:'farmDeWarframes',description:'Locais de Farm para todos os warframes normais 1',emoji:'<:jojocali:1128440930471514142>'}
             ]),
         );
     
         m.channel.send({
             embeds:[{
-                description:`Bem vindos ao nosso Guia de Farm, aqui voce encontrará informações sobre como obter os itens do game de forma eficiente e direta. Caso o guia esteja com alguma informação errada/faltando, mande um PM para o kenzouframe arrumar 🛠 \n\n- Recursos de Railjack e Mapas Abertos como Cetus,Fortuna, Deimos, Zariman e Duviri estão em seus respectivos canais próprios(para não confundir vcs com muita informação)\n- Utilizei várias fontes na internet para fazer esse guia, como essa [aqui](https://steamcommunity.com/sharedfiles/filedetails/?id=522046479) junto com meus 7 anos de experiência no joguin \n- Última Atualização desse guia ${time(new Date(),'R')}`,
+                description:`Bem vindos ao nosso Guia de Farm, aqui voce encontrará informações sobre como obter os itens do game de forma eficiente e direta. Caso o guia esteja com alguma informação errada/faltando, mande um PM para o kenzouframe arrumar 🛠 \n\n- Recursos de Railjack e Mapas Abertos como Cetus,Fortuna, Deimos, Zariman e Duviri estão em seus respectivos canais próprios(para não confundir vcs com muita informação)\n- Utilizei várias fontes na internet para fazer esse guia, como essa [aqui](https://steamcommunity.com/sharedfiles/filedetails/?id=522046479) junto com meus 7 anos de experiência no joguin \n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
                 color: '14032414',
                 image:{
                     url:'https://i.imgur.com/MqSyBBR.png'
@@ -413,7 +410,7 @@ client.on('messageCreate', (m) =>{
     
         m.channel.send({
             embeds:[{
-                description:`**CETUS** é o primeiro mapa aberto que foi implementado ao game, chegando em 2017, deixou a comunidade muito empolgada. Nele vemos 5 moldes que se repetiram nos próximos mapas abertos lançados nos anos seguintes, são eles: \n\n- Mapa Aberto - **Planície de Eidolon**-  ( Local gigante onde o player faz as missões )\n- HUB de NPCS - **Cetus** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Local entre os 2 portões Brancos** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Jornada Vigília de Saya** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Ostron** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundário - **Os Plumas** - ( Sindicato Secreto onde o player consegue itens para seu Operador , AMPS & NECRAMECH )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')} `,
+                description:`**CETUS** é o primeiro mapa aberto que foi implementado ao game, chegando em 2017, deixou a comunidade muito empolgada. Nele vemos 5 moldes que se repetiram nos próximos mapas abertos lançados nos anos seguintes, são eles: \n\n- Mapa Aberto - **Planície de Eidolon**-  ( Local gigante onde o player faz as missões )\n- HUB de NPCS - **Cetus** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Local entre os 2 portões Brancos** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Jornada Vigília de Saya** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Ostron** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundário - **Os Plumas** - ( Sindicato Secreto onde o player consegue itens para seu Operador , AMPS & NECRAMECH )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
                 color: '14032414',
                 image:{
                     url:'https://i.imgur.com/dSuUMy7.png'
@@ -450,7 +447,7 @@ client.on('messageCreate', (m) =>{
 
         m.channel.send({
             embeds:[{
-                description:`**FORTUNA** é o segundo mapa aberto que foi implementado ao game, chegando no final de 2018. Nele vemos 5 moldes que se repetiram desde Cetus e nos próximos mapas abertos lançados nos anos seguintes, são eles: \n\n- Mapa Aberto - **Orb Vallis**-  ( Local gigante onde o player faz as missões )\n- HUB de NPCS - **Fortuna** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Elevador** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Vox Solaris** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Solaris United** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundários - **Vox Solaris** - ( Sindicato Secreto onde o player consegue itens para seu Operador , AMPS & NECRAMECH )\n- Sindicato Secundários - **Ventkids** - ( Sindicato onde voce consegue upar seu Skate, k-Drive )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')}`,
+                description:`**FORTUNA** é o segundo mapa aberto que foi implementado ao game, chegando no final de 2018. Nele vemos 5 moldes que se repetiram desde Cetus e nos próximos mapas abertos lançados nos anos seguintes, são eles: \n\n- Mapa Aberto - **Orb Vallis**-  ( Local gigante onde o player faz as missões )\n- HUB de NPCS - **Fortuna** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Elevador** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Vox Solaris** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Solaris United** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundários - **Vox Solaris** - ( Sindicato Secreto onde o player consegue itens para seu Operador , AMPS & NECRAMECH )\n- Sindicato Secundários - **Ventkids** - ( Sindicato onde voce consegue upar seu Skate, k-Drive )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
                 image:{
                     url:"https://i.imgur.com/HGxa0xY.png"
                 },
@@ -485,7 +482,7 @@ client.on('messageCreate', (m) =>{
 
         m.channel.send({
             embeds:[{
-                description:`**DEIMOS** é o terceiro mapa aberto que foi implementado ao game, chegando no final de 2020. Nele vemos 5 moldes que se repetiram desde Cetus, Fortuna, são eles: \n\n- Mapa Aberto - **Cambion Drift** -  ( Local gigante onde o player faz as missões e farma os recursos )\n- HUB de NPCS - **Necralist** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Portão Grande Igual à Cetus** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Coração de Deimos** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Entrati** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundários - **Necraloid** - ( Sindicato Secreto onde o player consegue itens para fabricar seu NECRAMECH )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')} feita por <@${process.env.OWNER_ID}>`,
+                description:`**DEIMOS** é o terceiro mapa aberto que foi implementado ao game, chegando no final de 2020. Nele vemos 5 moldes que se repetiram desde Cetus, Fortuna, são eles: \n\n- Mapa Aberto - **Cambion Drift** -  ( Local gigante onde o player faz as missões e farma os recursos )\n- HUB de NPCS - **Necralist** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Portão Grande Igual à Cetus** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Coração de Deimos** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Entrati** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundários - **Necraloid** - ( Sindicato Secreto onde o player consegue itens para fabricar seu NECRAMECH )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
                 image:{
                     url:"https://i.imgur.com/BqXtjIU.png"
                 },
@@ -525,24 +522,26 @@ client.on('interactionCreate', async (inte) => {
         }
 
         if (embedcount === 0){
-            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0]], ephemeral : true});
         } else if (embedcount === 1){
-            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true});
         } else if (embedcount === 2){
-            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
         } else if (embedcount === 3){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
         } else if (embedcount === 4){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
         } else if (embedcount === 5){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
         } else if (embedcount === 6){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
         } else if (embedcount === 7){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
         } else if (embedcount === 8){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else { inte.reply({content:'esse guia possui mais de 8 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true});
+        } else if (embedcount === 9){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true});      
+        } else { inte.reply({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
 
     } else if ((inte.customId === 'guiaJornadasPrincipais')||(inte.customId === 'guiaJornadasSecundarias')){    // GUIA JORNADA
@@ -564,24 +563,26 @@ client.on('interactionCreate', async (inte) => {
         }
 
         if (embedcount === 0){
-            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000));
+            inte.reply({embeds:[embed[0]], ephemeral : true});
         } else if (embedcount === 1){
-            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000));
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true});
         } else if (embedcount === 2){
-            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
         } else if (embedcount === 3){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
         } else if (embedcount === 4){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
         } else if (embedcount === 5){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
         } else if (embedcount === 6){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
         } else if (embedcount === 7){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
         } else if (embedcount === 8){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 180000)); 
-        } else { inte.reply({content:'esse guia possui mais de 8 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}); 
+        } else if (embedcount === 9){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true});     
+        } else { inte.reply({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
 
     // GUIA FARM
@@ -589,42 +590,80 @@ client.on('interactionCreate', async (inte) => {
     
         const selectChoice = inte.values[0];
         const fs = require('fs');
-        const path = (`./src/embeds/guia/farm/${selectChoice}.json`);
+        let path = [
+            fs.existsSync(`./src/embeds/guia/farm/${selectChoice}A.json`) ? `../src/embeds/guia/farm/${selectChoice}A.json` : `../src/embeds/guia/farm/${selectChoice}.json`, 
+            fs.existsSync(`./src/embeds/guia/farm/${selectChoice}B.json`) ? `../src/embeds/guia/farm/${selectChoice}B.json` : undefined,
+            fs.existsSync(`./src/embeds/guia/farm/${selectChoice}C.json`) ? `../src/embeds/guia/farm/${selectChoice}C.json` : undefined 
+        ]
+
+        path = path.filter(function (removeUndefined) {
+            return (removeUndefined !== undefined); 
+        })
 
         console.log(`📕 gerando item ${selectChoice} do guia ${inte.customId} para o membro ${inte.member.user.username} `)
 
-    if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
+        for (let index = 0; index < path.length; index++) {
+            
+            const element = path[index];    
+            let embed = (new EmbedBuilder(require(element))).data ;
+            let map = new Map(Object.entries(embed));
+                
+            let embedcount = 0
 
-        const embed = (new EmbedBuilder(require(`../src/embeds/guia/farm/${selectChoice}.json`))).data ;
-        const map = new Map(Object.entries(embed));
+            for (let i=0;(i < map.size);i++){
+                embedcount = i
+            }
 
-        let embedcount = 0
-        for (let i=0;(i < map.size);i++){
-            embedcount = i
-        }
+            if (index === 0){
 
-        if (embedcount === 0){
-            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
-        } else if (embedcount === 1){
-            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
-        } else if (embedcount === 2){
-            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else if (embedcount === 3){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else if (embedcount === 4){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else if (embedcount === 5){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else if (embedcount === 6){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else if (embedcount === 7){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else if (embedcount === 8){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else if (embedcount === 9){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else { inte.reply({content:'esse guia possui mais de 9 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
-    } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+                if (embedcount === 0){
+                    await inte.reply({embeds:[embed[0]], ephemeral : true});
+                } else if (embedcount === 1){
+                    await inte.reply({embeds:[embed[0],embed[1]], ephemeral : true});
+                } else if (embedcount === 2){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
+                } else if (embedcount === 3){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
+                } else if (embedcount === 4){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
+                } else if (embedcount === 5){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
+                } else if (embedcount === 6){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
+                } else if (embedcount === 7){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
+                } else if (embedcount === 8){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}); 
+                } else if (embedcount === 9){
+                    await inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}); 
+                } else { await inte.reply({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+                        
+            } else {
+                            
+                if (embedcount === 0){
+                    await inte.followUp({embeds:[embed[0]], ephemeral : true});
+                } else if (embedcount === 1){
+                    await inte.followUp({embeds:[embed[0],embed[1]], ephemeral : true});
+                } else if (embedcount === 2){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
+                } else if (embedcount === 3){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
+                } else if (embedcount === 4){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
+                } else if (embedcount === 5){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
+                } else if (embedcount === 6){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
+                } else if (embedcount === 7){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
+                } else if (embedcount === 8){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}); 
+                } else if (embedcount === 9){
+                    await inte.followUp({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}); 
+                } else { await inte.followUp({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+                        
+            }
+        };
 
     } else if (inte.customId === 'guiaCetus'){    // GUIA CETUS
     
@@ -645,26 +684,26 @@ client.on('interactionCreate', async (inte) => {
         }
 
         if (embedcount === 0){
-            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0]], ephemeral : true});
         } else if (embedcount === 1){
-            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true});
         } else if (embedcount === 2){
-            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
         } else if (embedcount === 3){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
         } else if (embedcount === 4){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
         } else if (embedcount === 5){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
         } else if (embedcount === 6){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
         } else if (embedcount === 7){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
         } else if (embedcount === 8){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}); 
         } else if (embedcount === 9){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else { inte.reply({content:'esse guia possui mais de 9 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}); 
+        } else { inte.reply({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa interação ainda não está pronta ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
 
     } else if (inte.customId === 'guiaFortuna'){    // GUIA FORTUNA
@@ -686,26 +725,26 @@ client.on('interactionCreate', async (inte) => {
         }
 
         if (embedcount === 0){
-            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0]], ephemeral : true});
         } else if (embedcount === 1){
-            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true});
         } else if (embedcount === 2){
-            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
         } else if (embedcount === 3){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
         } else if (embedcount === 4){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
         } else if (embedcount === 5){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
         } else if (embedcount === 6){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
         } else if (embedcount === 7){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
         } else if (embedcount === 8){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}); 
         } else if (embedcount === 9){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else { inte.reply({content:'esse guia possui mais de 9 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}); 
+        } else { inte.reply({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa guia ainda não está pronto ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
 
     } else if (inte.customId === 'guiaDeimos'){    // GUIA DEIMOS
@@ -727,26 +766,26 @@ client.on('interactionCreate', async (inte) => {
         }
 
         if (embedcount === 0){
-            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0]], ephemeral : true});
         } else if (embedcount === 1){
-            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true});
         } else if (embedcount === 2){
-            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
         } else if (embedcount === 3){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
         } else if (embedcount === 4){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
         } else if (embedcount === 5){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
         } else if (embedcount === 6){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
         } else if (embedcount === 7){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
         } else if (embedcount === 8){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}); 
         } else if (embedcount === 9){
-            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
-        } else { inte.reply({content:'esse guia possui mais de 9 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}); 
+        } else { inte.reply({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
     } else { inte.reply({content:'essa guia ainda não está pronto ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
 
     }    // GUIA ...
