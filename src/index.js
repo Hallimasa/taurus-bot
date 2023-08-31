@@ -426,6 +426,7 @@ client.on('messageCreate', (m) =>{
             }],
             components: [guiaCetus]
             })
+            
     } else if (m.content === "config.guiafortuna.channel"){   // MENU GUIA FORTUNA  
         if (!(m.channel.id === process.env.CHAT_GUIA_FORTUNA_ID)) return;
         const guiaFortuna =  new ActionRowBuilder().addComponents(
@@ -458,6 +459,41 @@ client.on('messageCreate', (m) =>{
             files:[{
                 attachment:"./src/embeds/attach/header_guiaFortuna.png",
                 name:'header_guiaFortuna.png',
+                description:'logo do guia'
+            }],
+            components: [guiaFortuna]
+            })
+    } else if (m.content === "config.guiadeimos.channel"){   // MENU GUIA DEIMOS 
+        if (!(m.channel.id === process.env.CHAT_GUIA_DEIMOS_ID)) return;
+        const guiaFortuna =  new ActionRowBuilder().addComponents(
+            new StringSelectMenuBuilder()
+            .setCustomId('guiaDeimos')
+            .setPlaceholder('Selecione um item')
+            .setMaxValues(1)
+            .setMinValues(1)
+            .setOptions ([
+                {label:'Npcs',value:'npcsDeDeimos',description:'Um breve resumo sobre o que cada NPC oferece',emoji:'🔸'},
+                {label:'Farm de Reputação',value:'farmDeReputacaoDeimos',description:'Maneiras mais eficientes de farmar Reputação',emoji:'🔹'},
+                {label:'Farm de Recursos',value:'farmRecursosDeimos',description:'Maneiras mais eficientes de farmar Foco',emoji:'🔸'},
+                {label:'Pescaria & Mineração',value:'pescaria&MineracaoDeimos',description:'Informações básicas sobre pescaria e mineração',emoji:'🔹'},
+                {label:'Necramechs - Robos de Guerra',value:'necramech',description:'O que são? Como conseguir seu próprio necramech',emoji:'🔸'},
+                {label:'Companheiros Infestados',value:'companheirosInfestados',description:'Como conseguir seu companheiro infestado?',emoji:'🔹'},
+                {label:'Câmaras de Isolamento',value:'camarasDeIsolamento',description:'Como fazer essa missão? Principais dicas',emoji:'🔸'},
+                {label:'Eventos de Deimos',value:'eventosDeDeimos',description:'Como fazer os eventos de Deimos?',emoji:'🔹'}
+            ]),
+        );
+
+        m.channel.send({
+            embeds:[{
+                description:`**DEIMOS** é o terceiro mapa aberto que foi implementado ao game, chegando no final de 2020. Nele vemos 5 moldes que se repetiram desde Cetus, Fortuna, são eles: \n\n- Mapa Aberto - **Cambion Drift** -  ( Local gigante onde o player faz as missões e farma os recursos )\n- HUB de NPCS - **Necralist** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Portão Grande Igual à Cetus** -( Uma área de transferência entre o HUB de Npcs e o Mapa Aberto )\n- Jornada Inicial - **Coração de Deimos** - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - **Entrati** - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n- Sindicato Secundários - **Necraloid** - ( Sindicato Secreto onde o player consegue itens para fabricar seu NECRAMECH )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')} feita por <@${process.env.OWNER_ID}>`,
+                image:{
+                    url:"https://i.imgur.com/BqXtjIU.png"
+                },
+                color: '14032414',
+            }],
+            files:[{
+                attachment:"./src/embeds/attach/header_guiaDeimos.png",
+                name:'header_guiaDeimos.png',
                 description:'logo do guia'
             }],
             components: [guiaFortuna]
@@ -642,6 +678,47 @@ client.on('interactionCreate', async (inte) => {
     if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
 
         const embed = (new EmbedBuilder(require(`../src/embeds/guia/fortuna/${selectChoice}.json`))).data ;
+        const map = new Map(Object.entries(embed));
+
+        let embedcount = 0
+        for (let i=0;(i < map.size);i++){
+            embedcount = i
+        }
+
+        if (embedcount === 0){
+            inte.reply({embeds:[embed[0]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+        } else if (embedcount === 1){
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000));
+        } else if (embedcount === 2){
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else if (embedcount === 3){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else if (embedcount === 4){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else if (embedcount === 5){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else if (embedcount === 6){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else if (embedcount === 7){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else if (embedcount === 8){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else if (embedcount === 9){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}).then(msg => setTimeout(() => msg.delete(), 600000)); 
+        } else { inte.reply({content:'esse guia possui mais de 9 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+    } else { inte.reply({content:'essa guia ainda não está pronto ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+
+    } else if (inte.customId === 'guiaDeimos'){    // GUIA DEIMOS
+    
+        const selectChoice = inte.values[0];
+        const fs = require('fs');
+        const path = (`./src/embeds/guia/deimos/${selectChoice}.json`);
+
+        console.log(`📕 gerando item ${selectChoice} do guia ${inte.customId} para o membro ${inte.member.user.username} `)
+
+    if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
+
+        const embed = (new EmbedBuilder(require(`../src/embeds/guia/deimos/${selectChoice}.json`))).data ;
         const map = new Map(Object.entries(embed));
 
         let embedcount = 0
