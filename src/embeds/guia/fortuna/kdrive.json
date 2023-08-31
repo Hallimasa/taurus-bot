@@ -1,0 +1,20 @@
+[
+  {
+    "description": "# KDRIVE\n\nKdrive são hoverboards que lhe oferecem uma mobilidade maior dentro dos mapas abertos, como Planície de Eidolon, Orb Vallis e Deimos. Não há necessidade de upá-los para o nível 30, nem seu sindicato 'VENTKIDS' localizado no hub de npcs de Fortuna.\nSe mesmo assim desejar upar o sindicato, e testar os diversos mods que se aplicam pra o hoverboard, aqui vão algumas dicas:\n\n## Mods que Facilitam o Farm de XP nas Kdrives:\n\n- [Inertia Dampeners](https://warframe.fandom.com/wiki/Inertia_Dampeners) - Aumenta o multiplicador de combo.\n- [Juice](https://warframe.fandom.com/wiki/Juice) - recupera energia do warframe quando vc faz manobras.\n- [Mag Locks](https://warframe.fandom.com/wiki/Mag_Locks) - facilita na hora de fazer manobras de deslize\n- [Pop Top](https://warframe.fandom.com/wiki/Pop_Top) -  reduz o tempo de carregamento do pulo.\n- [Poppin' Vert](https://warframe.fandom.com/wiki/Poppin%27_Vert) - aumenta a potência do pulo duplo.\n- [Primo Flair](https://warframe.fandom.com/wiki/Primo_Flair) - aumenta o limite de combo para 6000.",
+    "color": "18175"
+  },
+  {
+    "description": "## Locais Das Corridas!\n\nAqui vão os locais marcados das corridas de kdrive nas quais você pode completá-las tanto para upar o sindicato 'VENTKIDS' quanto para conseguir aquela tão sonhada 100% insígna da STEAM ksks. Lembrando que essas corridas rotacionam com o tempo, então se não achar a qual está procurando, aguarde a próxima rotação 24hrs cada:\n### Corridas em **FORTUNA - ORB VALLIS**",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/a/aa/KDriveRaces.jpg/revision/latest/scale-to-width-down/1000?cb=20190402030903"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"### Corridas em **DEIMOS - CAMBRION DRIFT**",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/c/ca/Cambion_Drift.png/revision/latest/scale-to-width-down/1000?cb=20200908001019"
+    },
+    "color":"18175"
+  }
+]

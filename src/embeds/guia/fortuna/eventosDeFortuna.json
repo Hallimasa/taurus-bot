@@ -1,0 +1,24 @@
+[
+  {
+    "description": "# FRATURAS TÉRMICAS\n\n**Thermia Fractures** é um evento estatal mundial recorrente que ocorre uma vez a cada poucas semanas em [Orb Vallis](https://warframe.fandom.com/wiki/Orb_Vallis),[Vênus](https://warframe.fandom.com/wiki/Venus).\nDurante o evento, a paisagem fica repleta de fraturas térmicas que um jogador pode selar para obter recompensas.\n## Mecânicas:\n\nPara começar a selar as fraturas Thermia, os jogadores devem adquirir um **Coolant Canister**. Eles podem ser encontrados derrotando qualquer [Raknoid](https://warframe.fandom.com/wiki/Coolant_Raknoid) que geralmente segue o [Orb Usurpadora](https://warframe.fandom.com/wiki/Exploiter_Orb), ela pode ser encontrada patrulhando o **Templo do Lucro** em Orb Vallis.\n\nDepois que o **Coolant Canister** for adquirido, os jogadores devem procurar por **Fraturas Térmicas**, que estão espalhadas por Orb Vallis e podem ser facilmente identificadas de longe como uma fissura em constante erupção com thermia laranja.",
+    "color": "18175"
+  },
+  {
+    "description":"Os jogadores podem acelerar a aquisição de Thermia Diluída e pontos alimentando até três recipientes de refrigerante adicionais nos primeiros 30 segundos após selar a fratura. Cada recipiente consumido aumenta o processo de vedação em 50 segundos (ou 25 unidades adicionais ao contador, até 175 unidades/5,5 minutos se forem utilizados quatro recipientes). Adicionar recipientes adicionais também aumenta o nível de alerta inicial durante o processo de vedação e aumenta a frequência dos arrotos, além de introduzir arrotos especiais para maior dificuldade.",
+    "color":"18175"
+  },
+  {
+    "description":"## Recompensas\nOs jogadores recebem 1 ponto para cada vasilha que contribuiu para uma fratura selada com sucesso. 3 pontos também são concedidos quando um recipiente cheio de Thermia Diluído é criado. Portanto, cada vasilha cheia vale 7 pontos de evento (4 vasilhas contribuídas mais 3 pontos pela conclusão da vasilha). Thermia diluída.\n\nOs pontos que os jogadores acumulam ao selar fraturas se acumulam em múltiplas instâncias de Thermia Fractures, o que significa que quaisquer pontos que os jogadores tenham acumulado em uma instância de Thermia Fractures serão transferidos para instâncias futuras. Abaixo está uma lista de recompensas e o número mínimo de pontos necessários para obtê-las. O jogador só pode obter essas recompensas uma vez.",
+    "color":"18175",
+    "image":{
+      "url":"https://i.imgur.com/22c4WaL.png"
+    }
+  },
+  {
+    "description":"- **5 Points:** - [Operation Buried Debts Emblem](https://warframe.fandom.com/wiki/Event_Emblems)\n- **25 Points:** - [Amalgam Shotgun Barrage](https://warframe.fandom.com/wiki/Amalgam_Shotgun_Barrage) e [Amalgam Serration](https://warframe.fandom.com/wiki/Amalgam_Serration)\n- **50 Points:** - [Amalgam Barrel Diffusion](https://warframe.fandom.com/wiki/Amalgam_Barrel_Diffusion) e [Amalgam Organ Shatter](https://warframe.fandom.com/wiki/Amalgam_Organ_Shatter)\n- **75 Points:** - [Operation Buried Debts Sigil](https://warframe.fandom.com/wiki/Sigils#Event_Sigils)\n- **100 Points:** - [Opticor Vandal](https://warframe.fandom.com/wiki/Opticor_Vandal) (Incluí um espaço para arma e um [Orokin Catalyst](https://warframe.fandom.com/wiki/Orokin_Catalyst) instalado)",
+    "color":"18175",
+    "image":{
+      "url":"https://i.imgur.com/NBpevrK.png"
+    }
+  }
+]
