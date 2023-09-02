@@ -493,10 +493,7 @@ client.on('messageCreate', (m) =>{
             }],
             components: [guiaFortuna]
             })
-    } else if (m.content === 'html.config'){
-        const name = 'afonso';
-        htmlToPng(m,name)
-    }
+    } 
 
 });
   
