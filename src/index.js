@@ -151,7 +151,7 @@ client.on('interactionCreate', (interaction) => {
                     .toDate();
                 };
                 interaction.reply({embeds: [{
-                    "description": `# **CETUS ESTÁ DE ${daystatusON}**\n\n*Faltam ${data.timeLeft} para ficar de ${daystatusOFF}*\n\n## ⏰ **PROXIMAS NOITES:**\n*( horário de Brasília GMT -3 )*\n\n### - 1º --- ${moment(timenextNightONE).utcOffset(-120).format('HH:mm')}\n\n### - 2º --- ${moment(timenextNightTWO).utcOffset(-120).format('HH:mm')}\n\n### - 3º --- ${moment(timenextNightTHREE).utcOffset(-120).format('HH:mm')}\n\n### - 4º --- ${moment(timenextNightFOUR).utcOffset(-120).format('HH:mm')}\n\n*Boa sorte tenno, que venha muitos energize pra ti <3*`,
+                    "description": `# **CETUS ESTÁ DE ${daystatusON}**\n\n*Faltam ${data.timeLeft} para ficar de ${daystatusOFF}*\n\n## ⏰ **PROXIMAS NOITES:**\n*( horário de Brasília GMT -3 )*\n\n### - 1º --- ${moment(timenextNightONE).utcOffset(-120).format('HH:mm')}\n\n### - 2º --- ${moment(timenextNightTWO).utcOffset(-120).format('HH:mm')}\n\n### - 3º --- ${moment(timenextNightTHREE).utcOffset(-120).format('HH:mm')}\n\n### - 4º --- ${moment(timenextNightFOUR).utcOffset(-120).format('HH:mm')}\n\n*Boa sorte tenno, que venha muitos energize pra ti <a:remdance:1130607121994621079>*`,
                     "thumbnail": {
                       "url": thumbstatus
                     },
