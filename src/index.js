@@ -4,6 +4,9 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
 const { channel } = require('diagnostics_channel');
+const { send } = require('process');
+const htmlToPng = require('../src/functions/htmlToPng.js');
+
 const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
@@ -490,7 +493,10 @@ client.on('messageCreate', (m) =>{
             }],
             components: [guiaFortuna]
             })
-    } 
+    } else if (m.content === 'html.config'){
+        const name = 'afonso';
+        htmlToPng(m,name)
+    }
 
 });
   
