@@ -8,9 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "engines": {
-    "node": ">=18"
-  },
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.11.0",
@@ -18,5 +15,6 @@
     "moment": "^2.29.4",
     "node-fetch": "^3.3.1",
     "node-html-to-image": "^4.0.0"
-  }
+  },
+  "nodeVersion": "18.16.0"
 }
