@@ -1,6 +1,22 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
+    "description": "# NPCs de Deimos\n\nO **Necralist** é a casa da família [Entrati](https://warframe.fandom.com/wiki/Entrati) que são um dos últimos da antiga raça orokin e que estão vivos ainda pois se fundiram com a infestação. Eles ficam localizados dentro de uma mansão orokin, escondida dentro de um enorme crescimento de infestação ao Nordeste de [Cambion Drift](https://warframe.fandom.com/wiki/Cambion_Drift)\n\nNo centro da mansão, os jogadores podem interagir com vários NPCs para comprar itens em lojas ou aceitar missões ou recompensas para serem concluídas no mapa aberto.\n\nPara poder antes interagir com algum dos Npcs listados abaixo você necessariamente precisará terminar a jornada de introdução do local, ela se chama **O CORAÇÃO DE DEIMOS**:",
     "color": "18175"
+  },
+  {
+    "description":"# 💠 Sindicato Entrati 💠\n\n## MÃE\nA mãe é a cabeça da família, com ela você pega as missões que irá completar no mapa além de poder upar o sindicato quando ter os requisitos necessários. Para conseguir os **tokens da mãe** você precisa fazer caçadas que ela oferece.\n\n## FILHA\nEla é responsável pela venda de artigos de pescaria e também ela corta seus peixes pescados e lhe dá os recursos. Para conseguir o **token da filha** você precisa trocá-los com ela utilizando os recursos de peixes como moeda de troca. Esse NPC é essencial no evento de Hallowen do jogo, pois ela faz as trocas dos items que chegam no jogo. ",
+    "color":"18975"
+  },
+  {
+    "description":"## PAI\nEsse npc vende partes de kitguns e também vende as partes do warframe **LAVOS**, para conseguir os **tokens do pai** você precisa trocar por ele recusos obtidos no mapa.\n\n## FILHO\nEsse npc é o reponsável pela venda do famoso **HELMINT UPGRADE** no qual possibilita que você pegue habilidades de um warframe e coloque em outro. O filho trabalha com tudo relacionado à **conservação**, para conseguir os **Tokens do Filho** você irá precisar de tokens de captura obtidos capturando animais no mapa aberto de deimos.\n Esse Npc também lhe oferece a opção de fazer **companheiros infestados** veja o nosso guia para saber mais sobre.",
+    "color":"18975"
+  },
+  {
+    "description":"## OTAK\nEsse robô é responsável pela venda de itens relacionados à mineração, para conseguir os **tokens do otak** você precisa trocar minérios brutos com ele. Esse npc também faz troca com a moeda obtida na missão de Marte - Passagem de Tyana (**farm do warframe citrine e da arma Corufell**)\n\n## AVÓ\nEsse npc troca os **tokens da mãe** por **100 de reputação** ao sindicato **Entrati**, ela tambpem aceita outros tokens por reputação porém **NÃO** faça isso.\nEla vende também pacotes de **tokens** dos outros integrantes da família, opção muito boa caso necessite de algum deles.\nEla disponibiliza **tokens da avó** trocando por tokens de outros membros, foque em comprar 20 tokens dela pois para subir do rank 4 -> rank 5 no sindicato deles você precisará de um item vendido pela avó que custa **20 tokens da avó** fica a dica 🤓",
+    "color":"18975"
+  },
+  {
+    "description":"# 💠 Sindicato Necraloid 💠\n\n## LOID\nAlterego do Otak, robô responsável pela venda de itens relacionados ao **NECRAMECH** além de poder upar o sindicato **Necraloid** quando você tiver os requisitos necessários.",
+    "color":"18175"
   }
 ]
