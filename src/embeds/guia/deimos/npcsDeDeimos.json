@@ -4,6 +4,11 @@
     "color": "18175"
   },
   {
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/6/67/MotherEntrati.jpg/revision/latest?cb=20200802145142"
+    }
+  },
+  {
     "description":"# 💠 Sindicato Entrati 💠\n\n## MÃE\nA mãe é a cabeça da família, com ela você pega as missões que irá completar no mapa além de poder upar o sindicato quando ter os requisitos necessários. Para conseguir os **tokens da mãe** você precisa fazer caçadas que ela oferece.\n\n## FILHA\nEla é responsável pela venda de artigos de pescaria e também ela corta seus peixes pescados e lhe dá os recursos. Para conseguir o **token da filha** você precisa trocá-los com ela utilizando os recursos de peixes como moeda de troca. Esse NPC é essencial no evento de Hallowen do jogo, pois ela faz as trocas dos items que chegam no jogo. ",
     "color":"18975"
   },
@@ -18,5 +23,10 @@
   {
     "description":"# 💠 Sindicato Necraloid 💠\n\n## LOID\nAlterego do Otak, robô responsável pela venda de itens relacionados ao **NECRAMECH** além de poder upar o sindicato **Necraloid** quando você tiver os requisitos necessários.",
     "color":"18175"
+  },
+  {
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/5/57/Loid.png/revision/latest?cb=20221225022248"
+    }
   }
 ]
