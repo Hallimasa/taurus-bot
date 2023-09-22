@@ -1,6 +1,51 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
+    "description": "## ⚜️Farm Reputação Sindicato Entrati⚜️\n\nAo contrário de [Ostrons](https://warframe.fandom.com/wiki/Ostron) e [Solaris United](https://warframe.fandom.com/wiki/Solaris_United), em vez de diretamente premiado com Reputação ao completar as caçadas, o prêmio Entrati [Símbolos da família Entrati](https://warframe.fandom.com/wiki/Entrati_Family_Tokens) de interagir com seus familiares individuais e realizar tarefas para eles. Esses Símbolos podem então ser negociados com [Avó](https://warframe.fandom.com/wiki/Grandmother) para obter status.",
     "color": "18175"
+  },
+  {
+    "description":"### Símbolos da Mãe\n\nAdiquiridos ao completar caçadas dentro do mapa de [Cambrion Drift](https://warframe.fandom.com/wiki/Cambion_Drift) oferecidas pelo NPC Mãe",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/f/fe/MotherToken.png/revision/latest/scale-to-width-down/32?cb=20221215031406"
+    },
+    "color": "18995"
+  },
+  {
+    "description":"### Símbolos do Pai\n\nAdiquirido fazendo trocas de recursos obtidos em [Cambrion Drift](https://warframe.fandom.com/wiki/Cambion_Drift) com o NPC Pai",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/c/c7/FatherToken.png/revision/latest/scale-to-width-down/32?cb=20221215031306"
+    },
+    "color": "18995"
+  },
+  {
+    "description":"### Símbolos da Filha\n\nAdiquiridos fazendo trocas de partes de peixes obtidos em [Cambion Drift](https://warframe.fandom.com/wiki/Cambion_Drift) com o NPC Filha",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/5/5a/DaughterToken.png/revision/latest/scale-to-width-down/32?cb=20221215031251"
+    },
+    "color": "18995"
+  },
+  {
+    "description":"### Símbolos do Filho\n\nAdiquiridos fazendo trocas de tags de consevação com o NPC Filho, para conseguir tais 'tags de conservação' você precisa capturar animais de [Cambion Drift](https://warframe.fandom.com/wiki/Cambion_Drift) utilizando o item 'Rifle Tranquilizante' neles.",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/5/52/SonToken.png/revision/latest/scale-to-width-down/32?cb=20221215031336"
+    },
+    "color": "18995"
+  },
+  {
+    "description":"### Símbolos Otak\n\nAdiquiridos fazendo trocas de minérios brutos minerados em [Cambion Drift](https://warframe.fandom.com/wiki/Cambion_Drift) com o NPC Otak",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/f/f0/OtakToken.png/revision/latest/scale-to-width-down/32?cb=20221215031351"
+    },
+    "color": "18995"
+  },
+  {
+    "description":"### Símbolo da Avó\n\nsão ganhos negociando outros símbolos familiares com o NPC avó. A opção 'Consertar a Família' da Avó oferece uma seleção de Símbolos para recursos do Cambion Drift. Este ciclo ocorre a cada 8 horas.",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/6/6c/GrandmotherToken.png/revision/latest/scale-to-width-down/32?cb=20221215031321"
+    },
+    "color": "18995"
+  },
+  {
+    "description":"## ⚜️Farm Reputação Sindicato Necraloid⚜️\n\n Você precisa fazer missões de **Câmara de Isolamento** oferecidas pelo NPC Mãe\nEssas missões possuem 3 níveis diferentes, no nível 1 você enfrentará 1 necramech no final da missão, no nível 2, 2 necramechs e no nível 3, 3 necramechs.\nCada necramech irá dropar o item **Matriz Orokin** respectivo de cada level da missão, são 3:\n- **Matriz de Orientação Orokin** - Dropa de necramechs nas missões de **Câmara de Isolamento 1** e podem ser trocados com o NPC Loid por 1000 de reputação.\n- **Matriz Balística Orokin** - Dropa de necramechs nas missões de **Câmara de Isolamento 2** e podem ser trocados com o NPC Loid por 2500 de reputação.\n- **Matriz de Animosidade Orokin** - Dropa de necramechs nas missões de **Câmara de Isolamento 3** e podem ser trocados com o NPC Loid por 5000 de reputação.\n\n### DICA PEDRADA\nHabilidades de loot adicional funcionam nos necramechs, então tenha sempre um warframe de farm ( exemplo: nekros ) no seu esquadão quando for matar os necramechs"
   }
 ]
