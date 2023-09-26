@@ -1,6 +1,22 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
+    "description": "# Pescando na Deriva - Peixes infestados e seus recursos 🎣\n\nVisite a Filha (Necralisk) para comprar seu equipamento: lanças de pesca infestadas e resíduos. Ela também corta seus peixes (transformando peixe em recursos para forja). Vale ressaltar que os peixes infestados podem voar baixo e quando 'embaixo d'água' SÓ PODEM ser capturados com uma Lança Spari (ou Ebisu, que é a versão melhorada), então esqueça as lanças tradicionais. \n```OBS: Lembrando que atividades de mineração e pescaria SÃO afetadas por qualquer bônus multiplicador de recursos (boosters e kavats).```\nSegue o mapa legendado com informações sobre os locais, raridade e ciclos dos peixes:",
     "color": "18175"
+  },
+  {
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2040736598576874072/A2FC8775B0558FB72E99DB43D25EA3F261411514/"
+    },
+    "color": "18175"
+  },
+  {
+    "description":"# Minerando na Deriva - Metais, Gemas e diagramas para forja ⛏\n\nVisite Otak (Necralisk) para comprar Diagramas para refinar seus metais/gemas. \nPara começar a extrair procure pelos veios minerais amarelos ou azuis na superfície de rochas, paredes, cascas, árvores, etc ou mais comumente em áreas subterrâneas (conferir o mapa acima). Mire e segure seu cortador de plasma nos pontos marcados e conclua o minigame com sucesso para incrementar suas chances e quantidade, o drop varia conforme a cor do veio mineral e sua raridade:\n- **Amarelos** ⇨ ideal para metais: **ADRAMALIUM** (refinado em liga de adramal), **BAFOLITE** (bafolite temperado), **NÁMALO** (námalo degenerado) e **TÁUMICA** (destilado táumico).\n- **Azuis** ⇨ ideal para gemas: **DAGÔNICA** (refinada em dagônica expurgada), **TIAMETRITA** (tiametrita multifacetada), **HECIFRONA** (hecifrona purificada), **NECRATENA** (necratena estrelada), **EMBOLOS** (embolos cabuchão) e **XENORRASTA** (xenorrasta trapezial).",
+    "color":"15844367"
+  },
+  {
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2024979660809483659/D95A615F9F2B83281242A6191A6518E673EB39DC/"
+    },
+    "color":"15844367"
   }
 ]

@@ -1,6 +1,26 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
+    "description": "# FARM RECURSOS DEIMOS\n\nUm breve guia de como obter todos os recursos do mapa aberto de Deimos.",
     "color": "18175"
+  },
+  {
+    "description":"## 🔸RECURSOS COMUNS🔸\n\n- **Gânglio** = o melhor meio é destruindo 'frondes hápticos'\n- **Teraglobo Luminoso** = o melhor meio é destruindo 'afloramentos vitrificados'.\n- **Pustulite** = o melhor meio é destruindo 'blastemas gravídicas'.\n- **Resíduo Fass** = são os restos mortais de Fass, o ideal é coletar os resíduos que ficam espalhados pelo mapa durante o ciclo Vome.\n- **Resíduo Vome** = são os restos mortais de Vome, o ideal é coletar os resíduos que ficam espalhados pelo mapa durante o ciclo Fass.",
+    "color":"19565"
+  },
+  {
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2040736598577137151/7A5DFD082668698CEF63D8E11D331A2F64F75093/"
+    },
+    "color":"19565"
+  },
+  {
+    "description":"## 🔹RECURSOS RAROS / ESPECÍFICOS🔹\n\n- **Estilhaço de Vitral Serigrafado** = o único meio de consegui-lo é trocando com a Avó (Necralisk) pelo preço de **20 Símbolos: Avó**.\n- **CINTILANTE** - Cintilante é um novo recurso introduzido com o mapa aberto: Deriva de Cambion (Deimos) utilizado na produção de algumas partes de kitguns, necramechs, xaku e armas. É um recurso que segue um estilo parecido com o Espírito de Cetus (ou Cetus Wisp), sendo um recurso 'vivo' que fica flutuando por aí, mas ao contrário do espírito de cetus o cintilante não desaparece até você pegá-lo.**Local de farm** deste recurso é durante as missões de Câmara de Isolamento, lá tu pode encontrar pequenas bolas brilhantes voando pelo mapa, irá spawnar 1-2 por missão, então logo após matar os necramechs, saia procurando eles pelo mapa antes de extrair",
+    "color":"15844367"
+  },
+  {
+    "image":{
+      "url":"https://steamuserimages-a.akamaihd.net/ugc/2023853806687836611/35C2D56C8DCE29C1F22C685793A2EF7E0401CCE4/"
+    },
+    "color":"15844367"
   }
 ]
