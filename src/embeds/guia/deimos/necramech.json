@@ -1,6 +1,60 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
+    "description": "# Necramech\n## O que são?\n **Necramechs** são máquinas de guerra bípedes fortemente blindados construídos durante [a Velha Guerra](https://warframe.fandom.com/wiki/The_Old_War) como predecessores dos [Warframes](https://warframe.fandom.com/wiki/Warframes)\n## Aquisição\nNecramechs podem ser pilotados por um [Operador](https://warframe.fandom.com/wiki/Operator)( o que requer a conclusão da jornada[A Guerra Interior](https://warframe.fandom.com/wiki/The_War_Within) ) via [Transferência](https://warframe.fandom.com/wiki/Transference), sejam eles encontrados em Cambion Drift ou de propriedade do jogador.",
     "color": "18175"
+  },
+  {
+    "description":"O jogador consegue comprar alguns mods para o seu necramech no [Sindicato Necraloid](https://warframe.fandom.com/wiki/Necraloid).\nAo completar a jornada **Coração de Deimos** o jogador ganha os blueprints do necramech **Voidrig**, para fabricá-lo, o jogador deve farmar os **Componentes Necramech danificados**, estes são obtidos derrotando [Necramechs inimigos](https://warframe.fandom.com/wiki/Necramech_(Enemy)) em recompensas missões de [Câmara de Isolamento](https://warframe.fandom.com/wiki/Isolation_Vault). Existem métodos para aumentar as chances de drop para este farm, o **Dessecrate** do warframe **nekros**, ou **boosters de chance de drop**  funcionam muito bem para este farm.",
+    "color":"18175"
+  },
+  {
+    "description":"### Carcaça Necramech danificada",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/f/f2/DamagedNecramechCasing.png/revision/latest/scale-to-width-down/32?cb=20221215185029"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"### Motor Necramech danificado",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/4/45/DamagedNecramechEngine.png/revision/latest/scale-to-width-down/32?cb=20221215185014"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"### Pod Necramech danificado",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/f/fc/DamagedNecramechPod.png/revision/latest/scale-to-width-down/32?cb=20221215184959"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"### Cápsula de Arma Necramech danificada",
+    "thumbnail":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/a/ae/DamagedNecramechWeaponPod.png/revision/latest/scale-to-width-down/32?cb=20221215184929"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"**Chances de Drop** de cada peça danificada é de 12,50%. Caso queira, estas peças podem ser **trocadas entre jogadores**, então fique livre para escolher entre farmar 😩 ou comprar 🤑<:platina:1128440939568967740><:platina:1128440939568967740>\n\nExistem 3 níveis de missões de **Câmara de Isolamento**, cada uma delas terá um **Necramech inimigo** adicional e também estes serão de level maior. Caso não tenha ninguém para lhe ajudar, recomendo que faça a missão no nível 1, enfrentando somente um necramech.\n\n### Combatendo Necramechs Inimigos\nNecramechs inimigos são invuneráveis por boa parte de seu corpo, lugares onde você consegue dar dano neles são o meio das costas, ou nos braços. Atirando nos braços você consegue quebrá-los por um tempo determinado, então foque em quebrar primeiro o braço no qual ele usa para atirar contra ti.",
+    "color":"18175"
+  },
+  {
+    "description":"- Builde suas armas para **Dano Radioativo** ( Calor + Elétrico )\n- Habilidade Silence do Warframe **Banshee** impede que os necramechs usem habilidades\n- Mod [Shattering Impact](https://warframe.fandom.com/wiki/Shattering_Impact) remove a armadura do necramech, então use ele na sua meele e dê uns 50 hits no inimigo, fazendo com que fique sem armadura, aumentando seu dano contra ele.\n- O Dessecrate do Warframe **Nekros** pode ajudar no farm de **Orokin Matrix** já que o drop deles é 100% referente ao nível da missão na qual você está.",
+    "color":"18175"
+  },
+  {
+    "description":"### Uso\nApós o craftar o seu necramech, você ganhará um invocador de necramech que poderá ser adicionado ao seu menu de consumíveis, utilizando-o numa missão você poderá utilizar seu necramech.\nAtualmente somente missões de mapa abertos, missões de Railjack ( Requer Intrínsecos Táticos nível 5 ) e missões de Sobrevivência da Lua ( Yuvarium e Circulus ).\n\n### Builds \nBuild focada em deixar o necramech tank, ( necessário 6 formas )",
+    "image":{
+      "url":"https://i.imgur.com/hfXnXQ4.png"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"Build para a arma do necramech, Mausolon",
+    "image":{
+      "url":"https://i.imgur.com/B08nIou.png"
+    },
+    "color":"18175"
   }
 ]
