@@ -1,6 +1,37 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
-    "color": "18175"
+    "description": "# Companheiros Infestados\n\nO npc **Filho** está relacionado as atividades de conservação de animais em deimos, levando até ele um **Vulpaphyla** ( kavat infestado ) ou um **Predasite** ( kubrow infestado ) capturado, o npc te ajuda a curar este animal, fazendo com que vire seu companheiro infestado.\nPara isso, você além de ter o animal capturado, precisa também ter 2 itens, 1 **Mutagênico** e 1 **Antígeno**, para realizar a cura no animal. Estes itens são adiquiridos fazendo trocas com o FILHO.\n\n",
+    "image":{
+      "url":"https://i.imgur.com/xIZiFcg.png"
+    },
+    "color":"1752220"
+  },
+  {
+    "description":"## 💉 Aintígenos\n- Determina qual o tipo de armadura seu companheiro terá, cada uma terá fraquezas e resistências diferentes",
+    "image":{
+      "url":"https://i.imgur.com/hsJtXyA.png"
+    },
+    "color": "1146986"
+  },
+  {
+    "description":"## 💊 Antígeno\n- Determina qual polaridade bônus seu companheiro terá, como fosse uma forma de graça.",
+    "image":{
+      "url":"https://i.imgur.com/DvGBYyZ.png"
+    },
+    "color":"5763719"
+  },
+  {
+    "description":"## Vulpaphyla ( kavats Infestados )\n\nSão companheiros muito úteis no combate, após serem abatidos, ambos os 3, viram pequenas larvas e voltam à vida após 30 segundos. Cada raça possui seus mods específicos, então escolha bem qual você deseja antes de farmá-lo:",
+    "image":{
+      "url":"https://i.imgur.com/SSxdREI.png"
+    },
+    "color":"2067276"
+  },
+  {
+    "description":"## Predasite ( kubrows Infestados )\n\nSão companheiros muito úteis no combate, após serem abatidos, ambos os 3, viram pequenas larvas e voltam à vida após 30 segundos. Cada raça possui seus mods específicos, então escolha bem qual você deseja antes de farmá-lo:",
+    "image":{
+      "url":"https://i.imgur.com/vVaSrVW.png"
+    },
+    "color":"3447003"
   }
 ]
