@@ -1,6 +1,30 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
+    "description": "# EVENTO NOITE DE NARBERUS\n\nNoites de Naberus é um evento anual com tema de Halloween onde a [Filha](https://warframe.fandom.com/wiki/Daughter) celebra Naberus, um antigo festival de morte de Orokin, vestindo-se para a ocasião e vendendo produtos temáticos.\n\nDurante esse evento, a Filha vende Naberus Treats em troca de [Símbolos da Mãe](https://warframe.fandom.com/wiki/Mother_Token) durante Nights of Naberus",
+    "image":{
+      "url":"https://i.imgur.com/I0MRk0s.png"
+    },
     "color": "18175"
+  },
+  {
+    "description":"Algumas efêmeras vendidas pela filha durante esse evento:\n\n## Naberus Ephemera",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/a/a6/NaberusEphemera.gif/revision/latest/scale-to-width-down/220?cb=20210121024235"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"## Nyctalus Ephemera",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/3/34/NyctalusEphemera.gif/revision/latest/scale-to-width-down/220?cb=20220425003055"
+    },
+    "color":"18175"
+  },
+  {
+    "description":"## Spinneret Ephemera",
+    "image":{
+      "url":"https://static.wikia.nocookie.net/warframe/images/7/76/SpinneretEphemera.gif/revision/latest/scale-to-width-down/220?cb=20210121024329"
+    },
+    "color":"18175"
   }
 ]

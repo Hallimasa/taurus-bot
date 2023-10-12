@@ -1,6 +1,53 @@
 [
   {
-    "description": "# esse item do guia ainda não está pronto ... 🙄",
-    "color": "18175"
+    "description": "# 🔹Câmaras de Isolamento🔹 ( Isolation Vaults )\nSão missões disponibilizadas pelo NPC Mãe, elas acontecem nas ruínas de Cambrion Drift, o jogador deve enfrentar 1-3 necramechs dentro dassas ruínas, sendo o número de necramechs inimigos está relacionado ao nível da missão.\n- Tier 1 - inimigos lvl 30-40 - 1 necramech inimigo\n- Tier 2 - inmigos lvl 40-50 - 2 necramechs inimigos\n- Tier 3 - inimigos lvl 50-60 -  3 necramechs inimigos",
+    "image":{
+      "url":"https://i.imgur.com/GWFGvn4.jpg"
+    },
+    "color": "1752220"
+  },
+  {
+    "description": "Local de spawn das missões no mapa de cambrion Drift:",
+    "image":{
+      "url":"https://i.imgur.com/1egbOg3.png"
+    },
+    "color": "1146986"
+  },
+  {
+    "description": "## Etapa 1 - Fazendo a isca\nO primeiro objetivo é abrir a primeira porta criando isca. A missão gerará resíduos de Vome ou Fass, dependendo do ciclo atual. Você precisará pegar um número destes para criar a isca. O número exato escala em quantos jogadores estão no seu grupo. Esta é uma ótima maneira de farmar **resíduos de Vome e Fass**.\n\nUma vez que você tem resíduo suficiente, você terá que defender uma estação de isca enquanto cria o item por um minuto. Poucos infestados desovam durante esse objetivo, tornando a defesa relativamente trivial. Se você estiver em um grupo, este pode ser um bom momento para ensacar uma rápida captura de conservação.\n\nUma vez que a isca esteja completa, um jogador do grupo precisará pegá-la. Aventure-se na caverna perto da estação de isca e jogue a isca na porta (alt-fire, botão do meio do mouse por padrão) para convencê-lo a abrir. Se você falhar nessa etapa, terá que fazer a isca novamente.",
+    "image":{
+      "url":"https://i.imgur.com/0KhbFCO.png"
+    },
+    "color": "3066993"
+  },
+  {
+    "description": "## Etapa 2 - Reduza a Toxicidade\nContinuando mais profundamente em Deimos, você encontrará outra porta. Isso irá desencadear um objetivo de tipo de sobrevivência de três minutos. Inimigos vão aparecer por toda a sala, e alguns deles vão deixar cair itens que reduzem a sua toxicidade. Mantenha sua toxicidade abaixo de 100 durante os três minutos e a porta se abrirá",
+    "color": "2067276"
+  },
+  {
+    "description": "## Etapa 3 - Derrote os Guardiões do Cofre\n\nDepois de encontrar o cofre, você precisará derrotar os Necramech ( s ) que o estão defendendo. Os cofres T1 têm apenas um guarda, T2 tem dois e T3 tem três. Esses necramechs têm a chance de soltar peças Necramech danificadas necessárias para construir seus próprio Necramech, e também dropam Matrizes necessárias pra subir de rank no [Sindicato Necraloid](https://warframe.fandom.com/wiki/Necraloid)\n\nHabilidades de aumento de chance de drop (Ivara, Khora, Hydroid) não funcionam em Necramechs, mas Nekros pode **Procar seu Dessecrate no corpo do Necramech morto**. Então tenha sempre um nekros no squad quando for fazer esse tipo de missão.",
+    "color": "3447003"
+  },
+  {
+    "description": "## Etapa de bônus - Abra o cofre\n\nVocê terá uma opção para extrair neste momento ou continuar e abrir o cofre. Se você está apenas procurando maximizar o farm de Necramech, pode valer a pena sair sem abrir o cofre. Caso contrário, o cofre contém muitos itens que a [Família Entrati](https://marvweb.com/entrati-syndicate/) disponibiliza, fazendo valer a pena o esforço de abrir.\n\nVocê primeiro precisará encontrar o cofre. Será em uma passagem lateral estreita das principais ruínas de Orokin. A localização exata muda à medida que o cofre muda, portanto não será o mesmo local todas as vezes. Depois de encontrar o cofre, atire no cristal reativo em frente à porta para gerar Loid.",
+    "color": "2123412"
+  },
+  {
+    "description": "Loid irá mover-se lentamente para outros quatro cristais, ativando-os à medida que ele vai. Você precisará defendê-lo dos infestados que desovam. Ao contrário da defesa da isca anterior, essa defesa pode ser difícil, especialmente em níveis mais altos. Você pode ativar os obeliscos na área com o seu Operador que irá causar danos ao Infestado nas proximidades. Se Loid fica com pouca saúde, você pode curá-lo atirando nele com o seu operador. Uma vez que Loid ativou todos os quatro cristais, ele retornará lentamente à porta do cofre.\n\nUma vez que Loid atinge a porta do cofre, a porta vai brilhar quatro símbolos. Semelhante a como funcionou na busca de introdução, você precisará atirar os símbolos na ordem (de cima para baixo) que estão escritos na porta. Atire os símbolos com seu Operador na ordem correta e a porta se abrirá, permitindo que você obtenha o saque dentro.\n\n**Dica: o warframe volt pode acelerar o loid nesse processo usando sua segunda habilidade.**",
+    "image":{
+      "url":"https://i.imgur.com/fLu4zEH.png"
+    },
+    "color": "5763719"
+  },
+  {
+    "description":"## Segredos -  Portas Trancada\n\nVários cofres têm maneiras de obter saque adicional. **Disparando em Cristais Reativos** encontrado nas ruínas de Orokin vai abrir áreas de outra forma inacessíveis. Como os cofres se movem, e existem várias salas com segredos, sugiro que assistam [esse vídeo](https://www.youtube.com/watch?v=ZdDpzkrf9Pk) explicando onde estão os segredos aqui",
+    "color":"10181046"
+  },
+  {
+    "description":"# 🔹Missões Arcanas🔹\n\nCompletar a missão de Isolation Vault, desbloqueia permanentemente **Missões Arcanas** com o NPC Mãe que fica na saída dos cofres. Estas são missões de vários estágios para limpar as zonas do cofre de Infestado, com tarefas semelhantes e com recompensas novas como partes da arma **Sporothrix** ou **peças danificadas de armas de necramechs** necessárias na construção das armas [Morgha](https://warframe.fandom.com/wiki/Morgha) e [Corteje](https://warframe.fandom.com/wiki/Cortege)\n\nOs níveis mais altos de Arcana Bounties podem ser desbloqueados permanentemente depois de completar os níveis mais baixos pelo menos uma vez.",
+    "image":{
+      "url":"https://i.imgur.com/Qm1LU4X.png"
+    },
+    "color":"15418782"
   }
 ]
