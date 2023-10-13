@@ -460,7 +460,7 @@ client.on('messageCreate', (m) =>{
             })
     } else if (m.content === "config.guiadeimos.channel"){   // MENU GUIA DEIMOS 
         if (!(m.channel.id === process.env.CHAT_GUIA_DEIMOS_ID)) return;
-        const guiaFortuna =  new ActionRowBuilder().addComponents(
+        const guiaDeimos =  new ActionRowBuilder().addComponents(
             new StringSelectMenuBuilder()
             .setCustomId('guiaDeimos')
             .setPlaceholder('Selecione um item')
@@ -491,7 +491,40 @@ client.on('messageCreate', (m) =>{
                 name:'header_guiaDeimos.png',
                 description:'logo do guia'
             }],
-            components: [guiaFortuna]
+            components: [guiaDeimos]
+            })
+    } else if (m.content === "config.guiazariman.channel"){   // MENU GUIA ZARIMAN 
+        if (!(m.channel.id === process.env.CHAT_GUIA_ZARIMAN_ID)) return;
+        const guiaZariman =  new ActionRowBuilder().addComponents(
+            new StringSelectMenuBuilder()
+            .setCustomId('guiaZariman')
+            .setPlaceholder('Selecione um item')
+            .setMaxValues(1)
+            .setMinValues(1)
+            .setOptions ([
+                {label:'Npcs',value:'npcsDeZariman',description:'Um breve resumo sobre o que cada NPC oferece',emoji:'🔸'},
+                {label:'Farm de Reputação',value:'farmDeReputacaoZariman',description:'Maneiras mais eficientes de farmar Reputação',emoji:'🔹'},
+                {label:'Farm de Recursos',value:'farmRecursosZariman',description:'Maneiras mais eficientes de farmar Foco',emoji:'🔸'},
+                {label:'Armas Incarnon',value:'armasIncarnon',description:'O que são? Como conseguir?',emoji:'🔸'},
+                {label:'Dormitório',value:'dormitorio',description:'como acessar seu dormitorio',emoji:'🔹'},
+                {label:'Tipos de Caçadas',value:'tiposDeCacadas',description:'Como fazer cada caçada?',emoji:'🔸'},
+            ]),
+        );
+
+        m.channel.send({
+            embeds:[{
+                description:`**ZARIMAN** é o quarto 'mapa aberto 😆' que foi implementado ao game, chegando no começo  de 2022. Nele vemos 4 moldes que se repetiram desde Cetus, Fortuna e Deimos são eles: \n\n- 'Mapa **qse** Aberto' - **Ruínas Nave Zariman** -  ( Local onde o player faz as missões e farma os recursos )\n- HUB de NPCS -  **Zariman** - ( Local onde o player interage com os NPCs )\n- Área de Carregamento - **Elevador** -( Uma área de transferência entre o HUB de Npcs e o Mapa **qse** Aberto )\n- Jornada Inicial - [Anjos de Zariman](https://warframe.fandom.com/wiki/Angels_of_the_Zariman) - ( Jornada necessária para poder interagir com os NPCs)\n- Sindicato Princial - [Os Indomáveis](https://warframe.fandom.com/wiki/The_Holdfasts) - ( Sindicato onde o player consegue reputação para trocar por itens com os NPCs )\n\nNesse guia iremos abordar como farmar cada recurso dessse mapa, como subir de rank com o sindicato dos NPCs de forma eficiente, qual a utilidade de cada NPC e outras dicas. Espero que goste, qualqer dúvida/erro ou sugestão ao guia, informar ao kenzouframe :D\n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
+                image:{
+                    url:"https://i.imgur.com/Y9booVL.png"
+                },
+                color: '14032414',
+            }],
+            files:[{
+                attachment:"./src/embeds/attach/header_guiaZariman.png",
+                name:'header_guiaZariman.png',
+                description:'logo do guia'
+            }],
+            components: [guiaZariman]
             })
     } 
 
@@ -756,6 +789,47 @@ client.on('interactionCreate', async (inte) => {
     if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
 
         const embed = (new EmbedBuilder(require(`../src/embeds/guia/deimos/${selectChoice}.json`))).data ;
+        const map = new Map(Object.entries(embed));
+
+        let embedcount = 0
+        for (let i=0;(i < map.size);i++){
+            embedcount = i
+        }
+
+        if (embedcount === 0){
+            inte.reply({embeds:[embed[0]], ephemeral : true});
+        } else if (embedcount === 1){
+            inte.reply({embeds:[embed[0],embed[1]], ephemeral : true});
+        } else if (embedcount === 2){
+            inte.reply({embeds:[embed[0],embed[1],embed[2]], ephemeral : true}); 
+        } else if (embedcount === 3){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3]], ephemeral : true}); 
+        } else if (embedcount === 4){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral : true}); 
+        } else if (embedcount === 5){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5]], ephemeral : true}); 
+        } else if (embedcount === 6){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6]], ephemeral : true}); 
+        } else if (embedcount === 7){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7]], ephemeral : true}); 
+        } else if (embedcount === 8){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8]], ephemeral : true}); 
+        } else if (embedcount === 9){
+            inte.reply({embeds:[embed[0],embed[1],embed[2],embed[3],embed[4],embed[5],embed[6],embed[7],embed[8],embed[9]], ephemeral : true}); 
+        } else { inte.reply({content:'esse guia possui mais de 10 embeds ... ❌',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+    } else { inte.reply({content:'essa guia ainda não está pronto ... 🙄',ephemeral:'true'}).then(msg => setTimeout(() => msg.delete(), 6000))}
+
+    }else if (inte.customId === 'guiaZariman'){    // GUIA ZARIMAN
+    
+        const selectChoice = inte.values[0];
+        const fs = require('fs');
+        const path = (`./src/embeds/guia/zariman/${selectChoice}.json`);
+
+        console.log(`📕 gerando item ${selectChoice} do guia ${inte.customId} para o membro ${inte.member.user.username} `)
+
+    if ((typeof(selectChoice) != 'undefined')&&(fs.existsSync(path))){
+
+        const embed = (new EmbedBuilder(require(`../src/embeds/guia/zariman/${selectChoice}.json`))).data ;
         const map = new Map(Object.entries(embed));
 
         let embedcount = 0
