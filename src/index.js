@@ -159,7 +159,7 @@ client.on('interactionCreate', (interaction) => {
                       "url": thumbstatus
                     },
                     "color": embedcolor
-                }]});
+                }], ephemeral : true});
             })
                 .catch(error => console.log(error));
     } else {
@@ -862,3 +862,4 @@ client.on('interactionCreate', async (inte) => {
 
     }    // GUIA ...
 })
+
