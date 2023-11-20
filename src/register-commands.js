@@ -60,6 +60,10 @@ const commands = [
     name: 'eidolon',
     description: 'tempo de cetus e horário de proximas noites',
   },
+  {
+    name: 'drop-mods',
+    description: 'veja quais inimigos dropam esse mod',
+  },
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);

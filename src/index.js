@@ -5,7 +5,11 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
 const { channel } = require('diagnostics_channel');
 const { send } = require('process');
-const htmlToPng = require('../src/functions/htmlToPng.js');
+
+// const htmlToPng = require('../src/functions/htmlToPng.js'); maybe sometime later
+
+const GetFunction = require('./functions/getFunctions.js');
+const createModal = require('./functions/createModal.js');
 
 const client = new Client({
     intents: [
@@ -23,10 +27,11 @@ client.on('ready', (c) =>{
 });
 
 // SLASH COMMANDS
-client.on('interactionCreate', (interaction) => {
+client.on('interactionCreate', async (interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
     // BUILD COMMAND
+    
     if ((interaction.commandName === 'build') && (interaction.channelId === process.env.CHAT_BUILD_ID || interaction.channelId === process.env.CHAT_TESTBUILD_ID)){
 
         const buildchoice = interaction.options.get('warframe').value;
@@ -42,18 +47,18 @@ client.on('interactionCreate', (interaction) => {
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') &&
                 ((embed[4]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]], ephemeral: true  });
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3],embed[4]]});
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') &&
                 ((embed[3]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]], ephemeral: true  });
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2],embed[3]]});
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') &&
                 ((embed[2]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]], ephemeral: true  });
+                    interaction.reply({ embeds: [embed[0],embed[1],embed[2]]});
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') ){
@@ -61,7 +66,7 @@ client.on('interactionCreate', (interaction) => {
                     
                     return
             } else if (((embed[0]).title != '') ){
-                    interaction.reply({ embeds: [embed[0]], ephemeral: true  });
+                    interaction.reply({ embeds: [embed[0]]});
                     return
             };
         };
@@ -162,8 +167,43 @@ client.on('interactionCreate', (interaction) => {
                 }], ephemeral : true});
             })
                 .catch(error => console.log(error));
-    } else {
-        interaction.reply("Esse comando não pode ser utilizado neses chat");
+    } else if ((interaction.commandName === 'drop-mods') && (interaction.channelId === process.env.CHAT_DROPMOD_ID || interaction.channelId === process.env.CHAT_TESTBUILD_ID)){
+
+        await interaction.showModal(await createModal({interaction}))
+        
+        // Wait for modal  to be submitted
+        const filter = (interaction) => interaction.customId === `myModal-${interaction.user.id}`;
+        
+        interaction
+        .awaitModalSubmit({filter,time: 30_000})
+        .then(async (modalInteraction) => {
+
+            const _modName = modalInteraction.fields.getTextInputValue('modDropInput').toLocaleLowerCase();
+            const embedData = await GetFunction(_modName)
+
+            const embedBodyBuilder = async (embedData) => {
+                const embedArrayToBuild = [];
+                if (embedData === 'notFound' ){
+                    modalInteraction.reply({ content: 'Não encontrei esse item no meu banco de dados, veja se digitou corretamente 🖋️', ephemeral : true })
+                } else {
+                    const resultSting = ''
+                    embedData[0].enemies.forEach(element => {
+                        embedArrayToBuild.push(` - **${element.enemyName}** | chance de drop: ${ ((element.enemyModDropChance * element.chance) / 100).toFixed(3)}% \n`)
+                })
+                    return (embedArrayToBuild.join(''));
+                }
+            }
+            
+            await modalInteraction.reply({embeds: [{
+                description: `# ${await embedData[0].modName}\n### Esse mod dropa dos seguntes Inimigos:\n${await embedBodyBuilder(embedData)}`,
+            }]});
+            })
+            .catch((err) => {
+                console.log(`Error was: ${err}`);
+            })
+
+    } else if (interaction.commandName === 'drop-mods' || interaction.commandName === 'build'){
+        interaction.reply(`utilize o canal <#${process.env.CHAT_DROPMOD_ID}> para o comando /drop-mods e o canal <#${process.env.CHAT_BUILD_ID}> para o comando builds`)
     };
 });
 
