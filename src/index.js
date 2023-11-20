@@ -62,7 +62,7 @@ client.on('interactionCreate', async (interaction) => {
                     return;
             } else if (((embed[0]).title != '') &&
                 ((embed[1]).title != '') ){
-                    interaction.reply({ embeds: [embed[0],embed[1]], ephemeral: true });
+                    interaction.reply({ embeds: [embed[0],embed[1]]});
                     
                     return
             } else if (((embed[0]).title != '') ){
