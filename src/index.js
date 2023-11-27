@@ -1,10 +1,8 @@
 require('dotenv').config();
 const moment = require('moment');
-// const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
 
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
-const { channel } = require('diagnostics_channel');
-const { send } = require('process');
 
 // const htmlToPng = require('../src/functions/htmlToPng.js'); maybe sometime later
 
