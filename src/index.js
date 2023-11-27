@@ -8,8 +8,10 @@ const { send } = require('process');
 
 // const htmlToPng = require('../src/functions/htmlToPng.js'); maybe sometime later
 
-const GetFunction = require('./functions/getFunctions.js');
+const getModLocations = require('./functions/getModLocations.js');
+const getCetusTime = require('./functions/getCetusTime.js')
 const createModal = require('./functions/createModal.js');
+const { ActivityType } = require('discord.js')
 
 const client = new Client({
     intents: [
@@ -21,9 +23,18 @@ const client = new Client({
 });
 
 client.login(process.env.TOKEN);
-client.on('ready', (c) =>{
+client.on('ready', async (c) =>{
     console.log(`✅ ${c.user.tag} is online`)
-    c.user.setActivity(`/eidolon e guias`,);
+
+    const minutes = 1, the_interval = minutes * 60 * 1000;
+    const cetusTimeStatus = await getCetusTime();
+    c.user.setActivity({ 
+        name: 'cetuscycle', 
+        state: cetusTimeStatus, 
+        type: ActivityType.Custom });
+
+setInterval(async () => {
+}, the_interval);
 });
 
 // SLASH COMMANDS
@@ -175,20 +186,22 @@ client.on('interactionCreate', async (interaction) => {
         const filter = (interaction) => interaction.customId === `myModal-${interaction.user.id}`;
         
         interaction
-        .awaitModalSubmit({filter,time: 30_000})
+        .awaitModalSubmit({filter,time: 60_000})
         .then(async (modalInteraction) => {
 
             const _modName = modalInteraction.fields.getTextInputValue('modDropInput').toLocaleLowerCase();
-            const embedData = await GetFunction(_modName)
+            const embedData = await getModLocations(_modName)
 
             const embedBodyBuilder = async (embedData) => {
                 const embedArrayToBuild = [];
                 if (embedData === 'notFound' ){
-                    modalInteraction.reply({ content: 'Não encontrei esse item no meu banco de dados, veja se digitou corretamente 🖋️', ephemeral : true })
+                    modalInteraction.reply({ content: 'Não encontrei esse item no meu banco de dados, veja se digitou corretamente, aceito somente nome de mods/arcanos em inglês 🖋️', ephemeral : true })
                 } else {
                     const resultSting = ''
                     embedData[0].enemies.forEach(element => {
-                        embedArrayToBuild.push(` - **${element.enemyName}** | chance de drop: ${ ((element.enemyModDropChance * element.chance) / 100).toFixed(3)}% \n`)
+                        const chance = new Intl.NumberFormat().format((element.enemyModDropChance * element.chance)/100);
+
+                        embedArrayToBuild.push(` - **${element.enemyName}** | chance de drop: **${chance}%** \n`)
                 })
                     return (embedArrayToBuild.join(''));
                 }
@@ -412,7 +425,7 @@ client.on('messageCreate', (m) =>{
     
         m.channel.send({
             embeds:[{
-                description:`Bem vindos ao nosso Guia de Farm, aqui voce encontrará informações sobre como obter os itens do game de forma eficiente e direta. Caso o guia esteja com alguma informação errada/faltando, mande um PM para o kenzouframe arrumar 🛠 \n\n- Recursos de Railjack e Mapas Abertos como Cetus,Fortuna, Deimos, Zariman e Duviri estão em seus respectivos canais próprios(para não confundir vcs com muita informação)\n- Utilizei várias fontes na internet para fazer esse guia, como essa [aqui](https://steamcommunity.com/sharedfiles/filedetails/?id=522046479) junto com meus 7 anos de experiência no joguin \n- Última Atualização desse guia ${time(new Date(),'R')} feito por <@${process.env.OWNER_ID}> <a:continua:1130607038150484080>`,
+                description:`Bem vindos ao nosso Guia de Farm, aqui voce encontrará informações sobre como obter os itens do game de forma eficiente e direta. Caso o guia esteja com alguma informação errada/faltando, mande um PM para o <@${process.env.OWNER_ID}> arrumar 🛠 \n\n- Recursos de Railjack e Mapas Abertos como Cetus,Fortuna, Deimos, Zariman e Duviri estão em seus respectivos canais próprios ( para não confundir vcs com muita informação ). \n- Utilizei várias fontes na internet para fazer esse guia, a principal foi essa [aqui](https://steamcommunity.com/sharedfiles/filedetails/?id=522046479) *feito por-Vinicius-*\n- Guia Atualizado ${time(new Date(),'R')} - Update: "Abismo de Dagath"`,
                 color: '14032414',
                 image:{
                     url:'https://i.imgur.com/MqSyBBR.png'
