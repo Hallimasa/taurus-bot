@@ -24,15 +24,18 @@ client.login(process.env.TOKEN);
 client.on('ready', async (c) =>{
     console.log(`✅ ${c.user.tag} is online`)
 
-    const minutes = 1, the_interval = minutes * 60 * 1000;
-    const cetusTimeStatus = await getCetusTime();
-    c.user.setActivity({ 
-        name: 'Cetus', 
-        state: cetusTimeStatus, 
-        type: ActivityType.Custom });
+    const the_interval = 1 * 60 * 1000 ;
 
-setInterval(async () => {
+    // const cetusTimeStatus = await getCetusTime();
+    // console.log(cetusTimeStatus);
+
+    setInterval( async () => {    
+        c.user.setActivity({ 
+            name: await getCetusTime(), 
+            state: 'CetusState' 
+        });
 }, the_interval);
+
 });
 
 // SLASH COMMANDS
