@@ -31,8 +31,7 @@ client.on('ready', async (c) =>{
 
     setInterval( async () => {    
         c.user.setActivity({ 
-            name: await getCetusTime(), 
-            state: 'CetusState' 
+            name: `${await getCetusTime()}` 
         });
 }, the_interval);
 
