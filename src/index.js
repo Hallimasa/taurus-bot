@@ -27,7 +27,7 @@ client.on('ready', async (c) =>{
     const minutes = 1, the_interval = minutes * 60 * 1000;
     const cetusTimeStatus = await getCetusTime();
     c.user.setActivity({ 
-        name: cetusTimeStatus, 
+        name: 'Cetus', 
         state: cetusTimeStatus, 
         type: ActivityType.Custom });
 
