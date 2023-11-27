@@ -1,3 +1,4 @@
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
 module.exports = async () => {
     const filterFetch = (obj) => {
         const isDayValidation = obj['isDay'];
@@ -13,7 +14,7 @@ module.exports = async () => {
         }
     }
     
-    return await fetch('https://api.warframestat.us/pc/cetusCycle/')
+    return fetch('https://api.warframestat.us/pc/cetusCycle/')
        .then(resposta => resposta.json())
        .then(dados => (filterFetch(dados)))
        .catch(erro => console.error(erro));     
