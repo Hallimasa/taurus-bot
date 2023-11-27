@@ -3,8 +3,8 @@ module.exports = async () => {
         const isDayValidation = obj['isDay'];
         const tLeft = obj['timeLeft'];
         
-        console.log(isDayValidation);
-        console.log(tLeft);
+        // console.log(isDayValidation);
+        // console.log(tLeft);
         
         if (isDayValidation) {
             return (`Cetus☀️ ${tLeft.substr(0,tLeft.length-3)}`)
