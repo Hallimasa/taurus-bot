@@ -1,6 +1,6 @@
 require('dotenv').config();
 const moment = require('moment');
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
+// const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args)); // for working on older node js versions
 
 const { Client, IntentsBitField, EmbedBuilder, time, ActionRowBuilder, StringSelectMenuBuilder, Emoji} = require('discord.js');
 const { channel } = require('diagnostics_channel');
@@ -29,7 +29,7 @@ client.on('ready', async (c) =>{
     const minutes = 1, the_interval = minutes * 60 * 1000;
     const cetusTimeStatus = await getCetusTime();
     c.user.setActivity({ 
-        name: 'cetuscycle', 
+        name: cetusTimeStatus, 
         state: cetusTimeStatus, 
         type: ActivityType.Custom });
 
@@ -41,7 +41,7 @@ setInterval(async () => {
 client.on('interactionCreate', async (interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
-    // BUILD COMMAND
+// BUILD COMMAND
     
     if ((interaction.commandName === 'build') && (interaction.channelId === process.env.CHAT_BUILD_ID || interaction.channelId === process.env.CHAT_TESTBUILD_ID)){
 
