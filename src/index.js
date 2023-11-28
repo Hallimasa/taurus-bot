@@ -186,7 +186,7 @@ client.on('interactionCreate', async (interaction) => {
         const filter = (interaction) => interaction.customId === `myModal-${interaction.user.id}`;
         
         interaction
-        .awaitModalSubmit({filter,time: 60_000})
+        .awaitModalSubmit({filter,time: 30_000})
         .then(async (modalInteraction) => {
 
             const _modName = modalInteraction.fields.getTextInputValue('modDropInput').toLocaleLowerCase();
