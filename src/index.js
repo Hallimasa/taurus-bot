@@ -24,16 +24,16 @@ client.login(process.env.TOKEN);
 client.on('ready', async (c) =>{
     console.log(`✅ ${c.user.tag} is online`)
 
-    const the_interval = 1 * 60 * 1000 ;
+    // const the_interval = 1 * 60 * 1000 ;
 
-    // const cetusTimeStatus = await getCetusTime();
-    // console.log(cetusTimeStatus);
+    // // const cetusTimeStatus = await getCetusTime();
+    // // console.log(cetusTimeStatus);
 
-    setInterval( async () => {    
-        c.user.setActivity({ 
-            name: `${await getCetusTime()}` 
-        });
-}, the_interval);
+    // setInterval( async () => {    
+    //     c.user.setActivity({ 
+    //         name: `${await getCetusTime()}` 
+    //     });
+// }, the_interval);
 
 });
 
